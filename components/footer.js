@@ -2,29 +2,33 @@ import Image from "next/image";
 import logoEmile from "../public/img/logo-emily.png";
 import logoCas from "../public/img/CAS-logotipo-2.png";
 import Link from "next/link";
+import { TfiInstagram } from "react-icons/tfi";
+import styles from "./footer.module.css";
+
 export default function Footer() {
   return (
-    <section id="footer" className="footer-section">
-      <div className="footer-columns">
+    <section id="footer" className={styles.footer_section}>
+      <div className={styles.footer_columns}>
         {/* Columna 1: Logo Emile */}
-        <div className="footer-col">
-          <Image src={logoEmile} alt="Emile Henry" className="footer-logo" />
+        <div className={styles.footer_col}>
+          <Image src={logoEmile} alt="Emile Henry" className={styles.footer_logo} />
         </div>
 
         {/* Columna 2: Links */}
-        <div className="footer-col footer-links">
+        <div className={styles.footer_col_links }>
           <Link href="/productos">PRODUCTOS</Link>
           <a href="#donde-comprar">DÓNDE COMPRAR</a>
           <a href="#contacto">CONTACTO</a>
         </div>
 
         {/* Columna 3: Redes */}
-        <div className="footer-col">
+        <div className={styles.footer_row}>
+          <TfiInstagram className={styles.pt} />
           <a
             href="https://instagram.com/emilehenryarg"
             target="_blank"
             rel="noopener noreferrer"
-            className="footer-red"
+            className={styles.footer_red}
           >
             Instagram
           </a>
@@ -32,12 +36,14 @@ export default function Footer() {
       </div>
 
       {/* Línea blanca */}
-      <hr className="footer-divider" />
+      <hr className={styles.footer_divider} />
 
       {/* Abajo final */}
-      <div className="footer-bottom">
+      <div className={styles.footer_bottom}>
         <p>© 2025 EMILE HENRY ARGENTINA. Todos los derechos reservados.</p>
-        <Image src={logoCas} alt="CAS" className="cas-logo" />
+        <a href="https://www.castradeandco.com/" target="_blank">
+          <Image src={logoCas} alt="CAS" className={styles.cas_logo} />
+        </a>
       </div>
     </section>
   );

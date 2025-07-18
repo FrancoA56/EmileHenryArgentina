@@ -1,11 +1,12 @@
 import Image from "next/image";
-import logoEmile from "../public/img/logo-emily.png";
+import logoEmile from "../public/img/emilelogoblanco.png";
+import styles from "./nav.module.css";
 
 export default function Nav() {
   return (
-    <div className="hero">
+    <div className={styles.hero}>
       <video
-        className="video-bg"
+        className={styles.video_bg}
         autoPlay
         loop
         muted
@@ -15,31 +16,27 @@ export default function Nav() {
         <source src="/video/emilehenry-video.mp4" type="video/mp4" />
         Tu navegador no soporta el video.
       </video>
-      <div className="overlay">
-        <div className="video-dark-top" />
+      <div className={styles.overlay}>
+        <div className={styles.video_dark_top} />
 
-        {/* Hover trigger en top */}
-        <div className="hover-trigger">
-          <div className="nav-links">
-            <a href="/productos">PRODUCTOS</a>
-            <a href="#donde-comprar">DÓNDE COMPRAR</a>
-            <a href="#contacto">CONTACTO</a>
+        <div className={styles.hover_trigger}>
+          <div className={styles.nav_container}>
+            <div className={styles.logo}>
+              <Image src={logoEmile} alt="EmileHenryAR" />
+            </div>
+            <div className={styles.nav_links}>
+              <a href="/productos">PRODUCTOS</a>
+              <a href="#donde-comprar">DÓNDE COMPRAR</a>
+              <a href="#contacto">CONTACTO</a>
+            </div>
           </div>
         </div>
-
-        {/* Barra roja */}
-        <div className="hover-bar" />
-
-        <div className="content">
-          <div className="logo">
-            <Image src={logoEmile} alt="EmileHenryAR" />
-          </div>
-        </div>
+        <div className={styles.hover_bar} />
       </div>
-      <div className="main-text montserrat">
+      <div className={styles.main_text}>
         <strong> EL PLACER DE </strong>
       </div>
-      <div className="main-text-2 montserrat"> LA COMIDA CASERA</div>
+      <div className={styles.main_text_2}> LA COMIDA CASERA</div>
     </div>
   );
 }

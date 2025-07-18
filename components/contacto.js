@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import styles from "./contacto.module.css";
 
 export default function Contacto() {
   const [form, setForm] = useState({
@@ -23,10 +24,13 @@ export default function Contacto() {
   };
 
   return (
-    <section id="contacto" className="contacto-section">
-      <h2 className="contacto-title">CONTACTO</h2>
-      <form className="contacto-form" onSubmit={handleSubmit}>
-        <div className="form-row">
+    <section
+    id="contacto"
+    className={styles.contacto_section}
+    >
+      <h2 className={styles.contacto_title}>CONTACTO</h2>
+      <form className={styles.contacto_form} onSubmit={handleSubmit}>
+        <div className={styles.form_row}>
           <input
             type="text"
             name="nombre"
@@ -45,7 +49,7 @@ export default function Contacto() {
           />
         </div>
 
-        <div className="form-row">
+        <div className={styles.form_row}>
           <input
             type="text"
             name="pais"
@@ -64,7 +68,7 @@ export default function Contacto() {
           />
         </div>
 
-        <div className="form-row">
+        <div className={styles.form_row}>
           <input
             type="email"
             name="email"
@@ -82,17 +86,20 @@ export default function Contacto() {
           />
         </div>
 
-        <div className="form-row">
+        <div className={styles.form_row}>
           <textarea
             name="mensaje"
             placeholder="Escribí tu mensaje..."
             value={form.mensaje}
             onChange={handleChange}
             required
+            className={styles.textarea}
           />
         </div>
-
-        <button type="submit" className="enviar-btn">Enviar</button>
+        
+        <button type="submit" className={styles.enviar_btn}>
+          Enviar
+        </button>
       </form>
     </section>
   );

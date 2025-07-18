@@ -8,6 +8,7 @@ import image3 from "../public/img/slide-3.png";
 import image4 from "../public/img/slide-4.png";
 import image5 from "../public/img/slide-5.png";
 import image6 from "../public/img/slide-6.png";
+import styles from "./productCarrusel.module.css";
 
 export default function ProductCarousel({ title }) {
   const carouselRef = useRef(null);
@@ -23,19 +24,19 @@ export default function ProductCarousel({ title }) {
   const items = [image1, image2, image3, image4, image5, image6];
 
   return (
-      <section className="product-carousel">
-        <h2 className="carousel-title">{title}</h2>
+      <section className={styles.product_carousel}>
+        <h2 className={styles.carousel_title}>{title}</h2>
 
-        <div className="carousel-wrapper">
-          <button className="arrow left" onClick={() => scroll("left")}>
+        <div className={styles.carousel_wrapper}>
+          <button className={styles.arrow_left} onClick={() => scroll("left")}>
             ‹
           </button>
 
-          <div className="carousel" ref={carouselRef}>
-            {items.map((_, i) => (
-              <div key={i} className="product-card">
+          <div className={styles.carousel} ref={carouselRef}>
+            {items.map((image, i) => (
+              <div key={i} className={styles.product_card}>
                 <Image
-                  src={_}
+                  src={image}
                   alt="Producto Emile"
                   fill
                   style={{ objectFit: "cover" }}
@@ -45,7 +46,7 @@ export default function ProductCarousel({ title }) {
             ))}
           </div>
 
-          <button className="arrow right" onClick={() => scroll("right")}>
+          <button className={styles.arrow_right} onClick={() => scroll("right")}>
             ›
           </button>
         </div>

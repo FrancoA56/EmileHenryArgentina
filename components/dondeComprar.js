@@ -4,6 +4,7 @@ import Image from "next/image";
 import sprinklesMore from "../public/img/sprinkles-more.jpg";
 import sprinklesMoreNordelta from "../public/img/sprinkles-more-nordelta.jpg";
 import denisRos from "../public/img/denis-ros-banner.png";
+import styles from "./dondeComprar.module.css";
 
 // Agregá las imágenes en public/img/ o usá URLs si querés
 const images = [sprinklesMore, sprinklesMoreNordelta, denisRos];
@@ -20,15 +21,15 @@ export default function DondeComprar() {
   }, []);
 
   return (
-    <section className="donde-comprar-main" id="donde-comprar">
-      <h2 className="donde-comprar-title">DÓNDE COMPRAR</h2>
+    <section className={styles.donde_comprar_main} id="donde-comprar">
+      <h2 className={styles.donde_comprar_title}>DÓNDE COMPRAR</h2>
 
-      <div className="carousel">
+      <div className={styles.carousel}>
         {images.map((src, index) => (
           <div
             key={index}
-            className={`carousel-slide ${
-              index === currentIndex ? "active" : ""
+            className={`${styles.carousel_slide} ${
+              index === currentIndex ? styles.active : ""
             }`}
           >
             <Image
