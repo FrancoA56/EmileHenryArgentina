@@ -1,6 +1,6 @@
 .donde_comprar_main {
   background-color: white;
-  padding: 20px 200px;
+  padding: 20px 40px;
   text-align: center;
   position: relative;
 }
@@ -9,34 +9,34 @@
   font-size: 2.5rem;
   font-weight: bold;
   color: #333;
+  margin-bottom: 2rem;
 }
 
 .carousel {
   position: relative;
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
   overflow: hidden;
-  left: -50px;
+  perspective: 1000px;
 }
 
 .carousel_slide {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  opacity: 0;
-  transition: opacity 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+  width: 40%;
+  max-width: 500px;
   aspect-ratio: 14/4;
-  margin: 0;
-  padding: 0;
 }
 
-.carousel_slide img,
-.carousel_slide picture {
-  width: 100%;
-  height: auto;
-}
+/* MEDIA QUERY PARA MÓVIL */
+@media (max-width: 600px) {
+  .carousel {
+    height: 400px; /* más alto para mostrar vertical */
+  }
 
-.carousel_slide.active {
-  opacity: 1;
-  position: relative;
+  .carousel_slide {
+    width: 90%; 
+  }
 }

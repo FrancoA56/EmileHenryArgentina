@@ -1,106 +1,143 @@
 "use client";
 import { useState } from "react";
+import {
+  FaWhatsapp,
+  FaEnvelope,
+  FaMapMarkerAlt,
+  FaClock,
+} from "react-icons/fa";
 import styles from "./contacto.module.css";
 
 export default function Contacto() {
   const [form, setForm] = useState({
     nombre: "",
-    apellido: "",
-    pais: "",
-    ciudad: "",
     email: "",
-    telefono: "",
     mensaje: "",
+    honeypot: "",
   });
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Formulario enviado:", form);
-    // Aquí podrías hacer un fetch o llamar una función para enviar por email
+    if (form.honeypot) return;
+
+    const formPayload = {
+      access_key: "TU_API_KEY_WEB3FORMS",
+      subject: "Nuevo mensaje desde el formulario de contacto",
+      from_name: form.nombre,
+      replyto: form.email,
+      message: form.mensaje,
+    };
+
+    try {
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formPayload),
+      });
+
+      if (res.ok) {
+        alert("Mensaje enviado correctamente.");
+        setForm({ nombre: "", email: "", mensaje: "", honeypot: "" });
+      } else {
+        alert("Hubo un error al enviar el mensaje.");
+      }
+    } catch (error) {
+      alert("Error de red al enviar el formulario.");
+    }
   };
 
   return (
-    <section
-    id="contacto"
-    className={styles.contacto_section}
-    >
-      <h2 className={styles.contacto_title}>CONTACTO</h2>
-      <form className={styles.contacto_form} onSubmit={handleSubmit}>
-        <div className={styles.form_row}>
-          <input
-            type="text"
-            name="nombre"
-            placeholder="Nombre"
-            value={form.nombre}
-            onChange={handleChange}
-            required
-          />
-          <input
-            type="text"
-            name="apellido"
-            placeholder="Apellido"
-            value={form.apellido}
-            onChange={handleChange}
-            required
-          />
-        </div>
+    <section id="contacto" className={styles.contacto_section}>
+      <div className={styles.overlay}>
+        <div className={styles.contacto_container}>
+          {/* Columna izquierda: Formulario */}
+          <div className={styles.form_container}>
+            <h2 className={styles.title}>¿Querés contactarnos?</h2>
+            <p className={styles.subtitle}>
+              Completá el formulario y te responderemos a la brevedad.
+            </p>
 
-        <div className={styles.form_row}>
-          <input
-            type="text"
-            name="pais"
-            placeholder="País"
-            value={form.pais}
-            onChange={handleChange}
-            required
-          />
-          <input
-            type="text"
-            name="ciudad"
-            placeholder="Ciudad"
-            value={form.ciudad}
-            onChange={handleChange}
-            required
-          />
-        </div>
+            <form onSubmit={handleSubmit} className={styles.form}>
+              <input
+                type="text"
+                name="honeypot"
+                style={{ display: "none" }}
+                value={form.honeypot}
+                onChange={handleChange}
+              />
 
-        <div className={styles.form_row}>
-          <input
-            type="email"
-            name="email"
-            placeholder="Email"
-            value={form.email}
-            onChange={handleChange}
-            required
-          />
-          <input
-            type="tel"
-            name="telefono"
-            placeholder="Teléfono"
-            value={form.telefono}
-            onChange={handleChange}
-          />
-        </div>
+              <input
+                type="text"
+                name="nombre"
+                placeholder="Tu nombre"
+                value={form.nombre}
+                onChange={handleChange}
+                required
+                className={styles.input}
+              />
 
-        <div className={styles.form_row}>
-          <textarea
-            name="mensaje"
-            placeholder="Escribí tu mensaje..."
-            value={form.mensaje}
-            onChange={handleChange}
-            required
-            className={styles.textarea}
-          />
+              <input
+                type="email"
+                name="email"
+                placeholder="Tu email"
+                value={form.email}
+                onChange={handleChange}
+                required
+                className={styles.input}
+              />
+
+              <textarea
+                name="mensaje"
+                placeholder="Escribí tu mensaje..."
+                value={form.mensaje}
+                onChange={handleChange}
+                required
+                className={styles.textarea}
+              />
+
+              <button type="submit" className={styles.btn_enviar}>
+                Enviar mensaje
+              </button>
+            </form>
+          </div>
+
+          {/* Columna derecha: Información de contacto */}
+          <div className={styles.info_container}>
+            <h3 className={styles.info_title}>Contacto directo</h3>
+
+            <ul className={styles.info_list}>
+              <li>
+                <FaWhatsapp className={styles.icon} />
+                <a
+                  href="https://wa.me/5491123053139"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  +54 9 11 2305 3139
+                </a>
+              </li>
+              <li>
+                <FaEnvelope className={styles.icon} />
+                <a href="mailto:info@emilehenry.com.ar">
+                  info@emilehenry.com.ar
+                </a>
+              </li>
+              <li>
+                <FaMapMarkerAlt className={styles.icon} />
+                <span>Buenos Aires, Argentina</span>
+              </li>
+              <li>
+                <FaClock className={styles.icon} />
+                <span>Lun a Vie: 9:00 - 18:00 hs</span>
+              </li>
+            </ul>
+          </div>
         </div>
-        
-        <button type="submit" className={styles.enviar_btn}>
-          Enviar
-        </button>
-      </form>
+      </div>
     </section>
   );
 }

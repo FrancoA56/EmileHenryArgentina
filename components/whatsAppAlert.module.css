@@ -1,0 +1,23 @@
+.alert {
+  position: absolute;
+  bottom: 5rem; /* equivalente a bottom-20 */
+  right: 0;
+  background-color: white; /* bg-white */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-lg */
+  padding: 0.75rem; /* p-3 */
+  border-radius: 0.5rem; /* rounded-lg */
+  width: 16rem; /* w-64 */
+  z-index: 9999; /* z-[9999] */
+  font-family: "Gotham", sans-serif; /* text-gothamB (adaptado) */
+  color: #1f2937; /* text-gray-800 */
+}
+
+.link {
+  color: #16a34a; /* text-green-600 */
+  font-weight: 600; /* font-semibold */
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline; /* hover:underline */
+}

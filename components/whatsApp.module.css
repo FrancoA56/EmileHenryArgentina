@@ -1,0 +1,29 @@
+.container {
+  position: fixed;
+  bottom: 1rem; /* equivalente a bottom-4 */
+  right: 1rem; /* equivalente a right-4 */
+  z-index: 9999; /* equivalente a z-[9999] */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* equivalente a items-end */
+}
+
+.button {
+  background-color: white; /* equivalente a bg-white */
+  border-radius: 50px; /* equivalente a rounded-full */
+  transition: transform 0.2s ease-in-out; /* equivalente a transition-transform */
+  cursor: pointer;
+  border: none;
+  outline: none; /* equivalente a focus:outline-none */
+  padding: 0;
+}
+
+.button:hover {
+  transform: scale(1.1); /* equivalente a hover:scale-110 */
+}
+
+.icon {
+  width: 4rem; /* equivalente a w-16 */
+  height: 4rem; /* equivalente a h-16 */
+  display: block;
+}
