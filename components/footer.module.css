@@ -1,8 +1,9 @@
 .footer_section {
-  background-color: #a41317;
+  background-color: #81171E;
   color: white;
   padding: 40px 20px 20px;
   text-align: center;
+  margin-top: 10px;
 }
 
 .footer_columns {
@@ -25,7 +26,7 @@
 }
 .footer_row {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: left;
   text-align: left;
   gap: 10px;
@@ -75,6 +76,7 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  color: #ffffff;
   gap: 20px;
   font-size: 0.9rem;
   padding-top: 10px;

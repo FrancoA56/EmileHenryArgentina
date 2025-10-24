@@ -1,6 +1,6 @@
 import Nav from "@/components/nav";
 import DondeComprar from "@/components/dondeComprar";
-import Contacto from "@/components/contacto";
+import DondeComprarMayorista from "@/components/dondeComprarMayorista";
 import Footer from "@/components/footer";
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <Nav />
       <DondeComprar id="donde-comprar" />
-      <Contacto id="contacto" />
+      <DondeComprarMayorista id="donde-comprar-Mayorista" />
       <Footer />
     </>
   );

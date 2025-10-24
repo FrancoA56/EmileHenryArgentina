@@ -4,6 +4,7 @@ import logoCas from "../public/img/CAS-logotipo-2.png";
 import Link from "next/link";
 import { TfiInstagram } from "react-icons/tfi";
 import styles from "./footer.module.css";
+import { FaEnvelope } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -11,27 +12,37 @@ export default function Footer() {
       <div className={styles.footer_columns}>
         {/* Columna 1: Logo Emile */}
         <div className={styles.footer_col}>
-          <Image src={logoEmile} alt="Emile Henry" className={styles.footer_logo} />
+          <Image
+            src={logoEmile}
+            alt="Emile Henry"
+            className={styles.footer_logo}
+          />
         </div>
 
         {/* Columna 2: Links */}
-        <div className={styles.footer_col_links }>
+        <div className={styles.footer_col_links}>
           <Link href="/productos">PRODUCTOS</Link>
-          <a href="#donde-comprar">DÓNDE COMPRAR</a>
-          <a href="#contacto">CONTACTO</a>
+          <Link href="#donde-comprar">DÓNDE COMPRAR</Link>
+          <Link href="#contacto">CONTACTO</Link>
         </div>
 
         {/* Columna 3: Redes */}
         <div className={styles.footer_row}>
-          <TfiInstagram className={styles.pt} />
-          <a
-            href="https://instagram.com/emilehenryarg"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.footer_red}
-          >
-            Instagram
-          </a>
+          <div>
+            <TfiInstagram className={styles.pt} />
+            <a
+              href="https://instagram.com/emilehenryarg"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.footer_red}
+            >
+              Instagram
+            </a>
+          </div>
+          <div>
+            <FaEnvelope className={styles.icon} />
+            <a href="mailto:info@emilehenry.com.ar">info@emilehenry.com.ar</a>
+          </div>
         </div>
       </div>
 

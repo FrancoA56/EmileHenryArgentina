@@ -1,63 +1,80 @@
 "use client";
 import Footer from "@/components/footerProductos";
 import Nav from "@/components/navProductos";
+import Ramekin8 from "@/components/ramekin8";
+import Ramekin9 from "@/components/ramekin9";
+import Ramekin10 from "@/components/ramekin10";
+import RamekinCreme from "@/components/ramekinCreme";
 import Image from "next/image";
-import styles from "../../components/productCarrusel.module.css";
-import { useRef } from "react";
-
-const imagenesRamekin = [
-  "/img/ramekin/1.webp",
-  "/img/ramekin/2.webp",
-  "/img/ramekin/3.webp",
-  "/img/ramekin/4.webp",
-  "/img/ramekin/5.webp",
-  "/img/ramekin/6.webp",
-];
+import Link from "next/link";
+import styles from "./ramekin.module.css";
 
 export default function Ramekin() {
-  const title = "Ramekins";
-  const carouselRef = useRef(null);
+  const ramekin8 = "/img/ramekin/ramekin8.png";
+  const ramekin9 = "/img/ramekin/ramekin9.png";
+  const ramekin10 = "/img/ramekin/ramekin10.png";
+  const ramekinCreme = "/img/ramekin/creme.png";
 
-  const scroll = (direction) => {
-    const container = carouselRef.current;
-    const scrollAmount = 300;
-    if (direction === "left") container.scrollLeft -= scrollAmount;
-    else container.scrollLeft += scrollAmount;
-  };
+
+  const productos = [
+    {
+      imagen: ramekin8,
+      titulo: "Ramekin N°8",
+      link: "/ramekin/#ramekin8",
+    },
+    {
+      imagen: ramekin9,
+      titulo: "Ramekin N°9",
+      link: "/ramekin/#ramekin9",
+    },
+    {
+      imagen: ramekin10,
+      titulo: "Molde Ciabatta",
+      link: "/ramekin/#ramekin10",
+    },
+    {
+      imagen: ramekinCreme,
+      titulo: "Ramekin Creme Brulee",
+      link: "/ramekin/#ramekinCreme",
+    },
+  ];
 
   return (
     <>
       <Nav />
-      <section className={styles.product_carousel}>
-        <h2 className={styles.carousel_title}>{title}</h2>
+      <section>
+        <div className={styles.image_container}>
+          <Image
+            src="/img/ramekin/4.webp"
+            alt="Ramekin"
+            className={styles.main_image}
+            fill
+          />
+          <div className={styles.overlay} />
+          <span className={styles.text}>Ramekines</span>
+        </div>
 
-        <div className={styles.carousel_wrapper}>
-          <button className={styles.arrow_left} onClick={() => scroll("left")}>
-            ‹
-          </button>
-
-          <div className={styles.carousel} ref={carouselRef}>
-            {imagenesRamekin.map((image, i) => (
-              <div key={i} className={styles.product_card}>
+        <div className={styles.grid}>
+          {productos.map((producto, index) => (
+            <Link href={producto.link} key={index} className={styles.grid_item}>
+              <div className={styles.image_wrapper}>
                 <Image
-                  src={image}
-                  alt="Producto Emile"
-                  fill
-                  style={{ objectFit: "cover" }}
+                  src={producto.imagen || "/placeholder.svg"}
+                  alt={producto.titulo}
+                  width={300}
+                  height={300}
                 />
-                <p>Producto {i + 1}</p>
               </div>
-            ))}
-          </div>
-
-          <button
-            className={styles.arrow_right}
-            onClick={() => scroll("right")}
-          >
-            ›
-          </button>
+              <h3 className={styles.product_title}>{producto.titulo}</h3>
+            </Link>
+          ))}
         </div>
       </section>
+      <section></section>
+      <Ramekin8 />
+      <Ramekin9 />
+      <Ramekin10 />
+      <RamekinCreme />
       <Footer />
     </>
   );

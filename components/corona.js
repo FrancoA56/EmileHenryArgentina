@@ -1,0 +1,156 @@
+"use client";
+import Image from "next/image";
+import styles from "./productos.module.css";
+import { useState } from "react";
+import Link from "next/link";
+import { FaExternalLinkAlt } from "react-icons/fa";
+
+const imagenesFuentes = [
+  "/img/corona/1.webp",
+  "/img/corona/2.webp",
+  "/img/corona/3.webp",
+  "/img/corona/4.webp",
+  "/img/corona/5.webp",
+  "/img/corona/6.webp",
+  "/img/corona/7.webp",
+  "/img/corona/8.webp",
+];
+
+export default function Corona() {
+  const [selectedImageIndex, setSelectedImageIndex] = useState(null);
+
+  const openLightbox = (index) => {
+    setSelectedImageIndex(index);
+  };
+
+  const closeLightbox = () => {
+    setSelectedImageIndex(null);
+  };
+
+  const goToPrevious = () => {
+    if (selectedImageIndex !== null) {
+      setSelectedImageIndex(
+        selectedImageIndex === 0
+          ? imagenesFuentes.length - 1
+          : selectedImageIndex - 1
+      );
+    }
+  };
+
+  const goToNext = () => {
+    if (selectedImageIndex !== null) {
+      setSelectedImageIndex(
+        selectedImageIndex === imagenesFuentes.length - 1
+          ? 0
+          : selectedImageIndex + 1
+      );
+    }
+  };
+
+  return (
+    <>
+      <section className={styles.main} id="corona">
+        <div className={styles.title_underline}>
+          <div className={styles.main_title}>Molde Corona:</div>
+          <div className={styles.donde}>
+            <Link href="/#donde-comprar" className={styles.donde}>
+              <div className={styles.main_sub_title}>¿Dónde comprar? </div>
+              <div className={styles.link}>
+                <FaExternalLinkAlt />
+              </div>
+            </Link>
+          </div>
+        </div>
+        <div className={styles.especifics}>
+          <div className={styles.main_block}>
+            <div className={styles.main_sub_title}>Descripción</div>
+            <div className={styles.main_sub_text}>
+              El Molde Mini Baguette de Emile Henry te permite hornear cinco
+              mini baguettes con corteza crujiente y miga aireada, directamente
+              en tu cocina. Su diseño en cerámica HR® asegura una cocción
+              uniforme y resultados dignos de una panadería artesanal. Cerámica
+              HR® de alta resistencia: Soporta temperaturas extremas y cambios
+              térmicos sin agrietarse. Diseño funcional: Cinco cavidades para
+              mini baguettes de 7 (17,8 cm) cada una. Tapa con orificios:
+              Permite la liberación de dióxido de carbono, creando una corteza
+              fina y crujiente. Versatilidad: Apto para horno (hasta 270°C),
+              microondas, freezer y lavavajillas. Fácil mantenimiento:
+              Superficie antiadherente que facilita la limpieza. Garantía de 10
+              años: Respaldo de calidad y durabilidad. Fabricado artesanalmente
+              en Francia.
+            </div>
+          </div>
+          <div className={styles.main_block}>
+            <div className={styles.main_sub_title}>Línea</div>
+            <div className={styles.main_sub_text}>
+              <span className={styles.boldi}>Tradicional</span>
+            </div>
+          </div>
+          <div className={styles.main_block}>
+            <div className={styles.main_sub_title}>Colores</div>
+            <div className={styles.variaciones_color}>
+              <div className={styles.colorado} title="Colorado"></div>
+              <div className={styles.marfil} title="Marfil"></div>
+              <div className={styles.negro} title="Negro"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className={styles.product_gallery}>
+        <div className={styles.image_grid}>
+          {imagenesFuentes.map((image, i) => (
+            <div
+              key={i}
+              className={styles.grid_item}
+              onClick={() => openLightbox(i)}
+            >
+              <Image
+                src={image || "/placeholder.svg"}
+                alt={`Corona ${i + 1}`}
+                fill
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {selectedImageIndex !== null && (
+        <div className={styles.lightbox} onClick={closeLightbox}>
+          <button
+            className={styles.lightbox_arrow_left}
+            onClick={(e) => {
+              e.stopPropagation();
+              goToPrevious();
+            }}
+          >
+            ‹
+          </button>
+
+          <div
+            className={styles.lightbox_image_container}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <Image
+              src={imagenesFuentes[selectedImageIndex] || "/placeholder.svg"}
+              alt={`Corona ${selectedImageIndex + 1}`}
+              fill
+              style={{ objectFit: "contain" }}
+            />
+          </div>
+
+          <button
+            className={styles.lightbox_arrow_right}
+            onClick={(e) => {
+              e.stopPropagation();
+              goToNext();
+            }}
+          >
+            ›
+          </button>
+        </div>
+      )}
+    </>
+  );
+}

@@ -1,0 +1,92 @@
+.image_container {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+}
+
+.main_image {
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.4;
+  z-index: 5;
+  pointer-events: none;
+}
+
+/* Contenedor del texto centrado */
+.text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex; /* centrado con flex */
+  justify-content: center; /* centro horizontal */
+  align-items: center; /* centro vertical */
+  color: white;
+  font-size: 5rem;
+  white-space: nowrap; /* ❗ evita que el texto se divida en dos líneas */
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  z-index: 10;
+  pointer-events: none;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+/* Grid ajustado para que las 8 imágenes se adapten al ancho disponible */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Grid_item ahora es un link clickeable */
+.grid_item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.grid_item:hover {
+  transform: translateY(-12px);
+  opacity: 0.9;
+}
+
+/* Wrapper para la imagen con aspect ratio */
+.image_wrapper {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+/* Las imágenes ahora ocupan el 100% del contenedor */
+.image_wrapper img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+}
+
+/* Estilos para los títulos de productos */
+.product_title {
+  margin-top: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  color: #333;
+  line-height: 1.4;
+}

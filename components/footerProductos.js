@@ -20,7 +20,7 @@ export default function Footer() {
 
         {/* Columna 2: Links */}
         <div className={styles.footer_col_links}>
-          <Link href="#inicio">PRODUCTOS</Link>
+          <Link href="/productos#inicio">PRODUCTOS</Link>
           <Link href="/#donde-comprar">DÓNDE COMPRAR</Link>
           <Link href="/#contacto">CONTACTO</Link>
         </div>

@@ -17,6 +17,7 @@ export default function Nav() {
             <div className={styles.nav_links}>
               <Link href="/#donde-comprar">DÓNDE COMPRAR</Link>
               <Link href="/#contacto">CONTACTO</Link>
+              <Link href="/productos">PRODUCTOS</Link>
             </div>
           </div>
         </div>

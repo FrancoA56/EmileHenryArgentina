@@ -1,53 +1,236 @@
-import ProductCarousel from "@/components/productCarrusel";
+"use client";
+
 import Footer from "@/components/footerProductos";
 import Nav from "@/components/navProductos";
-
-const imagenesTajines = [
-  "/img/tajine/1.webp",
-  "/img/tajine/2.webp",
-  "/img/tajine/3.webp",
-  "/img/tajine/4.webp",
-  "/img/tajine/5.webp",
-  "/img/tajine/6.webp",
-];
-const imagenesFuentes = [
-  "/img/fuente/1.webp",
-  "/img/fuente/2.webp",
-  "/img/fuente/3.webp",
-  "/img/fuente/4.webp",
-  "/img/fuente/5.webp",
-  "/img/fuente/6.webp",
-];
-const imagenesRamekin = [
-  "/img/ramekin/1.webp",
-  "/img/ramekin/2.webp",
-  "/img/ramekin/3.webp",
-  "/img/ramekin/4.webp",
-  "/img/ramekin/5.webp",
-  "/img/ramekin/6.webp",
-];
-const imagenesEnsaladera = [
-  "/img/ensaladera/1.webp",
-  "/img/ensaladera/2.webp",
-  "/img/ensaladera/3.webp",
-  "/img/ensaladera/4.webp",
-  "/img/ensaladera/5.webp",
-  "/img/ensaladera/6.webp",
-];
+import style from "./page.module.css";
+import Image from "next/image";
+import Link from "next/link";
+import { useState, useEffect } from "react";
 
 export default function Productos() {
+  const [fuenteIndex, setFuenteIndex] = useState(1);
+  const [vajillaIndex, setVajillaIndex] = useState(1);
+  const [ramekinIndex, setRamekinIndex] = useState(1);
+  const [panIndex, setPanIndex] = useState(1);
+  const [complementosIndex, setComplementosIndex] = useState(1);
+  const [cacerolasIndex, setCacerolasIndex] = useState(1);
+
+  const [vajillaFade, setVajillaFade] = useState(true);
+  const [fuenteFade, setFuenteFade] = useState(true);
+  const [ramekinFade, setRamekinFade] = useState(true);
+  const [cacerolasFade, setCacerolasFade] = useState(true);
+  const [complementosFade, setComplementosFade] = useState(true);
+  const [panFade, setPanFade] = useState(true);
+
+  useEffect(() => {
+    let vajillaInterval,
+      fuenteInterval,
+      ramekinInterval,
+      panInterval,
+      cacerolasInterval,
+      complementosInterval;
+
+    const vajillaTimeout = setTimeout(() => {
+      setVajillaFade(false);
+      setTimeout(() => {
+        setVajillaIndex((prev) => (prev % 4) + 1);
+        setVajillaFade(true);
+      }, 300);
+
+      vajillaInterval = setInterval(() => {
+        setVajillaFade(false);
+        setTimeout(() => {
+          setVajillaIndex((prev) => (prev % 4) + 1);
+          setVajillaFade(true);
+        }, 300);
+      }, 3000);
+    }, 500);
+
+    const fuenteTimeout = setTimeout(() => {
+      setFuenteFade(false);
+      setTimeout(() => {
+        setFuenteIndex((prev) => (prev % 4) + 1);
+        setFuenteFade(true);
+      }, 300);
+
+      fuenteInterval = setInterval(() => {
+        setFuenteFade(false);
+        setTimeout(() => {
+          setFuenteIndex((prev) => (prev % 4) + 1);
+          setFuenteFade(true);
+        }, 300);
+      }, 3000);
+    }, 1300);
+
+    const ramekinTimeout = setTimeout(() => {
+      setRamekinFade(false);
+      setTimeout(() => {
+        setRamekinIndex((prev) => (prev % 4) + 1);
+        setRamekinFade(true);
+      }, 300);
+
+      ramekinInterval = setInterval(() => {
+        setRamekinFade(false);
+        setTimeout(() => {
+          setRamekinIndex((prev) => (prev % 4) + 1);
+          setRamekinFade(true);
+        }, 300);
+      }, 3000);
+    }, 2100);
+
+    const panTimeout = setTimeout(() => {
+      setPanFade(false);
+      setTimeout(() => {
+        setPanIndex((prev) => (prev % 4) + 1);
+        setPanFade(true);
+      }, 300);
+
+      panInterval = setInterval(() => {
+        setPanFade(false);
+        setTimeout(() => {
+          setPanIndex((prev) => (prev % 4) + 1);
+          setPanFade(true);
+        }, 300);
+      }, 3000);
+    }, 2900);
+
+    const complementosTimeout = setTimeout(() => {
+      setComplementosFade(false);
+      setTimeout(() => {
+        setComplementosIndex((prev) => (prev % 4) + 1);
+        setComplementosFade(true);
+      }, 300);
+
+      complementosInterval = setInterval(() => {
+        setComplementosFade(false);
+        setTimeout(() => {
+          setComplementosIndex((prev) => (prev % 4) + 1);
+          setComplementosFade(true);
+        }, 300);
+      }, 3000);
+    }, 3600);
+
+    const cacerolasTimeout = setTimeout(() => {
+      setCacerolasFade(false);
+      setTimeout(() => {
+        setCacerolasIndex((prev) => (prev % 4) + 1);
+        setCacerolasFade(true);
+      }, 300);
+
+      cacerolasInterval = setInterval(() => {
+        setCacerolasFade(false);
+        setTimeout(() => {
+          setCacerolasIndex((prev) => (prev % 4) + 1);
+          setCacerolasFade(true);
+        }, 300);
+      }, 3000);
+    }, 4200);
+
+    return () => {
+      clearTimeout(vajillaTimeout);
+      clearTimeout(fuenteTimeout);
+      clearTimeout(ramekinTimeout);
+      clearTimeout(panTimeout);
+      clearTimeout(complementosTimeout);
+      clearTimeout(cacerolasTimeout);
+      clearInterval(vajillaInterval);
+      clearInterval(fuenteInterval);
+      clearInterval(ramekinInterval);
+      clearInterval(panInterval);
+      clearInterval(complementosInterval);
+      clearInterval(cacerolasInterval);
+    };
+  }, []);
+
   return (
     <>
       <Nav />
-      <main className="productos-page ">
-        <ProductCarousel title="Tajines" items={imagenesTajines} />
-        <ProductCarousel title="Fuentes de horno" items={imagenesFuentes} />
-        <ProductCarousel title="Ramekin" items={imagenesRamekin} />
-        <ProductCarousel
-          title="Ensaladeras"
-          items={imagenesEnsaladera}
-        />
-      </main>
+      <section className={style.main}>
+        <div className={`${style.item} ${style.item1}`}>
+          <Link href="fuente">
+            <Image
+              src={`/img/fuente/${fuenteIndex}.webp`}
+              fill
+              alt="fuente"
+              className={`${style.img} ${
+                fuenteFade ? style.fadeIn : style.fadeOut
+              }`}
+            />
+            <div className={style.overlay} />
+            <span className={style.text}>Fuente</span>
+          </Link>
+        </div>
+        <div className={`${style.item} ${style.item2}`}>
+          <Link href="vajilla">
+            <Image
+              src={`/img/vajilla/${vajillaIndex}.webp`}
+              fill
+              alt="vajilla"
+              className={`${style.img} ${
+                vajillaFade ? style.fadeIn : style.fadeOut
+              }`}
+            />
+            <div className={style.overlay} />
+            <span className={style.text}>Vajilla</span>
+          </Link>
+        </div>
+        <div className={`${style.item} ${style.item3}`}>
+          <Link href="ramekin">
+            <Image
+              src={`/img/ramekin/${ramekinIndex}.webp`}
+              fill
+              alt="ramekin"
+              className={`${style.img} ${
+                ramekinFade ? style.fadeIn : style.fadeOut
+              }`}
+            />
+            <div className={style.overlay} />
+            <span className={style.text}>Ramekin</span>
+          </Link>
+        </div>
+        <div className={`${style.item} ${style.item4}`}>
+          <Link href="pan">
+            <Image
+              src={`/img/pan/${panIndex}.webp`}
+              fill
+              alt="pan"
+              className={`${style.img} ${
+                panFade ? style.fadeIn : style.fadeOut
+              }`}
+            />
+            <div className={style.overlay} />
+            <span className={style.text}>Pan</span>
+          </Link>
+        </div>
+        <div className={`${style.item} ${style.item5}`}>
+          <Link href="complementos">
+            <Image
+              src={`/img/complementos/${complementosIndex}.webp`}
+              fill
+              alt="complementos"
+              className={`${style.img} ${
+                complementosFade ? style.fadeIn : style.fadeOut
+              }`}
+            />
+            <div className={style.overlay} />
+            <span className={style.text}>Complementos</span>
+          </Link>
+        </div>
+        <div className={`${style.item} ${style.item6}`}>
+          <Link href="cacerolas">
+            <Image
+              src={`/img/cacerolas/${cacerolasIndex}.webp`}
+              fill
+              alt="cacerolas"
+              className={`${style.img} ${
+                cacerolasFade ? style.fadeIn : style.fadeOut
+              }`}
+            />
+            <div className={style.overlay} />
+            <span className={style.text}>Cacerolas</span>
+          </Link>
+        </div>
+      </section>
       <Footer />
     </>
   );

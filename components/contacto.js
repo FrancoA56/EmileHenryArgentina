@@ -110,16 +110,7 @@ export default function Contacto() {
             <h3 className={styles.info_title}>Contacto directo</h3>
 
             <ul className={styles.info_list}>
-              <li>
-                <FaWhatsapp className={styles.icon} />
-                <a
-                  href="https://wa.me/5491123053139"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  +54 9 11 2305 3139
-                </a>
-              </li>
+     
               <li>
                 <FaEnvelope className={styles.icon} />
                 <a href="mailto:info@emilehenry.com.ar">

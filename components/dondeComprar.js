@@ -29,7 +29,7 @@ export default function DondeComprar() {
 
   return (
     <section className={styles.donde_comprar_main} id="donde-comprar">
-      <h2 className={styles.donde_comprar_title}>DONDE COMPRAR</h2>
+      <h2 className={styles.donde_comprar_title}>DONDE COMPRAR MINORISTA</h2>
 
       <div className={styles.carousel}>
         {images.map((src, index) => {

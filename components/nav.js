@@ -53,6 +53,7 @@ export default function Nav() {
                 {/* <Link href="/productos">PRODUCTOS</Link> */}
                 <Link href="#donde-comprar">DÓNDE COMPRAR</Link>
                 <Link href="#contacto">CONTACTO</Link>
+                <Link href="/productos">PRODUCTOS</Link>
               </div>
             </div>
           </div>
