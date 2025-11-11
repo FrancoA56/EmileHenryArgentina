@@ -1,8 +1,7 @@
 .donde_comprar_main {
   background-color: white;
-  padding: 20px 40px;
+  padding: 20px 150px;
   text-align: center;
-  position: relative;
 }
 
 .donde_comprar_title {
@@ -12,22 +11,57 @@
   margin-bottom: 2rem;
 }
 
-.imgContainer {
+.bannerContainer {
   display: flex;
-  justify-content: center;
-  padding: 10px 100px;
-}
-
-.img {
-  width: 100%;
-  height: auto;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
   border-radius: 12px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  object-fit: contain;
 }
 
-@media (max-width: 1024px) {
-  .imgContainer {
-  padding: 10px 10px;
+/* Parte superior del banner */
+.bannerTop {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: -1px; /* quita línea blanca entre imágenes */
 }
+
+/* Contenedor de la parte inferior */
+.bannerBottom {
+  display: flex;
+  width: 100%;
+  margin-top: -1px; /* también elimina el espacio */
+}
+
+/* Imágenes inferiores (WhatsApp / Mail) */
+.bannerBottomImg {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.bannerBottom a {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .donde_comprar_main {
+    padding: 10px 20px;
+  }
+
+  .donde_comprar_title {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .bannerBottom {
+    flex-direction: column;
+  }
+
+  .bannerBottom a {
+    width: 100%;
+  }
 }
