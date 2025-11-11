@@ -10,9 +10,10 @@ const imagenesFuentes = [
   "/img/vinagrera/2.jpg",
   "/img/vinagrera/3.jpg",
   "/img/vinagrera/4.jpg",
-  "/img/vinagrera/5.webp",
+  "/img/vinagrera/5.jpg",
   "/img/vinagrera/6.webp",
   "/img/vinagrera/7.webp",
+  "/img/vinagrera/8.webp",
 ];
 
 export default function Vinagrera() {

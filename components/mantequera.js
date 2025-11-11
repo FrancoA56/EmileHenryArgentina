@@ -12,6 +12,8 @@ const imagenesFuentes = [
   "/img/mantequera/4.webp",
   "/img/mantequera/5.webp",
   "/img/mantequera/6.webp",
+  "/img/mantequera/7.webp",
+  "/img/mantequera/8.webp",
 ];
 
 export default function Mantequera() {

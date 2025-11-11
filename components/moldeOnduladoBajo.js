@@ -13,6 +13,7 @@ const imagenesFuentes = [
   "/img/onduladoBajo/5.webp",
   "/img/onduladoBajo/6.webp",
   "/img/onduladoBajo/7.webp",
+  "/img/onduladoBajo/8.webp",
 ];
 
 export default function OnduladoBajo() {

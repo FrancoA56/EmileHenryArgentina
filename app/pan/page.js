@@ -13,52 +13,49 @@ import Link from "next/link";
 import styles from "./pan.module.css";
 
 export default function Pan() {
-  const baguette = "/img/pan/baguette.png";
-  const miniBaguette = "/img/pan/miniBaguette.png";
-  const ciabatta = "/img/pan/ciabatta.png";
-  const focaccia = "/img/pan/focaccia.png";
-  const hogaza = "/img/pan/hogaza.png";
-  const cloche = "/img/pan/cloche.png";
-  const corona = "/img/pan/corona.png";
-
   const productos = [
-    {
-      imagen: baguette,
-      titulo: "Molde Baguette",
-      link: "/pan/#baguette",
-    },
-        {
-      imagen: miniBaguette,
-      titulo: "Molde Mini Baguette",
-      link: "/pan/#miniBaguette",
-    },
-    {
-      imagen: ciabatta,
+     {
+      imagen: "/img/pan/ciabatta.png",
       titulo: "Molde Ciabatta",
       link: "/pan/#ciabatta",
     },
-    {
-      imagen: focaccia,
-      titulo: "Molde Focaccia",
-      link: "/pan/#focaccia",
-    },
-    {
-      imagen: hogaza,
+     {
+      imagen: "/img/pan/hogaza.png",
       titulo: "Molde Hogaza",
       link: "/pan/#hogaza",
     },
-
     {
-      imagen: cloche,
+      imagen: "/img/pan/cloche.png",
       titulo: "Molde Cloche",
       link: "/pan/#cloche",
     },
     {
-      imagen: corona,
+      imagen: "/img/pan/corona.png",
       titulo: "Molde Corona",
       link: "/pan/#corona",
-    }
+    },
+    {
+      imagen: "/img/pan/focaccia.png",
+      titulo: "Molde Focaccia",
+      link: "/pan/#focaccia",
+    },
+    {
+      imagen: "/img/pan/baguette.png",
+      titulo: "Molde Baguette",
+      link: "/pan/#baguette",
+    },
+    {
+      imagen: "/img/pan/miniBaguette.png",
+      titulo: "Molde Mini Baguette",
+      link: "/pan/#miniBaguette",
+    },
+   
+   
   ];
+
+  // separar los productos
+  const primerosCuatro = productos.slice(0, 4);
+  const ultimosTres = productos.slice(4);
 
   return (
     <>
@@ -75,30 +72,59 @@ export default function Pan() {
           <span className={styles.text}>Pan</span>
         </div>
 
-        <div className={styles.grid}>
-          {productos.map((producto, index) => (
-            <Link href={producto.link} key={index} className={styles.grid_item}>
-              <div className={styles.image_wrapper}>
-                <Image
-                  src={producto.imagen || "/placeholder.svg"}
-                  alt={producto.titulo}
-                  width={300}
-                  height={300}
-                />
-              </div>
-              <h3 className={styles.product_title}>{producto.titulo}</h3>
-            </Link>
-          ))}
+        <div className={styles.productos}>
+          {/* Primera fila: 4 columnas */}
+          <div className={styles.gridFila1}>
+            {primerosCuatro.map((producto, index) => (
+              <Link
+                href={producto.link}
+                key={index}
+                className={styles.grid_item}
+              >
+                <div className={styles.image_wrapper}>
+                  <Image
+                    src={producto.imagen || "/placeholder.svg"}
+                    alt={producto.titulo}
+                    width={300}
+                    height={300}
+                  />
+                </div>
+                <h3 className={styles.product_title}>{producto.titulo}</h3>
+              </Link>
+            ))}
+          </div>
+
+          {/* Segunda fila: 3 columnas (centradas) */}
+          <div className={styles.gridFila2}>
+            {ultimosTres.map((producto, index) => (
+              <Link
+                href={producto.link}
+                key={index}
+                className={styles.grid_item}
+              >
+                <div className={styles.image_wrapper}>
+                  <Image
+                    src={producto.imagen || "/placeholder.svg"}
+                    alt={producto.titulo}
+                    width={300}
+                    height={300}
+                  />
+                </div>
+                <h3 className={styles.product_title}>{producto.titulo}</h3>
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
-      <section></section>
-      <Baguette />
-      <MiniBaguette />
+
+      {/* Secciones individuales */}
       <Ciabatta />
-      <Focaccia />
       <Hogaza />
       <Cloche />
       <Corona />
+      <Focaccia />
+      <Baguette />
+      <MiniBaguette />
       <Footer />
     </>
   );

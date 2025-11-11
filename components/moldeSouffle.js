@@ -13,6 +13,7 @@ const imagenesFuentes = [
   "/img/souffle/5.webp",
   "/img/souffle/6.webp",
   "/img/souffle/7.webp",
+  "/img/souffle/8.webp",
 ];
 
 export default function MoldeSouffle() {

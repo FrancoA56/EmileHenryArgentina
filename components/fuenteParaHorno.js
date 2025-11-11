@@ -12,6 +12,8 @@ const imagenesFuentes = [
   "/img/fuente/4.webp",
   "/img/fuente/5.webp",
   "/img/fuente/6.webp",
+  "/img/fuente/7.webp",
+  "/img/fuente/8.webp",
 ];
 
 export default function Fuentes() {
@@ -52,7 +54,7 @@ export default function Fuentes() {
           <div className={styles.main_title}>Fuentes para Horno:</div>
           <div className={styles.donde}>
             <Link href="/#donde-comprar" className={styles.donde}>
-              <div className={styles.main_sub_title}>¿Dónde comprar? </div>
+              <div className={styles.main_comprar}>¿Dónde comprar? </div>
               <div className={styles.link}>
                 <FaExternalLinkAlt />
               </div>
@@ -91,6 +93,7 @@ export default function Fuentes() {
               <div className={styles.amarillo} title="Amarillo"></div>
               <div className={styles.blanco} title="Blanco"></div>
               <div className={styles.bellele} title="Belle-lle"></div>
+              <div className={styles.newblue} title="New Blue"></div>
               <div
                 className={styles.blancoBrillante}
                 title="Blanco brillante"

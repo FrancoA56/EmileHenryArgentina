@@ -1,5 +1,5 @@
 .footer_section {
-  background-color: #81171E;
+  background-color: #81171e;
   color: white;
   padding: 40px 20px 20px;
   text-align: center;
@@ -40,8 +40,8 @@
 .footer_col_links a {
   display: flex;
   flex-direction: column;
-  align-items: left;
-  text-align: left;
+  align-items: center;
+  text-align: center;
   gap: 10px;
   color: white;
   text-decoration: none;
@@ -56,7 +56,6 @@
 
 .footer_red {
   color: white;
-  font-weight: bold;
   text-decoration: none;
   transition: color 0.3s;
 }
@@ -94,6 +93,47 @@
   width: auto;
 }
 
-.pt {
+.icon {
   padding-top: 1px;
+  width: 40px;
+  height: auto;
+}
+
+.footer_row_col {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.footer_row_col a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer_row_col a:hover {
+  color: #ffcccc;
+}
+
+@media (max-width: 1024px) {
+  .footer_bottom {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .footer_bottom a {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .cas_logo {
+    margin: 0 auto;
+  }
 }

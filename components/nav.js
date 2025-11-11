@@ -5,6 +5,8 @@ import logoEmile from "../public/img/emilelogoblanco.png";
 import styles from "./nav.module.css";
 import Link from "next/link";
 import WhatsApp from "./whatsApp";
+import { HiBars4 } from "react-icons/hi2";
+import { RxCross2 } from "react-icons/rx";
 
 const frases = [
   "LA COMIDA CASERA",
@@ -14,6 +16,8 @@ const frases = [
 export default function Nav() {
   const [currentFrase, setCurrentFrase] = useState(0);
   const [fade, setFade] = useState(true);
+  const isMobile = typeof window !== "undefined" && window.innerWidth <= 600;
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -44,19 +48,53 @@ export default function Nav() {
 
         <div className={styles.overlay}>
           <div className={styles.video_dark_top} />
-          <div className={styles.hover_trigger}>
-            <div className={styles.nav_container}>
-              <div className={styles.logo}>
-                <Image src={logoEmile} alt="EmileHenryAR" />
-              </div>
-              <div className={styles.nav_links}>
-                {/* <Link href="/productos">PRODUCTOS</Link> */}
-                <Link href="#donde-comprar">DÓNDE COMPRAR</Link>
-                <Link href="#contacto">CONTACTO</Link>
-                <Link href="/productos">PRODUCTOS</Link>
+          {!isMobile ? (
+            <div className={styles.hover_trigger}>
+              <div className={styles.nav_container}>
+                <div className={styles.logo}>
+                  <Link href="/">
+                    <Image src={logoEmile} alt="EmileHenryAR" />
+                  </Link>
+                </div>
+                <div className={styles.nav_links}>
+                  {/* <Link href="/productos">PRODUCTOS</Link> */}
+                  <Link href="#donde-comprar">DÓNDE COMPRAR</Link>
+                  <Link href="/preguntasfrecuentes">PREGUNTAS FRECUENTES</Link>
+                  <Link href="/acercade">ACERCA DE</Link>
+                  <Link href="/productos">PRODUCTOS</Link>
+                </div>
+                {/* ICONO HAMBURGUESA */}
+                <div
+                  className={styles.hamburger}
+                  onClick={() => setMenuOpen(!menuOpen)}
+                >
+                  {menuOpen ? <></> : <HiBars4 />}
+                </div>
               </div>
             </div>
-          </div>
+          ) : (
+              <div className={styles.nav_container}>
+                <div className={styles.logo}>
+                  <Link href="/">
+                    <Image src={logoEmile} alt="EmileHenryAR" />
+                  </Link>
+                </div>
+                <div className={styles.nav_links}>
+                  {/* <Link href="/productos">PRODUCTOS</Link> */}
+                  <Link href="#donde-comprar">DÓNDE COMPRAR</Link>
+                  <Link href="/preguntasfrecuentes">PREGUNTAS FRECUENTES</Link>
+                  <Link href="/acercade">ACERCA DE</Link>
+                  <Link href="/productos">PRODUCTOS</Link>
+                </div>
+                {/* ICONO HAMBURGUESA */}
+                <div
+                  className={styles.hamburger}
+                  onClick={() => setMenuOpen(!menuOpen)}
+                >
+                  {menuOpen ? <></> : <HiBars4 />}
+                </div>
+              </div>
+          )}
           <div className={styles.hover_bar} />
         </div>
 
@@ -69,6 +107,28 @@ export default function Nav() {
           }`}
         >
           {frases[currentFrase]}
+        </div>
+        {/* MENÚ DESLIZABLE MÓVIL */}
+        <div
+          className={`${styles.mobile_menu} ${
+            menuOpen ? styles.mobile_menu_open : ""
+          }`}
+        >
+          <div className={styles.cruz} onClick={() => setMenuOpen(!menuOpen)}>
+            {menuOpen ? <RxCross2 /> : <></>}
+          </div>
+          <Link href="/#donde-comprar" onClick={() => setMenuOpen(false)}>
+            DÓNDE COMPRAR
+          </Link>
+          <Link href="/preguntasfrecuentes" onClick={() => setMenuOpen(false)}>
+            PREGUNTAS FRECUENTES
+          </Link>
+          <Link href="/acercade" onClick={() => setMenuOpen(false)}>
+            ACERCA DE
+          </Link>
+          <Link href="/productos" onClick={() => setMenuOpen(false)}>
+            PRODUCTOS
+          </Link>
         </div>
       </div>
       <WhatsApp />

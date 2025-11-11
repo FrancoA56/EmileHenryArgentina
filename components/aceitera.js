@@ -9,7 +9,11 @@ const imagenesFuentes = [
   "/img/aceitera/1.webp",
   "/img/aceitera/2.webp",
   "/img/aceitera/3.webp",
-  "/img/aceitera/4.webp"
+  "/img/aceitera/4.jpg",
+  "/img/aceitera/5.webp",
+  "/img/aceitera/6.webp",
+  "/img/aceitera/7.webp",
+  "/img/aceitera/8.webp",
 ];
 
 export default function Aceitera() {

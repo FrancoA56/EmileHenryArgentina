@@ -13,9 +13,9 @@
 }
 
 .imgContainer {
-  width: 100%;
   display: flex;
   justify-content: center;
+  padding: 10px 100px;
 }
 
 .img {
@@ -24,4 +24,10 @@
   border-radius: 12px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   object-fit: contain;
+}
+
+@media (max-width: 1024px) {
+  .imgContainer {
+  padding: 10px 10px;
+}
 }

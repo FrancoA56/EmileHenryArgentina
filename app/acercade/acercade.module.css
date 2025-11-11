@@ -1,0 +1,290 @@
+.page_container {
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.hero_section {
+  color: #81171e;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero_content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero_title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.hero_text {
+  font-size: 1.3rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.content_wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.mission_section {
+  margin-bottom: 80px;
+}
+
+.section_card {
+  background-color: #f9f9f9;
+  padding: 50px 40px;
+  border-radius: 12px;
+  border-left: 5px solid #81171e;
+}
+
+.section_title {
+  font-size: 2rem;
+  color: #81171e;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.section_text {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.8;
+}
+
+.history_section {
+  margin-bottom: 80px;
+}
+
+.history_title {
+  font-size: 2.2rem;
+  color: #81171e;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 50px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background-color: #81171e;
+}
+
+.timeline_item {
+  position: relative;
+  margin-bottom: 40px;
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.timeline_marker {
+  position: absolute;
+  left: -50px;
+  width: 80px;
+  height: 40px;
+  background-color: #81171e;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 0.9rem;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(129, 23, 30, 0.3);
+}
+
+.timeline_content {
+  flex: 1;
+  background-color: white;
+  padding: 25px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.timeline_heading {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.timeline_text {
+  color: #666;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+.values_section {
+  margin-bottom: 80px;
+}
+
+.values_title {
+  font-size: 2.2rem;
+  color: #81171e;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.values_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.value_card {
+  background-color: white;
+  padding: 35px 25px;
+  border-radius: 12px;
+  text-align: center;
+  border: 2px solid #f0f0f0;
+  transition: all 0.3s ease;
+}
+
+.value_card:hover {
+  border-color: #81171e;
+  box-shadow: 0 4px 12px rgba(129, 23, 30, 0.15);
+  transform: translateY(-5px);
+}
+
+.value_icon {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.value_heading {
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.value_text {
+  color: #666;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.cta_section {
+  margin-top: 60px;
+}
+
+.cta_card {
+  background-color: #81171e;
+  color: white;
+  padding: 60px 40px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.cta_title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.cta_text {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.cta_button {
+  display: inline-block;
+  background-color: white;
+  color: #81171e;
+  padding: 15px 40px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.cta_button:hover {
+  background-color: #f5f5f5;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .hero_section {
+    padding: 20px 20px;
+  }
+
+  .hero_title {
+    font-size: 2rem;
+  }
+
+  .hero_text {
+    font-size: 1.1rem;
+  }
+
+  .section_card {
+    padding: 35px 25px;
+  }
+
+  .section_title {
+    font-size: 1.6rem;
+  }
+
+  .section_text {
+    font-size: 1rem;
+  }
+
+  .timeline {
+    padding-left: 30px;
+  }
+
+  .timeline::before {
+    left: 10px;
+  }
+
+  .timeline_marker {
+    left: -40px;
+    width: 70px;
+    height: 35px;
+    font-size: 0.8rem;
+  }
+
+  .timeline_content {
+    padding: 20px;
+  }
+
+  .timeline_heading {
+    font-size: 1.1rem;
+  }
+
+  .values_grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .value_card {
+    padding: 30px 20px;
+  }
+
+  .cta_card {
+    padding: 40px 25px;
+  }
+
+  .cta_title {
+    font-size: 1.6rem;
+  }
+}

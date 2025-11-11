@@ -13,6 +13,7 @@ const imagenesFuentes = [
   "/img/cheese/5.webp",
   "/img/cheese/6.webp",
   "/img/cheese/7.webp",
+  "/img/cheese/8.webp",
 ];
 
 export default function CheeseBaker() {

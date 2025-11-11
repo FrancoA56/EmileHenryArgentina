@@ -13,6 +13,7 @@ const imagenesFuentes = [
   "/img/clafoutis/5.webp",
   "/img/clafoutis/6.webp",
   "/img/clafoutis/7.webp",
+  "/img/clafoutis/8.webp",
 ];
 
 export default function Clafoutis() {

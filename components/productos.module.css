@@ -53,6 +53,12 @@
   padding: 10px 0;
 }
 
+.main_comprar {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
 .main_sub_text {
   font-size: 1rem;
   line-height: 22px;
@@ -140,6 +146,15 @@
   margin: 8px 0 8px 10px;
 }
 
+.negro2 {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000000;
+  border-radius: 200px;
+  background: #000000;
+  margin-top: 8px;
+}
+
 .newblue {
   width: 20px;
   height: 20px;
@@ -165,6 +180,15 @@
   border-radius: 200px;
   background: #c7d3d3;
   margin: 8px 0 8px 10px;
+}
+
+.blanco2 {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000000;
+  border-radius: 200px;
+  background: #c7d3d3;
+  margin-top: 8px;
 }
 
 .amarillo {
@@ -228,7 +252,6 @@
 .image_grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
   gap: 20px;
 }
 
@@ -296,4 +319,129 @@
 
 .fondo-rojo {
   background-color: #a41317;
+}
+
+/* ========================= */
+/* 📱 TABLET (hasta 1024px) */
+/* ========================= */
+@media (max-width: 1024px) {
+  .main {
+    padding: 20px 50px;
+  }
+
+  .main_title {
+    font-size: 2rem;
+  }
+
+  .main_sub_title {
+    font-size: 1.3rem;
+  }
+
+  .main_sub_text {
+    font-size: 0.95rem;
+  }
+
+  .especifics {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+  }
+
+  .especifics .main_block:first-child {
+    grid-column: span 2;
+  }
+
+  .product_gallery {
+    padding: 20px 50px;
+  }
+
+  .image_grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+
+  .grid_item {
+    height: 250px;
+  }
+
+  .lightbox_image_container {
+    width: 90%;
+    height: 70%;
+  }
+
+  .lightbox_arrow_left,
+  .lightbox_arrow_right {
+    font-size: 3rem;
+    padding: 5px 10px;
+  }
+}
+
+/* ========================= */
+/* 📱 MOBILE (hasta 600px) */
+/* ========================= */
+@media (max-width: 600px) {
+  .main {
+    padding: 15px 20px;
+  }
+
+  .title_underline {
+    flex-direction: column;
+  }
+
+  .main_title {
+    font-size: 1.8rem;
+    padding: 10px 0;
+  }
+
+  .donde {
+    justify-content: flex-end;
+  }
+
+  .especifics {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .main_sub_title {
+    font-size: 1.2rem;
+  }
+
+  .main_comprar {
+    font-size: 1.2rem;
+    justify-content: flex-end;
+  }
+
+  .main_sub_text {
+    font-size: 0.9rem;
+    line-height: 20px;
+  }
+
+  .variaciones_color {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .product_gallery {
+    padding: 20px;
+  }
+
+  .image_grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .grid_item {
+    height: 220px;
+  }
+
+  .lightbox_image_container {
+    width: 95%;
+    height: 60%;
+  }
+
+  .lightbox_arrow_left,
+  .lightbox_arrow_right {
+    font-size: 2.5rem;
+    padding: 5px;
+  }
 }

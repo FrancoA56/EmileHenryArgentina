@@ -78,3 +78,27 @@
   pointer-events: none;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
+
+@media (max-width: 1024px) {
+  .main {
+    height: 110vh;
+    gap: 6px;
+  }
+
+  .text {
+      font-size: 1.8rem;
+
+  }
+}
+
+@media (max-width: 600px) {
+  .main {
+    height: 80vh;
+    gap: 4px;
+  }
+
+  .text {
+      font-size: 1.3rem;
+
+  }
+}

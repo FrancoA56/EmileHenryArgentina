@@ -20,6 +20,11 @@
   pointer-events: none;
 }
 
+.productos {
+  display: flex;
+  flex-direction: row;
+}
+
 /* Contenedor del texto centrado */
 .text {
   position: absolute;
@@ -41,13 +46,17 @@
 }
 
 /* Grid ajustado para que las 8 imágenes se adapten al ancho disponible */
-.grid {
+.gridFila1 {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  gap: 8px;
-  width: 100%;
-  padding: 20px;
-  box-sizing: border-box;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.gridFila2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center; /* centra las 3 columnas */
 }
 
 /* Grid_item ahora es un link clickeable */
@@ -89,4 +98,49 @@
   text-align: center;
   color: #333;
   line-height: 1.4;
+}
+
+@media (max-width: 1024px) {
+  .image_container {
+    height: 50vh;
+  }
+
+  .text {
+    font-size: 2.5rem;
+  }
+
+
+
+  .product_title {
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 600px) {
+  .image_container {
+    height: 30vh;
+  }
+
+  .text {
+    font-size: 2rem;
+  }
+
+  .gridFila1 {
+    padding: 0 10px;
+  }
+  .gridFila2 {
+    padding: 0 60px;
+  }
+
+  .productos{
+    flex-direction: column;
+  }
+
+
+
+  .product_title {
+    font-size: 0.9rem;
+    line-height: 1.2;
+  }
 }

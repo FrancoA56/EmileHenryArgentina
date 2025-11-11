@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./dondeComprarMayorista.module.css";
 
 export default function DondeComprarMayorista() {
-  const denisRos = "/img/denis-ros-banner.png";
+  const denisRos = "/img/wholesale-banner.png";
 
   return (
     <section className={styles.donde_comprar_main} id="donde-comprar">

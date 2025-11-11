@@ -23,124 +23,130 @@ export default function Productos() {
   const [panFade, setPanFade] = useState(true);
 
   useEffect(() => {
-    let vajillaInterval,
-      fuenteInterval,
-      ramekinInterval,
-      panInterval,
-      cacerolasInterval,
-      complementosInterval;
+  // Detectar ancho de pantalla
+  const isDesktop = window.innerWidth > 1024;
 
-    const vajillaTimeout = setTimeout(() => {
+  if (!isDesktop) return; // si no es desktop, no correr animaciones
+
+  let vajillaInterval,
+    fuenteInterval,
+    ramekinInterval,
+    panInterval,
+    cacerolasInterval,
+    complementosInterval;
+
+  const vajillaTimeout = setTimeout(() => {
+    setVajillaFade(false);
+    setTimeout(() => {
+      setVajillaIndex((prev) => (prev % 6) + 1);
+      setVajillaFade(true);
+    }, 300);
+
+    vajillaInterval = setInterval(() => {
       setVajillaFade(false);
       setTimeout(() => {
-        setVajillaIndex((prev) => (prev % 4) + 1);
+        setVajillaIndex((prev) => (prev % 6) + 1);
         setVajillaFade(true);
       }, 300);
+    }, 3000);
+  }, 500);
 
-      vajillaInterval = setInterval(() => {
-        setVajillaFade(false);
-        setTimeout(() => {
-          setVajillaIndex((prev) => (prev % 4) + 1);
-          setVajillaFade(true);
-        }, 300);
-      }, 3000);
-    }, 500);
+  const fuenteTimeout = setTimeout(() => {
+    setFuenteFade(false);
+    setTimeout(() => {
+      setFuenteIndex((prev) => (prev % 6) + 1);
+      setFuenteFade(true);
+    }, 300);
 
-    const fuenteTimeout = setTimeout(() => {
+    fuenteInterval = setInterval(() => {
       setFuenteFade(false);
       setTimeout(() => {
-        setFuenteIndex((prev) => (prev % 4) + 1);
+        setFuenteIndex((prev) => (prev % 6) + 1);
         setFuenteFade(true);
       }, 300);
+    }, 3000);
+  }, 1300);
 
-      fuenteInterval = setInterval(() => {
-        setFuenteFade(false);
-        setTimeout(() => {
-          setFuenteIndex((prev) => (prev % 4) + 1);
-          setFuenteFade(true);
-        }, 300);
-      }, 3000);
-    }, 1300);
+  const ramekinTimeout = setTimeout(() => {
+    setRamekinFade(false);
+    setTimeout(() => {
+      setRamekinIndex((prev) => (prev % 5) + 1);
+      setRamekinFade(true);
+    }, 300);
 
-    const ramekinTimeout = setTimeout(() => {
+    ramekinInterval = setInterval(() => {
       setRamekinFade(false);
       setTimeout(() => {
-        setRamekinIndex((prev) => (prev % 4) + 1);
+        setRamekinIndex((prev) => (prev % 5) + 1);
         setRamekinFade(true);
       }, 300);
+    }, 3000);
+  }, 2100);
 
-      ramekinInterval = setInterval(() => {
-        setRamekinFade(false);
-        setTimeout(() => {
-          setRamekinIndex((prev) => (prev % 4) + 1);
-          setRamekinFade(true);
-        }, 300);
-      }, 3000);
-    }, 2100);
+  const panTimeout = setTimeout(() => {
+    setPanFade(false);
+    setTimeout(() => {
+      setPanIndex((prev) => (prev % 6) + 1);
+      setPanFade(true);
+    }, 300);
 
-    const panTimeout = setTimeout(() => {
+    panInterval = setInterval(() => {
       setPanFade(false);
       setTimeout(() => {
-        setPanIndex((prev) => (prev % 4) + 1);
+        setPanIndex((prev) => (prev % 6) + 1);
         setPanFade(true);
       }, 300);
+    }, 3000);
+  }, 2900);
 
-      panInterval = setInterval(() => {
-        setPanFade(false);
-        setTimeout(() => {
-          setPanIndex((prev) => (prev % 4) + 1);
-          setPanFade(true);
-        }, 300);
-      }, 3000);
-    }, 2900);
+  const complementosTimeout = setTimeout(() => {
+    setComplementosFade(false);
+    setTimeout(() => {
+      setComplementosIndex((prev) => (prev % 6) + 1);
+      setComplementosFade(true);
+    }, 300);
 
-    const complementosTimeout = setTimeout(() => {
+    complementosInterval = setInterval(() => {
       setComplementosFade(false);
       setTimeout(() => {
-        setComplementosIndex((prev) => (prev % 4) + 1);
+        setComplementosIndex((prev) => (prev % 6) + 1);
         setComplementosFade(true);
       }, 300);
+    }, 3000);
+  }, 3600);
 
-      complementosInterval = setInterval(() => {
-        setComplementosFade(false);
-        setTimeout(() => {
-          setComplementosIndex((prev) => (prev % 4) + 1);
-          setComplementosFade(true);
-        }, 300);
-      }, 3000);
-    }, 3600);
+  const cacerolasTimeout = setTimeout(() => {
+    setCacerolasFade(false);
+    setTimeout(() => {
+      setCacerolasIndex((prev) => (prev % 7) + 1);
+      setCacerolasFade(true);
+    }, 300);
 
-    const cacerolasTimeout = setTimeout(() => {
+    cacerolasInterval = setInterval(() => {
       setCacerolasFade(false);
       setTimeout(() => {
-        setCacerolasIndex((prev) => (prev % 4) + 1);
+        setCacerolasIndex((prev) => (prev % 7) + 1);
         setCacerolasFade(true);
       }, 300);
+    }, 3000);
+  }, 4200);
 
-      cacerolasInterval = setInterval(() => {
-        setCacerolasFade(false);
-        setTimeout(() => {
-          setCacerolasIndex((prev) => (prev % 4) + 1);
-          setCacerolasFade(true);
-        }, 300);
-      }, 3000);
-    }, 4200);
+  return () => {
+    clearTimeout(vajillaTimeout);
+    clearTimeout(fuenteTimeout);
+    clearTimeout(ramekinTimeout);
+    clearTimeout(panTimeout);
+    clearTimeout(complementosTimeout);
+    clearTimeout(cacerolasTimeout);
+    clearInterval(vajillaInterval);
+    clearInterval(fuenteInterval);
+    clearInterval(ramekinInterval);
+    clearInterval(panInterval);
+    clearInterval(complementosInterval);
+    clearInterval(cacerolasInterval);
+  };
+}, []);
 
-    return () => {
-      clearTimeout(vajillaTimeout);
-      clearTimeout(fuenteTimeout);
-      clearTimeout(ramekinTimeout);
-      clearTimeout(panTimeout);
-      clearTimeout(complementosTimeout);
-      clearTimeout(cacerolasTimeout);
-      clearInterval(vajillaInterval);
-      clearInterval(fuenteInterval);
-      clearInterval(ramekinInterval);
-      clearInterval(panInterval);
-      clearInterval(complementosInterval);
-      clearInterval(cacerolasInterval);
-    };
-  }, []);
 
   return (
     <>
@@ -149,7 +155,7 @@ export default function Productos() {
         <div className={`${style.item} ${style.item1}`}>
           <Link href="fuente">
             <Image
-              src={`/img/fuente/${fuenteIndex}.webp`}
+              src={`/img/fuentes/${fuenteIndex}.webp`}
               fill
               alt="fuente"
               className={`${style.img} ${
@@ -157,7 +163,7 @@ export default function Productos() {
               }`}
             />
             <div className={style.overlay} />
-            <span className={style.text}>Fuente</span>
+            <span className={style.text}>Fuentes</span>
           </Link>
         </div>
         <div className={`${style.item} ${style.item2}`}>

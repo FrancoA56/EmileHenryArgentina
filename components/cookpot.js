@@ -6,16 +6,15 @@ import Link from "next/link";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 const imagenesFuentes = [
-  "/img/corazon/1.webp",
-  "/img/corazon/2.webp",
-  "/img/corazon/3.webp",
-  "/img/corazon/4.webp",
-  "/img/corazon/5.webp",
-  "/img/corazon/6.webp",
-  "/img/corazon/7.webp",
+  "/img/cookpot/3.jpg",
+  "/img/cookpot/1.webp",
+  "/img/cookpot/2.jpg",
+  "/img/cookpot/4.webp",
+  "/img/cookpot/5.webp",
+  "/img/cookpot/6.webp",
 ];
 
-export default function Corazon() {
+export default function Cookpot() {
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
 
   const openLightbox = (index) => {
@@ -48,9 +47,9 @@ export default function Corazon() {
 
   return (
     <>
-      <section className={styles.main} id="moldeCorazon">
+      <section className={styles.main} id="cookpot">
         <div className={styles.title_underline}>
-          <div className={styles.main_title}>Molde Corazón:</div>
+          <div className={styles.main_title}>Cookpot:</div>
           <div className={styles.donde}>
             <Link href="/#donde-comprar" className={styles.donde}>
               <div className={styles.main_sub_title}>¿Dónde comprar? </div>
@@ -64,32 +63,26 @@ export default function Corazon() {
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Descripción</div>
             <div className={styles.main_sub_text}>
-              Descubrí la magia de crear tartas con forma de corazón perfectas,
-              gracias a este molde de cerámica HR® que combina precisión
-              francesa con un diseño lleno de amor. Ideal para sorprender en
-              ocasiones especiales o simplemente para añadir un toque único a
-              tus creaciones dulces. Tecnología HR®: Distribución térmica
-              uniforme para una cocción perfecta Antiaderente natural:
-              Desmolde fácil sin necesidad de engrasar. Diseño con detalles
-              precisos: Forma de corazón definida y elegante Versatilidad:
-              Perfecto para tartas, brownies, flanes y más Material seguro:
-              100% libre de tóxicos y metales pesados Fácil limpieza: Apto
-              lavavajillas Garantía: 10 años Capacidad: 6-8 porciones
-              generosas. Fabricado en Francia con la calidad y artesanía que
-              caracteriza a Emile Henry.
+              Tradicionalmente, la fondue de queso siempre se ha preparado en
+              una olla de cerámica, previamente frotada con ajo. Prepará tu
+              fondue en la cocina y luego llevála a la mesa sobre su base. La
+              cerámica difunde el calor suavemente, manteniendo la fondue
+              caliente durante toda la comida. Nuestro set de fondue incluye la
+              olla, el quemador, la base y 6 tenedores. Todos los productos
+              Emile Henry están fabricados en Francia y cuentan con una garantía
+              de 10 años.
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
             <div className={styles.main_sub_text}>
-              <span className={styles.boldi}>Tradicional</span>
+              <span className={styles.boldi}>Delight</span>
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Colores</div>
             <div className={styles.variaciones_color}>
-              <div className={styles.colorado} title="Colorado"></div>
-              <div className={styles.marfil} title="Marfil"></div>
+              <div className={styles.negro2} title="Negro"></div>
             </div>
           </div>
         </div>

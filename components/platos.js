@@ -13,6 +13,7 @@ const imagenesFuentes = [
   "/img/platos/5.webp",
   "/img/platos/6.webp",
   "/img/platos/7.webp",
+  "/img/platos/8.webp",
 ];
 
 export default function Platos() {

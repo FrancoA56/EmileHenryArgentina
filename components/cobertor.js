@@ -86,7 +86,7 @@ export default function Cobertor() {
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Colores</div>
             <div className={styles.variaciones_color}>
-              <div className={styles.blanco} title="Blanco"></div>
+              <div className={styles.blanco2} title="Blanco"></div>
             </div>
           </div>
         </div>
