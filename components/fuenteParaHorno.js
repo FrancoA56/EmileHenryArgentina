@@ -6,14 +6,14 @@ import Link from "next/link";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 const imagenesFuentes = [
-  "/img/fuente/1.webp",
-  "/img/fuente/2.webp",
-  "/img/fuente/3.webp",
-  "/img/fuente/4.webp",
+  "/img/fuente/1.jpg",
+  "/img/fuente/2.jpg",
+  "/img/fuente/3.jpg",
+  "/img/fuente/4.jpg",
   "/img/fuente/5.webp",
-  "/img/fuente/6.webp",
-  "/img/fuente/7.webp",
-  "/img/fuente/8.webp",
+  "/img/fuente/6.jpg",
+  "/img/fuente/7.jpeg",
+  "/img/fuente/8.jpeg",
 ];
 
 export default function Fuentes() {

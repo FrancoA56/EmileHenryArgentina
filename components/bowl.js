@@ -9,7 +9,7 @@ const imagenesFuentes = [
   "/img/bowl/1.webp",
   "/img/bowl/2.webp",
   "/img/bowl/3.webp",
-  "/img/bowl/4.webp",
+  "/img/bowl/4.jpg",
   "/img/bowl/5.webp",
   "/img/bowl/6.webp",
   "/img/bowl/7.webp",

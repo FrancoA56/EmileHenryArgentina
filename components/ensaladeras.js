@@ -10,10 +10,10 @@ const imagenesFuentes = [
   "/img/ensaladera/2.webp",
   "/img/ensaladera/3.webp",
   "/img/ensaladera/4.webp",
-  "/img/ensaladera/5.webp",
-  "/img/ensaladera/6.webp",
-  "/img/ensaladera/7.webp",
-  "/img/ensaladera/8.webp",
+  "/img/ensaladera/5.jpeg",
+  "/img/ensaladera/6.jpeg",
+  "/img/ensaladera/7.jpeg",
+  "/img/ensaladera/8.jpeg",
 ];
 
 export default function Ensaladera() {

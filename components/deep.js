@@ -7,8 +7,8 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 const imagenesFuentes = [
   "/img/deep/1.webp",
-  "/img/deep/2.webp",
-  "/img/deep/3.webp",
+  "/img/deep/2.jpg",
+  "/img/deep/3.jpg",
   "/img/deep/4.webp",
   "/img/deep/5.webp",
   "/img/deep/6.webp",

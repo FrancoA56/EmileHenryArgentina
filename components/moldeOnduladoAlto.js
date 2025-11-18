@@ -7,7 +7,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 const imagenesFuentes = [
   "/img/onduladoAlto/1.webp",
-  "/img/onduladoAlto/2.webp",
+  "/img/onduladoAlto/2.jpg",
   "/img/onduladoAlto/3.webp",
   "/img/onduladoAlto/4.webp",
   "/img/onduladoAlto/5.webp",

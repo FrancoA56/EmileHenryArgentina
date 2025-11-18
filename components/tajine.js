@@ -6,10 +6,10 @@ import Link from "next/link";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 const imagenesFuentes = [
-  "/img/tajine/1.webp",
-  "/img/tajine/2.webp",
-  "/img/tajine/3.webp",
-  "/img/tajine/4.webp",
+  "/img/tajine/1.jpg",
+  "/img/tajine/2.jpg",
+  "/img/tajine/3.jpg",
+  "/img/tajine/4.jpg",
   "/img/tajine/5.webp",
   "/img/tajine/6.webp",
   "/img/tajine/7.webp",

@@ -14,14 +14,14 @@ import Link from "next/link";
 import styles from "./fuente.module.css";
 
 export default function FuentesParaHorno() {
-  const moldeCorazon = "/img/fuente/moldeCorazonpng.png";
-  const moldeOnduladoAlto = "/img/fuente/moldeOnduladoAltopng.png";
-  const fuenteHorno = "/img/fuente/fuentepng.png";
-  const moldeRectangular = "/img/fuente/moldeRectangularpng.png";
-  const moldeCircular = "/img/fuente/moldeCircularTartpng.png";
-  const moldeClafoutis = "/img/fuente/moldeClafoutispng.png";
-  const moldeOnduladoBajo = "/img/fuente/moldeOnduladoBajopng.png";
-  const moldeSouffle = "/img/fuente/moldeSoufflepng.png";
+  const moldeCorazon = "/img/fuentes/moldeCorazonpng.png";
+  const moldeOnduladoAlto = "/img/fuentes/moldeOnduladoAltopng.png";
+  const fuenteHorno = "/img/fuentes/fuentepng.png";
+  const moldeRectangular = "/img/fuentes/moldeRectangularpng.png";
+  const moldeCircular = "/img/fuentes/moldeCircularTartpng.png";
+  const moldeClafoutis = "/img/fuentes/moldeClafoutispng.png";
+  const moldeOnduladoBajo = "/img/fuentes/moldeOnduladoBajopng.png";
+  const moldeSouffle = "/img/fuentes/moldeSoufflepng.png";
 
   const productos = [
     {
@@ -73,7 +73,7 @@ export default function FuentesParaHorno() {
       <section>
         <div className={styles.image_container}>
           <Image
-            src="/img/fuente/1.webp"
+            src="/img/fuentes/1.webp"
             alt="FuenteDeHorno"
             className={styles.main_image}
             fill
