@@ -87,6 +87,7 @@ export default function Ciabatta() {
               <div className={styles.colorado} title="Colorado"></div>
               <div className={styles.marfil} title="Marfil"></div>
               <div className={styles.negro} title="Negro"></div>
+              <div className={styles.lin} title="Lin"></div>
             </div>
           </div>
         </div>

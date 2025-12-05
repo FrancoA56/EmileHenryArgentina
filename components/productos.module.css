@@ -124,8 +124,17 @@
   height: 20px;
   border: 1px solid #000000;
   border-radius: 200px;
-  background: #f1e8d9;
+  background: #eee1cc;
   margin-top: 8px;
+}
+
+.azulOscuro {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000000;
+  border-radius: 200px;
+  background: #1B3659;
+  margin: 8px 0 8px 10px;
 }
 
 .marfil {
@@ -133,7 +142,16 @@
   height: 20px;
   border: 1px solid #000000;
   border-radius: 200px;
-  background: #f1e8d9;
+  background: #eee1cc;
+  margin: 8px 0 8px 10px;
+}
+
+.lin {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000000;
+  border-radius: 200px;
+  background: #F2EADF;
   margin: 8px 0 8px 10px;
 }
 
@@ -161,6 +179,24 @@
   border: 1px solid #000000;
   border-radius: 200px;
   background: #175f70;
+  margin: 8px 0 8px 10px;
+}
+
+.roble {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000000;
+  border-radius: 200px;
+  background: #A67C63;
+  margin: 8px 0 8px 10px;
+}
+
+.silex {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000000;
+  border-radius: 200px;
+  background: #A6988D;
   margin: 8px 0 8px 10px;
 }
 
@@ -218,12 +254,39 @@
   margin: 8px 0 8px 10px;
 }
 
+.blueFlame {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000000;
+  border-radius: 200px;
+  background: #025959;
+  margin: 8px 0 8px 10px;
+}
+
+.rosa {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000000;
+  border-radius: 200px;
+  background: #f2b5a7;
+  margin: 8px 0 8px 10px;
+}
+
 .gris {
   width: 20px;
   height: 20px;
   border: 1px solid #000000;
   border-radius: 200px;
   background: #868e90;
+  margin: 8px 0 8px 10px;
+}
+
+.azulNoche {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000000;
+  border-radius: 200px;
+  background: #142240;
   margin: 8px 0 8px 10px;
 }
 
@@ -446,36 +509,36 @@
   }
 
   .marfil {
-      margin: 8px 0 8px 5px;
+    margin: 8px 0 8px 5px;
   }
   .negro {
-      margin: 8px 0 8px 5px;
+    margin: 8px 0 8px 5px;
   }
   .newblue {
-      margin: 8px 0 8px 5px;
+    margin: 8px 0 8px 5px;
   }
   .blancoBrillante {
-      margin: 8px 0 8px 5px;
+    margin: 8px 0 8px 5px;
   }
   .blanco {
-      margin: 8px 0 8px 5px;
+    margin: 8px 0 8px 5px;
   }
   .amarillo {
-      margin: 8px 0 8px 5px;
+    margin: 8px 0 8px 5px;
   }
   .bellele {
-      margin: 8px 0 8px 5px;
+    margin: 8px 0 8px 5px;
   }
   .verde {
-      margin: 8px 0 8px 5px;
+    margin: 8px 0 8px 5px;
   }
   .gris {
-      margin: 8px 0 8px 5px;
+    margin: 8px 0 8px 5px;
   }
   .toscane {
-      margin: 8px 0 8px 5px;
+    margin: 8px 0 8px 5px;
   }
   .verde {
-      margin: 8px 0 8px 5px;
+    margin: 8px 0 8px 5px;
   }
 }

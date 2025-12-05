@@ -95,6 +95,7 @@ export default function Bowl() {
             <div className={styles.main_sub_title}>Colores</div>
             <div className={styles.variaciones_color}>
               <div className={styles.colorado} title="Colorado"></div>
+              <div className={styles.blueFlame} title="Blue Flame"></div>
               <div className={styles.marfil} title="Marfil"></div>
               <div className={styles.verde} title="Verde"></div>
             </div>

@@ -88,6 +88,7 @@ export default function Jarra() {
               <div className={styles.blanco} title="Blanco"></div>
               <div className={styles.negro} title="Negro"></div>
               <div className={styles.verde} title="Verde"></div>
+              <div className={styles.blueFlame} title="Blue Flame"></div>
             </div>
           </div>
         </div>

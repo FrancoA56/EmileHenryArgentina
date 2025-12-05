@@ -85,9 +85,8 @@ export default function Platos() {
             <div className={styles.variaciones_color}>
               <div className={styles.colorado} title="Colorado"></div>
               <div className={styles.marfil} title="Marfil"></div>
-              <div className={styles.verde} title="Verde"></div>
               <div className={styles.negro} title="Negro"></div>
-              <div className={styles.newblue} title="New Blue"></div>
+              <div className={styles.verde} title="Verde"></div>
             </div>
           </div>
           <div className={styles.main_block}>

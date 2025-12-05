@@ -77,12 +77,14 @@ export default function Cookpot() {
             <div className={styles.main_sub_title}>Línea</div>
             <div className={styles.main_sub_text}>
               <span className={styles.boldi}>Delight</span>
+              <span className={styles.boldi}>Tradicional</span>
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Colores</div>
             <div className={styles.variaciones_color}>
-              <div className={styles.negro2} title="Negro"></div>
+              <div className={styles.delight} title="Delight"></div>
+              <div className={styles.negro} title="Negro"></div>
             </div>
           </div>
         </div>

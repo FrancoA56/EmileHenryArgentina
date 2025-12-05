@@ -99,6 +99,11 @@ export default function ButterBell() {
               <div className={styles.colorado} title="Colorado"></div>
               <div className={styles.marfil} title="Marfil"></div>
               <div className={styles.newblue} title="New Blue"></div>
+              <div
+                className={styles.blancoBrillante}
+                title="Blanco brillante"
+              ></div>
+              <div className={styles.azulNoche} title="Azul Noche"></div>
             </div>
           </div>
         </div>

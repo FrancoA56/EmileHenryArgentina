@@ -92,6 +92,8 @@ export default function Vinagrera() {
               <div className={styles.blanco} title="Blanco"></div>
               <div className={styles.negro} title="Negro"></div>
               <div className={styles.toscane} title="Toscane"></div>
+              <div className={styles.bellele} title="Belle-lle"></div>
+              <div className={styles.blueFlame} title="Blue Flame"></div>
             </div>
           </div>
         </div>

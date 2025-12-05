@@ -6,10 +6,10 @@ import Link from "next/link";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 const imagenesFuentes = [
-  "/img/ensaladera/1.webp",
-  "/img/ensaladera/2.webp",
-  "/img/ensaladera/3.webp",
-  "/img/ensaladera/4.webp",
+  "/img/ensaladera/1.jpg",
+  "/img/ensaladera/2.jpg",
+  "/img/ensaladera/3.jpg",
+  "/img/ensaladera/4.jpg",
   "/img/ensaladera/5.jpeg",
   "/img/ensaladera/6.jpeg",
   "/img/ensaladera/7.jpeg",
@@ -86,7 +86,9 @@ export default function Ensaladera() {
               <div className={styles.colorado} title="Colorado"></div>
               <div className={styles.marfil} title="Marfil"></div>
               <div className={styles.negro} title="Negro"></div>
-              <div className={styles.newblue} title="New Blue"></div>
+              <div className={styles.toscane} title="Toscane"></div>
+              <div className={styles.amarillo} title="Amarillo"></div>
+              <div className={styles.bellele} title="Belle-lle"></div>
             </div>
           </div>
           <div className={styles.main_block}>

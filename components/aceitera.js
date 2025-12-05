@@ -65,13 +65,13 @@ export default function Aceitera() {
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Descripción</div>
             <div className={styles.main_sub_text}>
-              Nuestros colores originales realzan el diseño
-              auténtico de esta aceitera, agregando un toque de color a tu
-              cocina o mesa. Podés verter con precisión la cantidad de aceite
-              que desees, y su pico antigoteo se mantiene siempre limpio. La
-              aceitera conserva todo el sabor de los mejores aceites de oliva al
-              protegerlos de la luz. Todos los productos Emile Henry están
-              fabricados en Francia y cuentan con una garantía de 10 años.
+              Nuestros colores originales realzan el diseño auténtico de esta
+              aceitera, agregando un toque de color a tu cocina o mesa. Podés
+              verter con precisión la cantidad de aceite que desees, y su pico
+              antigoteo se mantiene siempre limpio. La aceitera conserva todo el
+              sabor de los mejores aceites de oliva al protegerlos de la luz.
+              Todos los productos Emile Henry están fabricados en Francia y
+              cuentan con una garantía de 10 años.
             </div>
           </div>
           <div className={styles.main_block}>
@@ -87,6 +87,9 @@ export default function Aceitera() {
               <div className={styles.marfil} title="Marfil"></div>
               <div className={styles.blanco} title="Blanco"></div>
               <div className={styles.negro} title="Negro"></div>
+              <div className={styles.bellele} title="Belle-lle"></div>
+              <div className={styles.toscane} title="Toscane"></div>
+              <div className={styles.blueFlame} title="Blue Flame"></div>
             </div>
           </div>
         </div>

@@ -85,6 +85,7 @@ export default function Porta() {
               <div className={styles.colorado} title="Colorado"></div>
               <div className={styles.marfil} title="Marfil"></div>
               <div className={styles.negro} title="Negro"></div>
+              <div className={styles.blueFlame} title="Blue Flame"></div>
             </div>
           </div>
         </div>

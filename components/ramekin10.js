@@ -87,6 +87,10 @@ export default function Ramekin10() {
               <div className={styles.newblue} title="New Blue"></div>
               <div className={styles.toscane} title="Toscane"></div>
               <div className={styles.amarillo} title="Amarillo"></div>
+              <div className={styles.negro} title="Negro"></div>
+              <div className={styles.bellele} title="Belle-lle"></div>
+              <div className={styles.silex} title="Silex"></div>
+              <div className={styles.roble} title="Roble"></div>
             </div>
           </div>
         </div>

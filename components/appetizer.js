@@ -92,6 +92,9 @@ export default function Appetizer() {
               <div className={styles.colorado} title="Colorado"></div>
               <div className={styles.marfil} title="Marfil"></div>
               <div className={styles.newblue} title="New Blue"></div>
+              <div className={styles.gris} title="Gris"></div>
+              <div className={styles.amarillo} title="Amarillo"></div>
+              <div className={styles.rosa} title="Rosa"></div>
             </div>
           </div>
           <div className={styles.main_block}>
