@@ -4,27 +4,26 @@
 }
 
 .hero_section {
-  color: #81171e;
-  padding: 80px 20px;
+  position: relative;
+  min-height: 55vh;
+  background-image: url("/img/nadiusimage.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: start;
+  justify-content: center;
   text-align: center;
-}
-
-.hero_content {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.hero_title {
-  font-size: 3rem;
-  font-weight: bold;
-  margin-bottom: 20px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  color: white;
 }
 
 .hero_text {
-  font-size: 1.3rem;
-  color: #555;
+  font-size: 1.5rem;
   line-height: 1.6;
+  font-weight: 500;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 7dvh;
 }
 
 .content_wrapper {
@@ -131,58 +130,43 @@
 }
 
 .values_section {
-  margin-bottom: 80px;
+  max-width: 1300px;
+  margin: 0 auto 120px;
+  padding: 0 20px;
 }
 
-.values_title {
-  font-size: 2.2rem;
-  color: #81171e;
-  text-align: center;
-  margin-bottom: 50px;
-  font-weight: bold;
-}
-
-.values_grid {
+.images_grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
 }
 
-.value_card {
-  background-color: white;
-  padding: 35px 25px;
-  border-radius: 12px;
-  text-align: center;
-  border: 2px solid #f0f0f0;
-  transition: all 0.3s ease;
+.image_item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
 }
 
-.value_card:hover {
-  border-color: #81171e;
-  box-shadow: 0 4px 12px rgba(129, 23, 30, 0.15);
-  transform: translateY(-5px);
+.image_item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
 }
 
-.value_icon {
-  font-size: 3rem;
-  margin-bottom: 20px;
+.image_up {
+  transform: translateY(-80px);
 }
 
-.value_heading {
-  font-size: 1.4rem;
-  color: #333;
-  margin-bottom: 15px;
-  font-weight: 600;
-}
-
-.value_text {
-  color: #666;
-  line-height: 1.6;
-  font-size: 1rem;
+.image_down {
+  transform: translateY(40px);
 }
 
 .cta_section {
-  margin-top: 60px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 60px 20px;
 }
 
 .cta_card {
@@ -221,6 +205,12 @@
   background-color: #f5f5f5;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.bold {
+  font-weight: 800;
+  display: inline;
+  color: #81171e;
 }
 
 @media (max-width: 768px) {
@@ -271,13 +261,14 @@
     font-size: 1.1rem;
   }
 
-  .values_grid {
+  .images_grid {
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 30px;
   }
 
-  .value_card {
-    padding: 30px 20px;
+  .image_up,
+  .image_down {
+    transform: translateY(0);
   }
 
   .cta_card {
@@ -286,5 +277,9 @@
 
   .cta_title {
     font-size: 1.6rem;
+  }
+
+  .values_image {
+    height: clamp(260px, 45vh, 420px);
   }
 }

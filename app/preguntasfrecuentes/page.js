@@ -15,12 +15,12 @@ export default function PreguntasFrecuentesPage() {
     {
       pregunta: "¿Qué hace especial a la cerámica de Emile Henry?",
       respuesta:
-        "Nuestra cerámica está hecha con arcilla natural de Borgoña, Francia. Es resistente al choque térmico, se puede usar en horno, microondas y lavavajillas. Además, distribuye el calor de manera uniforme para una cocción perfecta.",
+        "Nuestras piezas son especiales porque están elaboradas con cerámica francesa de alta resistencia, fabricada a partir de arcillas naturales de Borgoña, lo que permite su uso tanto a altas como a bajas temperaturas. Además, no contienen plomo ni cadmio y son 100 % seguras para el contacto con alimentos. Cada producto se fabrica de forma artesanal, lo que garantiza una gran durabilidad y una distribución de calor excepcional. Sus esmaltes son resistentes y seguros, y mantienen su color intacto incluso con el uso continuo. Los diseños combinan elegancia y funcionalidad, convirtiéndose en herramientas confiables para cocinar y hornear. Disponibles en una amplia variedad de colores, los esmaltes no se agrietan, no se decoloran ni pierden intensidad con el paso del tiempo.",
     },
     {
       pregunta: "¿Puedo usar los productos en el horno?",
       respuesta:
-        "Sí, todos nuestros productos de cerámica son aptos para horno hasta 270°C. También son resistentes al choque térmico, por lo que pueden pasar del refrigerador directamente al horno.",
+        "Sí, nuestros productos pueden utilizarse en el horno, siempre que se trate de piezas de cerámica para cocción (como fuentes, moldes, cazuelas o refractarios). Estos productos están fabricados con cerámica de alta resistencia, diseñada específicamente para soportar altas temperaturas y ofrecer una cocción uniforme. Sin embargo, no todos los productos Emile Henry son aptos para horno. Algunos artículos catalogados como utensilios de cocina o accesorios no están destinados a la cocción y no deben introducirse en el horno. Para un uso seguro, recomendamos comprobar la categoría y las especificaciones de cada producto antes de utilizarlo en el horno.",
     },
     {
       pregunta: "¿Cómo debo limpiar mis productos Emile Henry?",
@@ -30,17 +30,17 @@ export default function PreguntasFrecuentesPage() {
     {
       pregunta: "¿Tienen garantía los productos?",
       respuesta:
-        "Sí, ofrecemos una garantía de 10 años en todos nuestros productos contra defectos de fabricación. La garantía no cubre daños por uso inadecuado o accidentes.",
+        "Sí, ofrecemos una garantía de 5 a 10 años en todos nuestros productos contra defectos de fabricación. La garantía no cubre daños por uso inadecuado o accidentes.",
     },
     {
       pregunta: "¿Dónde puedo comprar productos Emile Henry?",
       respuesta:
-        "Puedes encontrar nuestros productos en las tiendas autorizadas listadas en nuestra sección 'Dónde Comprar'. También contamos con distribuidores en línea seleccionados.",
+        "Puedes encontrar nuestros productos en las tiendas autorizadas listadas en nuestra sección 'Dónde Comprar'. También contamos con distribuidores mayoristas autorizados. ",
     },
     {
       pregunta: "¿Los productos son aptos para inducción?",
       respuesta:
-        "Nuestros productos de cerámica no son aptos para inducción directa. Sin embargo, tenemos una línea especial con base magnética diseñada específicamente para cocinas de inducción.",
+        "No todos los productos Emile Henry son aptos para cocinas de inducción. Solo la línea especialmente diseñada para inducción es compatible con este tipo de placas, ya que cuenta con una base adaptada que permite una correcta transmisión del calor. Para un uso adecuado, recomendamos comprobar la línea y las especificaciones de cada producto antes de su utilización.",
     },
   ];
 
@@ -85,12 +85,6 @@ export default function PreguntasFrecuentesPage() {
                 className={styles.contact_button}
               >
                 Contactar Soporte <HiOutlineEnvelope className={styles.icon} />
-              </a>
-              <a
-                href="mailto:info@emilehenry.com.ar"
-                className={styles.contact_button}
-              >
-                Contactar Soporte <MdOutlineWhatsapp className={styles.icon} />
               </a>
             </div>
           </div>

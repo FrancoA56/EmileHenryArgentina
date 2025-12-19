@@ -52,7 +52,7 @@ export default function Tartera() {
       <section className={styles.main} id="moldeCircularTart">
         <div className={styles.title_underline}>
           <div className={styles.main_title}>Molde Circular Tart:</div>
-         <div className={styles.donde}>
+          <div className={styles.donde}>
             <Link href="/#donde-comprar" className={styles.donde}>
               <div className={styles.main_sub_title}>¿Dónde comprar? </div>
               <div className={styles.link}>
@@ -75,15 +75,14 @@ export default function Tartera() {
               siguiente? Nuestro nuevo Molde para Tarta es apto para microondas.
               Su esmalte muy resistente, liso y brillante está preparado para el
               uso diario: se puede cortar directamente en el molde, lavar
-              repetidamente en el lavavajillas e incluso limpiar con una esponja
-              abrasiva. Aun así, cada tarta o quiche servida en este molde hará
-              una entrada espectacular en la mesa, gracias a su diseño y colores
-              elegantes.
+              repetidamente en el lavavajillas. Aun así, cada tarta o quiche
+              servida en este molde hará una entrada espectacular en la mesa,
+              gracias a su diseño y colores elegantes.
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text}>
+            <div className={styles.main_sub_text_linea }>
               <span className={styles.boldi}>Tradicional</span>
             </div>{" "}
           </div>
@@ -106,7 +105,7 @@ export default function Tartera() {
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Tamaños</div>
-            <div className={styles.main_sub_text}>
+            <div className={styles.main_sub_text_linea }>
               <span className={styles.boldi}>Individual</span>
               <span className={styles.boldi}>Small</span>
               <span className={styles.boldi}>Medium</span>

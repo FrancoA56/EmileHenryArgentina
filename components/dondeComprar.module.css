@@ -1,4 +1,52 @@
 .donde_comprar_main {
+  padding: 4rem 1rem;
+}
+
+.donde_comprar_title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+/* GRID 2 COLUMNAS */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* CARD */
+.card {
+  overflow: hidden;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+/* IMAGEN */
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  transition: transform 0.4s ease;
+}
+
+/* ZOOM HOVER */
+.card:hover .image {
+  transform: scale(1.08);
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+/* .donde_comprar_main {
   background-color: white;
   padding: 20px 40px;
   text-align: center;
@@ -30,10 +78,9 @@
   aspect-ratio: 14/4;
 }
 
-/* MEDIA QUERY PARA MÓVIL */
 @media (max-width: 600px) {
   .carousel {
-    height: 400px; /* más alto para mostrar vertical */
+    height: 400px;
   }
 
   .donde_comprar_title {
@@ -44,4 +91,4 @@
   .carousel_slide {
     width: 90%;
   }
-}
+} */

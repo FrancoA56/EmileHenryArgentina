@@ -68,14 +68,14 @@ export default function Ramekin8() {
               El Ramekin N°8 es perfecto para porciones individuales pequeñas
               como cremas, dips o flanes. Su cerámica HR® garantiza una cocción
               pareja y una presentación impecable directamente del horno a la
-              mesa. Ideal para flanes, salsas y degustaciones Apto para horno,
-              microondas, lavavajillas y freezer Conserva temperatura y realza
-              sabores Cerámica esmaltada sin metales pesados Garantía de 10 años
+              mesa. Ideal para flanes, salsas y degustaciones. Apto para horno,
+              microondas, lavavajillas y freezer. Conserva temperatura y realza
+              sabores. Cerámica esmaltada sin metales pesados. Garantía de 10 años.
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text}>
+            <div className={styles.main_sub_text_linea }>
               <span className={styles.boldi}>Tradicional</span>
             </div>
           </div>

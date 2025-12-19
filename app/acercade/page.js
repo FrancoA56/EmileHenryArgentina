@@ -1,6 +1,9 @@
 import styles from "./acercade.module.css";
 import Nav from "@/components/navProductos";
 import Footer from "@/components/footerProductos";
+import pizza from "../../public/img/pizza.jpg";
+import granhorno from "../../public/img/granHorno.jpeg";
+import Image from "next/image";
 
 export const metadata = {
   title: "Acerca de Emile Henry | Historia y Tradición",
@@ -14,28 +17,29 @@ export default function AcercaDePage() {
       <Nav />
       <div className={styles.page_container}>
         <div className={styles.hero_section}>
+          <div className={styles.hero_overlay}></div>
+        </div>
+
+        <div className={styles.content_wrapper}>
           <div className={styles.hero_content}>
-            <h1 className={styles.hero_title}>Acerca de Nosotros</h1>
+            <div className={styles.history_title}>Nosotros</div>
             <p className={styles.hero_text}>
               Más de 170 años de tradición y excelencia en cerámica artesanal
               francesa
             </p>
           </div>
-        </div>
-
-        <div className={styles.content_wrapper}>
           <section className={styles.mission_section}>
             <div className={styles.section_card}>
-              <h2 className={styles.section_title}>Nuestra Misión</h2>
-              <p className={styles.section_text}>
-                En Emile Henry, nuestra misión es crear productos de cerámica de
-                la más alta calidad que combinen funcionalidad, belleza y
-                durabilidad. Desde 1850, hemos mantenido viva la tradición
-                artesanal francesa, utilizando arcilla natural de Borgoña para
-                crear piezas que acompañan a las familias por generaciones. Cada
-                producto es el resultado de nuestra pasión por la cocina y
-                nuestro compromiso con la excelencia.
-              </p>
+              <div className={styles.section_text}>
+                En <p className={styles.bold}>Emile Henry</p>, creemos en la
+                cocina como un momento para disfrutar, compartir y crear
+                recuerdos. Diseñamos piezas de cerámica que acompañan cada
+                receta, desde las más simples hasta las más especiales, cuidando
+                los sabores y logrando una cocción uniforme y natural.
+                Fabricamos cada producto en Francia, con dedicación y respeto
+                por la tradición, para que puedas llevar del horno a la mesa
+                mucho más que comida: experiencias para compartir. excelencia.
+              </div>
             </div>
           </section>
 
@@ -96,62 +100,32 @@ export default function AcercaDePage() {
               </div>
             </div>
           </section>
-
-          <section className={styles.values_section}>
-            <h2 className={styles.values_title}>Nuestros Valores</h2>
-            <div className={styles.values_grid}>
-              <div className={styles.value_card}>
-                <div className={styles.value_icon}>🏺</div>
-                <h3 className={styles.value_heading}>Tradición</h3>
-                <p className={styles.value_text}>
-                  Más de 170 años de sabiduría artesanal transmitida de
-                  generación en generación.
-                </p>
-              </div>
-
-              <div className={styles.value_card}>
-                <div className={styles.value_icon}>✨</div>
-                <h3 className={styles.value_heading}>Calidad</h3>
-                <p className={styles.value_text}>
-                  Cada pieza es inspeccionada cuidadosamente para garantizar los
-                  más altos estándares.
-                </p>
-              </div>
-
-              <div className={styles.value_card}>
-                <div className={styles.value_icon}>🌍</div>
-                <h3 className={styles.value_heading}>Sostenibilidad</h3>
-                <p className={styles.value_text}>
-                  Utilizamos materiales naturales y procesos responsables con el
-                  medio ambiente.
-                </p>
-              </div>
-
-              <div className={styles.value_card}>
-                <div className={styles.value_icon}>❤️</div>
-                <h3 className={styles.value_heading}>Pasión</h3>
-                <p className={styles.value_text}>
-                  El amor por la cocina y la cerámica es el corazón de todo lo
-                  que hacemos.
-                </p>
-              </div>
-            </div>
-          </section>
-
-          <section className={styles.cta_section}>
-            <div className={styles.cta_card}>
-              <h2 className={styles.cta_title}>Descubrí Nuestros Productos</h2>
-              <p className={styles.cta_text}>
-                Explora nuestra colección de productos de cerámica
-                artesanal
-              </p>
-              <a href="/productos" className={styles.cta_button}>
-                Ver Productos
-              </a>
-            </div>
-          </section>
         </div>
       </div>
+
+      <section className={styles.values_section}>
+        <div className={styles.images_grid}>
+          <div className={`${styles.image_item} ${styles.image_up}`}>
+            <Image src={granhorno} alt="Gran horno Emile Henry" />
+          </div>
+
+          <div className={`${styles.image_item} ${styles.image_down}`}>
+            <Image src={pizza} alt="Pizza en horno Emile Henry" />
+          </div>
+        </div>
+      </section>
+
+      <section className={styles.cta_section}>
+        <div className={styles.cta_card}>
+          <h2 className={styles.cta_title}>Descubrí Nuestros Productos</h2>
+          <p className={styles.cta_text}>
+            Explora nuestra colección de productos de cerámica artesanal
+          </p>
+          <a href="/productos" className={styles.cta_button}>
+            Ver Productos
+          </a>
+        </div>
+      </section>
       <Footer />
     </>
   );

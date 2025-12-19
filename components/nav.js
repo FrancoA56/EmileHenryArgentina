@@ -60,7 +60,7 @@ export default function Nav() {
                   {/* <Link href="/productos">PRODUCTOS</Link> */}
                   <Link href="#donde-comprar">DÓNDE COMPRAR</Link>
                   <Link href="/preguntasfrecuentes">PREGUNTAS FRECUENTES</Link>
-                  <Link href="/acercade">ACERCA DE</Link>
+                  <Link href="/acercade">SOBRE NOSOTROS</Link>
                   <Link href="/productos">PRODUCTOS</Link>
                 </div>
                 {/* ICONO HAMBURGUESA */}

@@ -72,7 +72,7 @@ export default function OnduladoAlto() {
               horno a la mesa con elegancia. Perfecto para quienes aman cocinar
               con estilo y buscan resultados de calidad profesional en casa.
               Cerámica HR®: Retiene y distribuye el calor de manera uniforme.
-              Apto para horno (hasta 270°C), microondas, freezer y lavavajillas.
+              Apto para horno (hasta 220°C), microondas, freezer y lavavajillas.
               Libre de metales pesados: sin plomo, cadmio ni níquel. Diseño
               profundo: ideal para preparaciones generosas. Garantía oficial de
               10 años. Capacidad: Para 6 a 8 porciones abundantes. Fabricado
@@ -81,7 +81,7 @@ export default function OnduladoAlto() {
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text}>
+            <div className={styles.main_sub_text_linea }>
               <span className={styles.boldi}>Tradicional</span>
             </div>
           </div>

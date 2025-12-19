@@ -80,7 +80,7 @@ export default function Salero() {
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text}>
+            <div className={styles.main_sub_text_linea }>
               <span className={styles.boldi}>Tradicional</span>
             </div>{" "}
           </div>

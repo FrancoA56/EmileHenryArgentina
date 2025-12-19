@@ -81,7 +81,7 @@ export default function Appetizer() {
             </div>
           </div>
           <div className={styles.main_block}>
-            <div className={styles.main_sub_title}>Línea</div>
+            <div className={styles.main_sub_title_linea }>Línea</div>
             <div className={styles.main_sub_text}>
               <span className={styles.boldi}>Tradicional</span>
             </div>{" "}
@@ -99,7 +99,7 @@ export default function Appetizer() {
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Tamaños</div>
-            <div className={styles.main_sub_text}>
+            <div className={styles.main_sub_text_linea }>
               <span className={styles.boldi}>Medium</span>
               <span className={styles.boldi}>Large</span>
             </div>
