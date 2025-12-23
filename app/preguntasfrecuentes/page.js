@@ -2,7 +2,7 @@ import styles from "./preguntas.module.css";
 import Nav from "@/components/navProductos";
 import Footer from "@/components/footerProductos";
 import { HiOutlineEnvelope } from "react-icons/hi2";
-import { MdOutlineWhatsapp } from "react-icons/md";
+import Link from "next/link";
 
 export const metadata = {
   title: "Preguntas Frecuentes | Emile Henry Argentina",
@@ -11,39 +11,6 @@ export const metadata = {
 };
 
 export default function PreguntasFrecuentesPage() {
-  const preguntas = [
-    {
-      pregunta: "¿Qué hace especial a la cerámica de Emile Henry?",
-      respuesta:
-        "Nuestras piezas son especiales porque están elaboradas con cerámica francesa de alta resistencia, fabricada a partir de arcillas naturales de Borgoña, lo que permite su uso tanto a altas como a bajas temperaturas. Además, no contienen plomo ni cadmio y son 100 % seguras para el contacto con alimentos. Cada producto se fabrica de forma artesanal, lo que garantiza una gran durabilidad y una distribución de calor excepcional. Sus esmaltes son resistentes y seguros, y mantienen su color intacto incluso con el uso continuo. Los diseños combinan elegancia y funcionalidad, convirtiéndose en herramientas confiables para cocinar y hornear. Disponibles en una amplia variedad de colores, los esmaltes no se agrietan, no se decoloran ni pierden intensidad con el paso del tiempo.",
-    },
-    {
-      pregunta: "¿Puedo usar los productos en el horno?",
-      respuesta:
-        "Sí, nuestros productos pueden utilizarse en el horno, siempre que se trate de piezas de cerámica para cocción (como fuentes, moldes, cazuelas o refractarios). Estos productos están fabricados con cerámica de alta resistencia, diseñada específicamente para soportar altas temperaturas y ofrecer una cocción uniforme. Sin embargo, no todos los productos Emile Henry son aptos para horno. Algunos artículos catalogados como utensilios de cocina o accesorios no están destinados a la cocción y no deben introducirse en el horno. Para un uso seguro, recomendamos comprobar la categoría y las especificaciones de cada producto antes de utilizarlo en el horno.",
-    },
-    {
-      pregunta: "¿Cómo debo limpiar mis productos Emile Henry?",
-      respuesta:
-        "La mayoría de nuestros productos son aptos para lavavajillas. Para manchas difíciles, recomendamos remojar en agua tibia con detergente suave. Evitar el uso de esponjas abrasivas.",
-    },
-    {
-      pregunta: "¿Tienen garantía los productos?",
-      respuesta:
-        "Sí, ofrecemos una garantía de 5 a 10 años en todos nuestros productos contra defectos de fabricación. La garantía no cubre daños por uso inadecuado o accidentes.",
-    },
-    {
-      pregunta: "¿Dónde puedo comprar productos Emile Henry?",
-      respuesta:
-        "Puedes encontrar nuestros productos en las tiendas autorizadas listadas en nuestra sección 'Dónde Comprar'. También contamos con distribuidores mayoristas autorizados. ",
-    },
-    {
-      pregunta: "¿Los productos son aptos para inducción?",
-      respuesta:
-        "No todos los productos Emile Henry son aptos para cocinas de inducción. Solo la línea especialmente diseñada para inducción es compatible con este tipo de placas, ya que cuenta con una base adaptada que permite una correcta transmisión del calor. Para un uso adecuado, recomendamos comprobar la línea y las especificaciones de cada producto antes de su utilización.",
-    },
-  ];
-
   return (
     <>
       <Nav />
@@ -59,17 +26,112 @@ export default function PreguntasFrecuentesPage() {
           </div>
 
           <div className={styles.faq_container}>
-            {preguntas.map((item, index) => (
-              <details key={index} className={styles.faq_item}>
-                <summary className={styles.faq_pregunta}>
-                  {item.pregunta}
-                  <span className={styles.icon}>+</span>
-                </summary>
-                <div className={styles.faq_respuesta}>
-                  <p>{item.respuesta}</p>
-                </div>
-              </details>
-            ))}
+            {/* Pregunta 1 */}
+            <details className={styles.faq_item}>
+              <summary className={styles.faq_pregunta}>
+                ¿Qué hace especial a la cerámica de Emile Henry?
+                <span className={styles.icon}>+</span>
+              </summary>
+              <div className={styles.faq_respuesta}>
+                Nuestras piezas son especiales porque están elaboradas con
+                cerámica francesa de alta resistencia, fabricada a partir de
+                arcillas naturales de Borgoña, lo que permite su uso tanto a
+                altas como a bajas temperaturas. <br />
+                Además, no contienen plomo ni cadmio y son 100 % seguras para el
+                contacto con alimentos. Cada producto se fabrica de forma
+                artesanal, lo que garantiza una gran durabilidad y una
+                distribución de calor excepcional. Sus esmaltes son resistentes
+                y seguros, y mantienen su color intacto incluso con el uso
+                continuo. <br />
+                Los diseños combinan elegancia y funcionalidad, convirtiéndose
+                en herramientas confiables para cocinar y hornear. Disponibles
+                en una amplia variedad de colores, los esmaltes no se agrietan,
+                no se decoloran ni pierden intensidad con el paso del tiempo.
+              </div>
+            </details>
+
+            {/* Pregunta 2 */}
+            <details className={styles.faq_item}>
+              <summary className={styles.faq_pregunta}>
+                ¿Puedo usar los productos en el horno?
+                <span className={styles.icon}>+</span>
+              </summary>
+              <div className={styles.faq_respuesta}>
+                Sí, nuestros productos pueden utilizarse en el horno, siempre
+                que se trate de piezas de cerámica para cocción (como fuentes,
+                moldes, cazuelas o refractarios). Estos productos están
+                fabricados con cerámica de alta resistencia, diseñada
+                específicamente para soportar altas temperaturas y ofrecer una
+                cocción uniforme.
+                <br /> Sin embargo, no todos los productos Emile Henry son aptos
+                para horno. Algunos artículos catalogados como utensilios de
+                cocina o accesorios no están destinados a la cocción y no deben
+                introducirse en el horno. <br />
+                Para un uso seguro, recomendamos comprobar la categoría y las
+                especificaciones de cada producto antes de utilizarlo en el
+                horno.
+              </div>
+            </details>
+
+            {/* Pregunta 3 */}
+            <details className={styles.faq_item}>
+              <summary className={styles.faq_pregunta}>
+                ¿Cómo debo limpiar mis productos Emile Henry?
+                <span className={styles.icon}>+</span>
+              </summary>
+              <div className={styles.faq_respuesta}>
+                La mayoría de nuestros productos son aptos para lavavajillas.
+                Para manchas difíciles, recomendamos remojar en agua tibia con
+                detergente suave. <br />
+                Evitar el uso de esponjas abrasivas.
+              </div>
+            </details>
+
+            {/* Pregunta 4 */}
+            <details className={styles.faq_item}>
+              <summary className={styles.faq_pregunta}>
+                ¿Tienen garantía los productos?
+                <span className={styles.icon}>+</span>
+              </summary>
+              <div className={styles.faq_respuesta}>
+                Sí, ofrecemos una garantía de 5 a 10 años en todos nuestros
+                productos contra defectos de fabricación.
+                <br /> La garantía no cubre daños por uso inadecuado o
+                accidentes.
+              </div>
+            </details>
+
+            {/* Pregunta 5 */}
+            <details className={styles.faq_item}>
+              <summary className={styles.faq_pregunta}>
+                ¿Dónde puedo comprar productos Emile Henry?
+                <span className={styles.icon}>+</span>
+              </summary>
+              <div className={styles.faq_respuesta}>
+                Puedes encontrar nuestros productos en las tiendas autorizadas
+                listadas en nuestra sección{" "}
+                <Link href="/#donde-comprar">Dónde comprar</Link>
+                <br />
+                También contamos con distribuidores mayoristas autorizados.
+              </div>
+            </details>
+
+            {/* Pregunta 6 */}
+            <details className={styles.faq_item}>
+              <summary className={styles.faq_pregunta}>
+                ¿Los productos son aptos para inducción?
+                <span className={styles.icon}>+</span>
+              </summary>
+              <div className={styles.faq_respuesta}>
+                No todos los productos Emile Henry son aptos para cocinas de
+                inducción. Solo la línea Delight, es compatible con este tipo de
+                placas, ya que cuenta con una base adaptada que permite una
+                correcta transmisión del calor.
+                <br />
+                Para un uso adecuado, recomendamos comprobar la línea y las
+                especificaciones de cada producto antes de su utilización.
+              </div>
+            </details>
           </div>
 
           <div className={styles.contact_section}>
@@ -90,6 +152,7 @@ export default function PreguntasFrecuentesPage() {
           </div>
         </div>
       </div>
+
       <Footer />
     </>
   );

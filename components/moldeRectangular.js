@@ -68,19 +68,21 @@ export default function MoldeRectangular() {
               El Molde Rectangular Estrecho para Tartas de Emile Henry le da una
               nueva dimensión a tus recetas de tartas. Gracias a sus bordes
               altos, podés preparar no solo tartas largas y delgadas, sino
-              también quiches y clafoutis deliciosos. Fabricado con cerámica HR®
-              (Alta Resistencia), distribuye el calor de manera uniforme y
-              cocina hasta el centro sin quemar los bordes. Con o sin base de
-              masa, tus preparaciones pueden cortarse y servirse directamente en
-              el molde sin riesgo de rayar la superficie. Un molde rectangular
-              para tartas es original, fácil de servir y práctico para envolver
-              cuando se trata de picnics o almuerzos para llevar. Hecho en
-              Francia, este producto cuenta con una garantía de 10 años.
+              también quiches y clafoutis deliciosos. <br />
+              Fabricado con cerámica HR® (Alta Resistencia), distribuye el calor
+              de manera uniforme y cocina hasta el centro sin quemar los bordes.
+              <br />
+              Con o sin base de masa, tus preparaciones pueden cortarse y
+              servirse directamente en el molde sin riesgo de rayar la
+              superficie.
+              <br /> Un molde rectangular para tartas es original, fácil de
+              servir y práctico para envolver cuando se trata de picnics o
+              almuerzos para llevar.
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>{" "}
           </div>
@@ -100,7 +102,6 @@ export default function MoldeRectangular() {
               <div className={styles.gris} title="Gris"></div>
             </div>
           </div>
-         
         </div>
       </section>
 

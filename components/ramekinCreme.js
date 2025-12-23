@@ -11,7 +11,6 @@ const imagenesFuentes = [
   "/img/ramekinCreme/3.webp",
   "/img/ramekinCreme/4.webp",
   "/img/ramekinCreme/5.webp",
-
 ];
 
 export default function RamekinCreme() {
@@ -63,17 +62,20 @@ export default function RamekinCreme() {
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Descripción</div>
             <div className={styles.main_sub_text}>
-              El Ramekin Creme Brulee es perfecto para porciones individuales pequeñas
-              como cremas, dips o flanes. Su cerámica HR® garantiza una cocción
-              pareja y una presentación impecable directamente del horno a la
-              mesa. Ideal para flanes, salsas y degustaciones Apto para horno,
-              microondas, lavavajillas y freezer Conserva temperatura y realza
-              sabores Cerámica esmaltada sin metales pesados Garantía de 10 años
+              El Ramekin Creme Brulee es perfecto para porciones individuales
+              pequeñas como cremas, dips o flanes. Su cerámica HR® garantiza una
+              cocción pareja y una presentación impecable directamente del horno
+              a la mesa. <br />
+              Ideal para flanes, salsas y degustaciones Apto para horno,
+              microondas, lavavajillas y freezer <br />
+              Conserva temperatura y realza sabores.
+              <br />
+              Cerámica esmaltada sin metales pesados.
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>
           </div>

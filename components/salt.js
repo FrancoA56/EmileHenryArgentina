@@ -69,19 +69,22 @@ export default function Salt() {
               forma óptima, evitando que la humedad la dañe. Su tapa ajustada
               protege la sal de salpicaduras y polvo, mientras que su interior
               de cerámica mantiene la frescura y textura del condimento intacta.
-              Ideal para mantener tu sal gruesa a mano y con estilo. Cerámica
-              HR® que regula la humedad interior Tapa de corcho con cierre
-              preciso para mayor protección Libre de plomo, cadmio y níquel Apto
-              para lavavajillas Diseño minimalista y elegante, ideal para dejar
-              a la vista Garantía de 10 años Hecho a mano en Francia, este
-              pequeño contenedor es el toque final para una cocina organizada,
-              funcional y sofisticada. Ideal para quienes buscan productos que
-              duren y que sumen belleza a su cocina.
+              Ideal para mantener tu sal gruesa a mano y con estilo. <br />
+              Cerámica HR® que regula la humedad interior.
+              <br />
+              Tapa de corcho con cierre preciso para mayor protección.
+              <br /> Libre de plomo, cadmio y níquel <br />
+              Apto para lavavajillas
+              <br /> Diseño minimalista y elegante, ideal para dejar a la vista,
+              este pequeño contenedor es el toque final para una cocina
+              organizada, funcional y sofisticada. <br />
+              Ideal para quienes buscan productos que duren y que sumen belleza
+              a su cocina.
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>{" "}
           </div>
@@ -97,7 +100,6 @@ export default function Salt() {
               <div className={styles.negro} title="Negro Opaco"></div>
               <div className={styles.newblue} title="New Blue"></div>
               <div className={styles.silex} title="Silex"></div>
-
             </div>
           </div>
         </div>

@@ -69,18 +69,19 @@ export default function Vinagrera() {
               vinagre a granel o las mezclas caseras de vinagres aromatizados.
               Fabricada con materiales naturales, la cerámica Emile Henry
               protege el vinagre de la luz, preservando sus aromas y sabores, y
-              evitando la formación de bacterias. El pico vertedor de acero
-              inoxidable y corcho impide la circulación del aire y facilita su
-              uso al desglasar, preparar una marinada o simplemente hacer una
-              vinagreta. Su forma redondeada hace que la Vinagrera sea fácil de
-              manipular y combine perfectamente con la Aceitera, formando un dúo
-              atractivo sin riesgo de confundirlas. Gracias a su amplia gama de
-              colores, se adapta a cualquier estilo de decoración.
+              evitando la formación de bacterias. <br />
+              El pico vertedor de acero inoxidable y corcho impide la
+              circulación del aire y facilita su uso al desglasar, preparar una
+              marinada o simplemente hacer una vinagreta. <br />
+              Su forma redondeada hace que la Vinagrera sea fácil de manipular y
+              combine perfectamente con la Aceitera, formando un dúo atractivo
+              sin riesgo de confundirlas. Gracias a su amplia gama de colores,
+              se adapta a cualquier estilo de decoración.
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>{" "}
           </div>

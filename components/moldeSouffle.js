@@ -65,24 +65,24 @@ export default function MoldeSouffle() {
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Descripción</div>
             <div className={styles.main_sub_text}>
-              Hacer un soufflé perfecto, bien alto y esponjoso,
-              depende en gran medida del molde que utilices. Con sus bordes
-              rectos de 10 cm de altura, el Molde para Soufflé de cerámica Emile
-              Henry permite que la mezcla suba fácilmente por los lados. La
-              cerámica distribuye el calor de manera uniforme, logrando un
+              Hacer un soufflé perfecto, bien alto y esponjoso, depende en gran
+              medida del molde que utilices. Con sus bordes rectos de 10 cm de
+              altura, el Molde para Soufflé de cerámica Emile Henry permite que
+              la mezcla suba fácilmente por los lados. <br />
+              La cerámica distribuye el calor de manera uniforme, logrando un
               soufflé dorado y aireado. Sus generosas dimensiones (21 cm)
               permiten preparar un soufflé suficiente para toda la familia, con
               una presentación atractiva y elegante gracias a su diseño plisado
-              exterior. Además de ser práctico, es fácil de limpiar, ya sea a
-              mano o en el lavavajillas. Dulce o salado, caliente o frío,
-              animate a variar las recetas y explorar el universo de los
-              soufflés. Hecho en Francia, este producto cuenta con una garantía
-              de 10 años.
+              exterior. <br />
+              Además de ser práctico, es fácil de limpiar, ya sea a mano o en el
+              lavavajillas. Dulce o salado, caliente o frío, animate a variar
+              las recetas y explorar el universo de los soufflés. Hecho en
+              Francia, este producto cuenta con una garantía de 10 años.
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>
           </div>

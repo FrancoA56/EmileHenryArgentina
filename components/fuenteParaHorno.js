@@ -65,23 +65,18 @@ export default function Fuentes() {
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Descripción</div>
             <div className={styles.main_sub_text}>
-              Todo tipo de recetas pueden prepararse y servirse en este plato
-              pequeño pero generoso: gratinados, tians… Hecho de cerámica HR®
-              (Alta Resistencia), distribuye el calor de manera uniforme durante
-              toda la cocción y luego mantiene la comida caliente una vez
-              servida en la mesa, permitiendo disfrutar del contenido hasta el
-              final de la comida. Resistente y duradero, puede usarse en el
-              horno, bajo el grill o para recalentar o descongelar en el
-              microondas. Su tamaño compacto y su forma elegante hacen que el
-              plato individual Emile Henry luzca atractivo al servirse en la
-              mesa, ya sea para un gratinado individual o como guarnición para
-              dos personas. Fabricado en Francia, cuenta con una garantía de 10
-              años.
+              Descubrí el rendimiento profesional de las fuentes de horno Emile
+              Henry. Su cerámica de alta calidad garantiza una distribución
+              perfecta del calor para resultados impecables. <br />
+              Cerámica HR: Resistente a altas temperaturas (hasta 250°C). <br />
+              Distribución uniforme del calor: Para cocciones perfectas. <br />
+              Fácil limpieza: Apta lavavajillas. <br />
+              Material seguro: 100% libre de plomo, cadmio y níquel.
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>{" "}
           </div>
@@ -105,7 +100,7 @@ export default function Fuentes() {
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Tamaños</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Individual</span>
               <span className={styles.boldi}>Small</span>
               <span className={styles.boldi}>Medium</span>

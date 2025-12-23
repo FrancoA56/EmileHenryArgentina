@@ -69,21 +69,22 @@ export default function Hogaza() {
               casa el auténtico pan de panadería. Su tapa abovedada reproduce el
               efecto de un horno de pan tradicional, creando el nivel justo de
               humedad para lograr una corteza gruesa y crocante, con un interior
-              liviano y aireado. Fabricado en cerámica refractaria, asegura una
-              cocción pareja y profesional. Además, su tapa puede usarse como
-              bowl para preparar y fermentar la masa, convirtiéndolo en un
-              todo-en-uno para panaderos caseros. Doble funcionalidad: Bowl y
-              horno en un solo producto. Cerámica refractaria: Resultados
-              artesanales y uniformes. Mantiene el nivel de humedad ideal para
-              una cocción perfecta. Incluye recetario original en francés e
-              inglés. Apto para horno, freezer y lavavajillas. Garantía de 10
-              años. Hecho en Francia con el saber hacer y la excelencia de Emile
-              Henry.
+              liviano y aireado. <br />
+              Fabricado en cerámica refractaria, asegura una cocción pareja y
+              profesional. Además, su tapa puede usarse como bowl para preparar
+              y fermentar la masa, convirtiéndolo en un todo-en-uno para
+              panaderos caseros. <br />
+              Doble funcionalidad: Bowl y horno en un solo producto. <br />
+              Cerámica refractaria: Resultados artesanales y uniformes. Mantiene
+              el nivel de humedad ideal para una cocción perfecta. <br /> Apto
+              para horno, freezer y lavavajillas.
+              <br /> Hecho en Francia con el saber hacer y la excelencia de
+              Emile Henry.
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>
           </div>

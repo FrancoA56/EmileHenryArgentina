@@ -67,16 +67,15 @@ export default function OnduladoBajo() {
             <div className={styles.main_sub_text}>
               Con un diseño original y divertido, podés hornear deliciosas
               tartas dulces o saladas en este molde acanalado. Dejá que la masa
-              siga el borde ondulado para lograr un efecto sorprendente. La
-              cerámica HR (Alta Resistencia) permite que tu tarta se cocine de
-              manera uniforme, con una base perfectamente dorada y crujiente.
-              Todos los productos Emile Henry están fabricados en Francia y
-              cuentan con una garantía de 10 años.
+              siga el borde ondulado para lograr un efecto sorprendente.
+              <br /> La cerámica HR (Alta Resistencia) permite que tu tarta se
+              cocine de manera uniforme, con una base perfectamente dorada y
+              crujiente.
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>
           </div>

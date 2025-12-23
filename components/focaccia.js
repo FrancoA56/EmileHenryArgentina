@@ -66,16 +66,19 @@ export default function Focaccia() {
               El Molde Focaccia de Emile Henry reinventa el arte de la cocina
               italiana con su formato XL y diseño en cerámica. Ideal para lograr
               una corteza dorada y una masa esponjosa, gracias a su distribución
-              uniforme del calor. Cerámica de alta resistencia para cocción
-              perfecta Bordes altos para masas gruesas Asas prácticas para
-              manejo seguro Calor uniforme para cocción controlada Resultado
-              profesional: corteza crujiente y centro esponjoso Garantía de 10
-              años Fabricado artesanalmente en Francia
+              uniforme del calor. <br />
+              Cerámica de alta resistencia para cocción perfecta.
+              <br /> Bordes altos para masas gruesas.
+              <br />
+              Asas prácticas para manejo seguro.
+              <br /> Calor uniforme para cocción controlada.
+              <br /> Resultado profesional: corteza crujiente y centro
+              esponjoso.
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>
           </div>

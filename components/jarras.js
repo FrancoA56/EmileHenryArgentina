@@ -66,17 +66,16 @@ export default function Jarra() {
             <div className={styles.main_sub_title}>Descripción</div>
             <div className={styles.main_sub_text}>
               La forma elegante y el mango amplio hacen de esta jarra Emile
-              Henry la protagonista de la mesa. Su capacidad de 0,90 L es ideal
-              y permite guardarla fácilmente en un estante del refrigerador.
-              Cuando hace calor, la cerámica tiene la ventaja de mantener el
-              contenido fresco incluso después de sacarla de la heladera. Todos
-              los productos Emile Henry están fabricados en Francia y cuentan
-              con una garantía de 10 años.
+              Henry la protagonista de la mesa. <br />
+              Su capacidad de 0,90 L es ideal y permite guardarla fácilmente en
+              un estante del refrigerador. Cuando hace calor, la cerámica tiene
+              la ventaja de mantener el contenido fresco incluso después de
+              sacarla de la heladera.
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>{" "}
           </div>

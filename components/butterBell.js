@@ -69,27 +69,29 @@ export default function ButterBell() {
               origen francés. Gracias a su sistema de sellado al vacío con agua,
               disfrutarás de manteca blanda y lista para untar en panes,
               tostadas o baguettes en cualquier momento, sin perder su frescura
-              ni absorber olores. Tecnología hermética: El sistema de agua crea
-              un sello natural que protege la manteca de oxidación y olores
-              externos hasta 30 días sin refrigeración. Material premium:
-              Fabricado en cerámica esmaltada de alta calidad, libre de plomo,
-              cadmio y níquel. Diseño funcional: Base ergonómica y tapa ajustada
-              para un manejo fácil y seguro. Fácil de usar: Solo coloca la
-              manteca en la tapa, añade agua fría en la base y listo.
-              Mantenimiento simple: Lavable a mano o en lavavajillas,
-              conservando su brillo y higiene. Versatilidad: Ideal para manteca
-              tradicional, salada o infusionada con hierbas. Garantía de 10
-              años: Respaldado por la calidad y durabilidad de Emile Henry.
-              Capacidad: Para 1 barra de manteca estándar (aprox. 125g).
+              ni absorber olores. <br /> Tecnología hermética: El sistema de
+              agua crea un sello natural que protege la manteca de oxidación y
+              olores externos hasta 30 días sin refrigeración. <br />
+              Material premium: Fabricado en cerámica esmaltada de alta calidad,
+              libre de plomo, cadmio y níquel. <br />
+              Diseño funcional: Base ergonómica y tapa ajustada para un manejo
+              fácil y seguro. <br />
+              Fácil de usar: Solo coloca la manteca en la tapa, añade agua fría
+              en la base y listo.
+              <br /> Mantenimiento simple: Lavable a mano o en lavavajillas,
+              conservando su brillo y higiene. <br />
+              Versatilidad: Ideal para manteca tradicional, salada o infusionada
+              con hierbas. <br />
+              Capacidad: Para 1 barra de manteca estándar (aprox. 125g). <br />
               Fabricado en Francia, el Butter Bell es un clásico moderno que une
               funcionalidad y elegancia. ¡Descubrí el placer de la manteca
               fresca y untable en cada comida, como en una auténtica boulangerie
-              parisina! 🥖🧈
+              parisina!
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>
           </div>

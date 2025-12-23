@@ -69,21 +69,24 @@ export default function Clafoutis() {
               de Emile Henry, diseñado especialmente para una cocción lenta y
               pareja. Su forma con bordes altos ligeramente inclinados permite
               que tus recetas se cocinen de manera homogénea, sin desbordes y
-              conservando toda su textura y sabor. Perfecto para clafoutis,
-              puddings, gratinados o tartas profundas, este molde no solo cumple
-              con la funcionalidad, sino que también es ideal para servir
-              directamente a la mesa con elegancia y sin necesidad de desmoldar.
-              Cerámica HR®: Excelente difusora del calor para una cocción
-              uniforme. Apto para horno, microondas, lavavajillas y freezer.
-              Superficie esmaltada resistente a rayones y manchas.
-              Garantía de 10 años. Capacidad: Ideal para 6 porciones.
+              conservando toda su textura y sabor.
+              <br /> Perfecto para clafoutis, puddings, gratinados o tartas
+              profundas, este molde no solo cumple con la funcionalidad, sino
+              que también es ideal para servir directamente a la mesa con
+              elegancia y sin necesidad de desmoldar.
+              <br /> Cerámica HR®: Excelente difusora del calor para una cocción
+              uniforme. <br />
+              Apto para horno, microondas, lavavajillas y freezer.
+              <br /> Superficie esmaltada resistente a rayones y manchas.
+              <br /> Capacidad: Ideal para 6 porciones.
+              <br />
               Hecho a mano en Francia, con la calidad y el diseño que distinguen
               a Emile Henry.
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>
           </div>

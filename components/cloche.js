@@ -63,24 +63,20 @@ export default function Cloche() {
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Descripción</div>
             <div className={styles.main_sub_text}>
-              El Molde Mini Baguette de Emile Henry te permite hornear cinco
-              mini baguettes con corteza crujiente y miga aireada, directamente
-              en tu cocina. Su diseño en cerámica HR® asegura una cocción
-              uniforme y resultados dignos de una panadería artesanal. Cerámica
-              HR® de alta resistencia: Soporta temperaturas extremas y cambios
-              térmicos sin agrietarse. Diseño funcional: Cinco cavidades para
-              mini baguettes de 7 (17,8 cm) cada una. Tapa con orificios:
-              Permite la liberación de dióxido de carbono, creando una corteza
-              fina y crujiente. Versatilidad: Apto para horno (hasta 270°C),
-              microondas, freezer y lavavajillas. Fácil mantenimiento:
-              Superficie antiadherente que facilita la limpieza. Garantía de 10
-              años: Respaldo de calidad y durabilidad. Fabricado artesanalmente
-              en Francia.
+              El Molde de Pan Cloche de Emile Henry recrea las condiciones de un
+              horno de panadero en tu cocina. Su diseño icónico con tapa en
+              forma de campana genera el microclima perfecto para panes
+              artesanales: vapor natural, cocción pareja y una corteza dorada y
+              crujiente que enamora desde el primer bocado. <br />
+              Es la herramienta definitiva para los amantes del pan de masa
+              madre, panes integrales o recetas rústicas. Con solo harina, agua,
+              levadura y este molde, obtenés resultados profesionales desde tu
+              horno convencional.
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>
           </div>

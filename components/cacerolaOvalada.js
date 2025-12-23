@@ -68,20 +68,23 @@ export default function CacerolaOvalada() {
               exclusiva garantiza una distribución uniforme del calor,
               resaltando los sabores naturales de tus ingredientes mientras
               conserva todos sus aromas y nutrientes. Perfecta para guisos,
-              estofados y preparaciones para toda la familia. Cerámica Flame:
-              Tecnología exclusiva que asegura una cocción lenta y uniforme,
-              realzando los sabores de tus preparaciones. Tapa con sistema de
-              goteo: Puntos en la parte inferior de la tapa redistribuyen los
-              jugos y vapores sobre los alimentos, manteniéndolos jugosos y
-              llenos de sabor. Material seguro y saludable: Libre de plomo,
-              cadmio y níquel, garantizando una cocina 100% libre de tóxicos.
+              estofados y preparaciones para toda la familia. <br />
+              Cerámica Flame: Tecnología exclusiva que asegura una cocción lenta
+              y uniforme, realzando los sabores de tus preparaciones. <br />
+              Tapa con sistema de goteo: Puntos en la parte inferior de la tapa
+              redistribuyen los jugos y vapores sobre los alimentos,
+              manteniéndolos jugosos y llenos de sabor. <br />
+              Material seguro y saludable: Libre de plomo, cadmio y níquel,
+              garantizando una cocina 100% libre de tóxicos.
+              <br />
               Multiusos: Compatible con cocinas a gas y horno (hasta 250°C).
-              Fácil limpieza: Superficie esmaltada resistente a manchas y apta
-              para lavavajillas. Capacidad generosa: Ideal para 8 a 10
-              porciones, perfecta para comidas familiares o reuniones. Diseño
-              ergonómico: Asas integradas para un manejo seguro y cómodo.
-              Garantía de 10 años: Respaldada por la calidad y artesanía de
-              Emile Henry. Capacidad: 6 litros (aprox. 8-10 porciones).
+              <br /> Fácil limpieza: Superficie esmaltada resistente a manchas y
+              apta para lavavajillas. <br /> Capacidad generosa: Ideal para 8 a
+              10 porciones, perfecta para comidas familiares o reuniones. <br />
+              Diseño ergonómico: Asas integradas para un manejo seguro y cómodo.
+              <br />
+              Capacidad: 6 litros (aprox. 8-10 porciones).
+              <br />
               Fabricada en Francia, esta cacerola ovalada es la elección
               perfecta para quienes buscan resultados gourmet con la
               autenticidad de la cocción lenta. ¡Prepará platos llenos de sabor
@@ -90,7 +93,7 @@ export default function CacerolaOvalada() {
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>
           </div>

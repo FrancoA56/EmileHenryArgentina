@@ -67,20 +67,24 @@ export default function Salero() {
             <div className={styles.main_sub_text}>
               El aliado ideal para los que disfrutan de cocinar con estilo y
               practicidad. Su diseño abierto facilita el acceso a la sal
-              mientras cocinás, sin necesidad de tapas ni roscas. Fabricado en
-              cerámica esmaltada HR®, protege la sal de la humedad y mantiene su
-              textura intacta, incluso en cocinas exigentes. Apertura amplia
-              para un acceso cómodo y rápido Interior sin esmalte que absorbe la
-              humedad y mantiene la sal seca Cerámica HR® resistente a golpes y
-              rayaduras Apto para lavavajillas Diseño elegante, ideal para dejar
-              a la vista en tu cocina Garantía de 10 años Fabricado en Francia,
-              combina tradición, funcionalidad y elegancia. Perfecto para
-              cocineros exigentes que valoran cada detalle en la cocina.
+              mientras cocinás, sin necesidad de tapas ni roscas. <br />
+              Fabricado en cerámica esmaltada HR®, protege la sal de la humedad
+              y mantiene su textura intacta, incluso en cocinas exigentes.
+              Apertura amplia para un acceso cómodo y rápido Interior sin
+              esmalte que absorbe la humedad y mantiene la sal seca.
+              <br /> Cerámica HR® resistente a golpes y rayaduras.
+              <br /> Apto para lavavajillas Diseño elegante, ideal para dejar a
+              la vista en tu cocina.
+              <br />
+              Fabricado en Francia, combina tradición, funcionalidad y
+              elegancia. <br />
+              Perfecto para cocineros exigentes que valoran cada detalle en la
+              cocina.
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>{" "}
           </div>

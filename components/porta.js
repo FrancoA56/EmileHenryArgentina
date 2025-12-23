@@ -67,15 +67,13 @@ export default function Porta() {
               permite colocar los utensilios pequeños al frente y los más
               grandes detrás, para encontrar rápidamente el que necesitás.
               Fabricado con cerámica HR (Alta Resistencia), es pesado y estable,
-              incluso cuando está solo a la mitad de su capacidad. Disponible en
-              7 colores diferentes, aporta un toque elegante y moderno a tu
-              cocina. Como todos los productos Emile Henry, el porta utensilios
-              está hecho en Francia y cuenta con una garantía de 10 años.
+              incluso cuando está solo a la mitad de su capacidad. Aporta un
+              toque elegante y moderno a tu cocina.
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>{" "}
           </div>

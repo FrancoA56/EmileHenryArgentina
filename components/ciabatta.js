@@ -65,19 +65,20 @@ export default function Ciabatta() {
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Descripción</div>
             <div className={styles.main_sub_text}>
-              El Molde Focaccia de Emile Henry reinventa el arte de la cocina
-              italiana con su formato XL y diseño en cerámica. Ideal para lograr
-              una corteza dorada y una masa esponjosa, gracias a su distribución
-              uniforme del calor. Cerámica de alta resistencia para cocción
-              perfecta Bordes altos para masas gruesas Asas prácticas para
-              manejo seguro Calor uniforme para cocción controlada Resultado
-              profesional: corteza crujiente y centro esponjoso Garantía de 10
-              años Fabricado artesanalmente en Francia
+              El Molde de Pan Ciabatta Emile Henry combina la tradición panadera
+              italiana con la innovación cerámica francesa. Gracias a su diseño
+              con compartimentos individuales, podés preparar hasta 3 ciabattas
+              perfectas en casa, con la clásica forma irregular y una textura
+              que combina miga húmeda con una corteza crocante. <br /> La tapa
+              de cerámica abovedada crea el nivel justo de humedad para simular
+              un horno de piedra profesional, permitiendo que la masa crezca sin
+              secarse. Ideal para panes rústicos, sándwiches gourmet o
+              simplemente para disfrutar con aceite de oliva y sal marina.
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>
           </div>

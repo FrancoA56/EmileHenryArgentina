@@ -69,22 +69,25 @@ export default function CheeseBaker() {
               punto perfecto, el Cheese Baker combina funcionalidad y diseño en
               cerámica artesanal. Ideal tanto para fondues tradicionales como
               para modernos dips de queso, es el accesorio que transformará tus
-              reuniones en experiencias gourmet. Cerámica de alta resistencia:
-              Distribuye el calor uniformemente para una fusión perfecta Diseño
-              pensado para el queso: Forma óptima para mantener la temperatura
-              ideal Multiusos: Apto para horno convencional, microondas y
-              lavavajillas Material seguro: 100% libre de plomo, cadmio y
-              níquel. Estilo atemporal: Acabado esmaltado en variados colores
-              para combinar con tu vajilla Capacidad: 0.8 litros (ideal para 4-6
-              personas) Perfecto para: • Fondues de queso tradicionales • Dips
-              gourmet (queso azul, cheddar fundido, etc.) • Raclette estilo
-              francés • Creaciones con chocolate fundido Fabricado en Francia
-              con garantía de 10 años.
+              reuniones en experiencias gourmet. <br />
+              Cerámica de alta resistencia: Distribuye el calor uniformemente
+              para una fusión perfecta Diseño pensado para el queso, es la forma
+              óptima para mantener la temperatura ideal <br />
+              Multiusos: Apto para horno convencional, microondas y lavavajillas{" "}
+              <br />
+              Material seguro: 100% libre de plomo, cadmio y níquel. <br />
+              Estilo atemporal: Acabado esmaltado en variados colores para
+              combinar con tu vajilla <br />
+              Capacidad: 0.8 litros (ideal para 4-6 personas) <br />
+              Perfecto para: • Fondues de queso tradicionales • Dips gourmet
+              (queso azul, cheddar fundido, etc.) • Raclette estilo francés •
+              Creaciones con chocolate fundido Fabricado en Francia con garantía
+              de 10 años.
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>
           </div>

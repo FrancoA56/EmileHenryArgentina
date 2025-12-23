@@ -18,29 +18,23 @@
 }
 
 .hero_text {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 1.6;
-  font-weight: 500;
+  font-weight: 700;
   text-align: center;
   align-items: center;
-  margin-bottom: 7dvh;
 }
 
 .content_wrapper {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 60px 20px;
+  padding: 30px 20px;
 }
 
-.mission_section {
-  margin-bottom: 80px;
-}
 
 .section_card {
-  background-color: #f9f9f9;
-  padding: 50px 40px;
+  padding: 30px 20px;
   border-radius: 12px;
-  border-left: 5px solid #81171e;
 }
 
 .section_title {
@@ -51,9 +45,8 @@
 }
 
 .section_text {
-  font-size: 1.1rem;
-  color: #555;
-  line-height: 1.8;
+  font-size: 1.2rem;
+  line-height: 1.4;
 }
 
 .history_section {
@@ -64,8 +57,8 @@
   font-size: 2.2rem;
   color: #81171e;
   text-align: center;
-  margin-bottom: 50px;
-  font-weight: bold;
+  margin-bottom: 30px;
+  font-weight: 700;
 }
 
 .timeline {
@@ -94,6 +87,7 @@
 .timeline_marker {
   position: absolute;
   left: -50px;
+  top: -15px;
   width: 80px;
   height: 40px;
   background-color: #81171e;
@@ -131,7 +125,7 @@
 
 .values_section {
   max-width: 1300px;
-  margin: 0 auto 120px;
+  margin: 0 auto 30px;
   padding: 0 20px;
 }
 
@@ -208,7 +202,7 @@
 }
 
 .bold {
-  font-weight: 800;
+  font-weight: 700;
   display: inline;
   color: #81171e;
 }
@@ -216,6 +210,7 @@
 @media (max-width: 768px) {
   .hero_section {
     padding: 20px 20px;
+    min-height: 20vh;
   }
 
   .hero_title {
@@ -223,11 +218,11 @@
   }
 
   .hero_text {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
   .section_card {
-    padding: 35px 25px;
+    padding: 35px 20px;
   }
 
   .section_title {
@@ -235,7 +230,7 @@
   }
 
   .section_text {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .timeline {
@@ -271,6 +266,10 @@
     transform: translateY(0);
   }
 
+  .cta_section {
+    padding: 0px 20px 20px 20px;
+  }
+
   .cta_card {
     padding: 40px 25px;
   }
@@ -281,5 +280,9 @@
 
   .values_image {
     height: clamp(260px, 45vh, 420px);
+  }
+
+  .history_section {
+    margin-bottom: 20px;
   }
 }

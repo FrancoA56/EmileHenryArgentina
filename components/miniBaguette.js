@@ -64,25 +64,16 @@ export default function MiniBaguette() {
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Descripción</div>
             <div className={styles.main_sub_text}>
-              El Molde para Pan Baguette de Emile Henry está diseñado para
-              quienes buscan replicar en casa el sabor y la textura de una
-              auténtica baguette francesa. Su cerámica HR® distribuye el calor
-              de forma homogénea, garantizando una cocción precisa: corteza fina
-              y crocante, con interior aireado y suave. Gracias a su tapa
-              abovedada, se crea un ambiente húmedo ideal durante el horneado,
-              simulando un horno de panadero. La base cuenta con ranuras
-              individuales que moldean perfectamente hasta 3 baguettes. Cerámica
-              HR®: Cocción uniforme y sin esfuerzo Tapa domo: Genera vapor
-              natural para una corteza perfecta Hasta 3 baguettes: Ideal para
-              compartir o freezar Apto para horno, microondas, freezer y
-              lavavajillas Garantía de 10 años: Respaldo de calidad Emile Henry
-              Capacidad: Hasta 3 baguettes medianas. Fabricado artesanalmente en
-              Francia.
+              El Molde Mini Baguette de Emile Henry te permite hornear cinco
+              mini baguettes con corteza crujiente y miga aireada, directamente
+              en tu cocina.
+              <br /> Su diseño en cerámica HR® asegura una cocción uniforme y
+              resultados dignos de una panadería artesanal.
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>
           </div>

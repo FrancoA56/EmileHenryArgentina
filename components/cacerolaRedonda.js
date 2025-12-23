@@ -67,21 +67,22 @@ export default function CacerolaRedonda() {
               culinarias. Fabricada con la exclusiva cerámica Flame®, ofrece una
               cocción lenta y uniforme que realza los sabores naturales de tus
               ingredientes. Tecnología Flame Ceramic®: Distribución perfecta del
-              calor para intensificar los sabores Cocción saludable: Material
-              100% libre de plomo, cadmio y níquel Tapa inteligente: Sistema de
-              condensación que conserva jugos y aromas Multiversátil: Compatible
-              con todas las cocinas de gas y horno (250°C) Fácil cuidado: Apta
-              lavavajillas y resistente a manchas Garantía Emile Henry: 10 años
-              de respaldo oficial. Modelos disponibles: • 2.5L (ideal para 2-4
-              prociones) • 4L (ideal para 4-6 porciones) • 5.3L (ideal para 6-8
-              porciones) Fabricación francesa con tradición artesanal desde
-              1850. La elección profesional para quienes buscan excelencia en
-              cada preparación.
+              calor para intensificar los sabores.
+              <br /> Cocción saludable: Material 100% libre de plomo, cadmio y
+              níquel Tapa inteligente: Sistema de condensación que conserva
+              jugos y aromas. <br /> Multiversátil: Compatible con todas las
+              cocinas de gas y horno (250°C). <br /> Fácil cuidado: Apta
+              lavavajillas y resistente a manchas.
+              <br /> Modelos disponibles: • 2.5L (ideal para 2-4 prociones) • 4L
+              (ideal para 4-6 porciones) • 5.3L (ideal para 6-8 porciones)
+              <br /> Fabricación francesa con tradición artesanal desde 1850. La
+              elección profesional para quienes buscan excelencia en cada
+              preparación.
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>
           </div>

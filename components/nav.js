@@ -57,7 +57,6 @@ export default function Nav() {
                   </Link>
                 </div>
                 <div className={styles.nav_links}>
-                  {/* <Link href="/productos">PRODUCTOS</Link> */}
                   <Link href="#donde-comprar">DÓNDE COMPRAR</Link>
                   <Link href="/preguntasfrecuentes">PREGUNTAS FRECUENTES</Link>
                   <Link href="/acercade">SOBRE NOSOTROS</Link>

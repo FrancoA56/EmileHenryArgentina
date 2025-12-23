@@ -71,18 +71,20 @@ export default function Tajine() {
               de cada ingrediente. Su tapa cónica distintiva favorece la
               circulación del vapor, manteniendo la preparación tierna, jugosa y
               aromática, perfecta para carnes especiadas, vegetales y guisos.
-              Cerámica Flame® resistente al fuego directo y al horno Ideal para
-              cocciones lentas y saludables Distribuye el calor de forma pareja
-              y controlada Tapa cónica que concentra el vapor y potencia los
-              sabores Apto para hornallas a gas y horno Hecho a mano en Francia
-              con garantía de 10 años Fácil de limpiar y resistente al desgaste
-              Rinde de 4 a 6 porciones Una pieza única que lleva tus platos
-              caseros a otro nivel.
+              <br /> Cerámica Flame® resistente al fuego directo y al horno
+              Ideal para cocciones lentas y saludables.
+              <br /> Distribuye el calor de forma pareja y controlada. <br />{" "}
+              Tapa cónica que concentra el vapor y potencia los sabores. <br />{" "}
+              Apto para hornallas a gas y horno Hecho a mano en Francia. <br />{" "}
+              Fácil de limpiar y resistente al desgaste. <br /> Rinde de 4 a 6
+              <br />
+              porciones Una pieza única que lleva tus platos caseros a otro
+              nivel.
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Tradicional</span>
               <span className={styles.boldi}>Delight</span>
             </div>

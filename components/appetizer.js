@@ -64,24 +64,15 @@ export default function Appetizer() {
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Descripción</div>
             <div className={styles.main_sub_text}>
-              Eficiente desde la cocción hasta la presentación, nuestro nuevo
-              Molde para Tarta distribuye el calor de manera uniforme y suave,
-              lo que evita que la masa se seque. Con solo untar ligeramente
-              manteca en el molde antes de colocar la masa, se garantiza que la
-              tarta se desmolde fácilmente. Además, espolvorear un poco de
-              azúcar sobre la manteca da como resultado una costra ligeramente
-              caramelizada. ¿Necesitás recalentar una porción de quiche al día
-              siguiente? Nuestro nuevo Molde para Tarta es apto para microondas.
-              Su esmalte muy resistente, liso y brillante está preparado para el
-              uso diario: se puede cortar directamente en el molde, lavar
-              repetidamente en el lavavajillas e incluso limpiar con una esponja
-              abrasiva. Aun así, cada tarta o quiche servida en este molde hará
-              una entrada espectacular en la mesa, gracias a su diseño y colores
-              elegantes.
+              El Appetizer de Emile Henry es la solución ideal para quienes
+              disfrutan recibir en casa y servir con estilo. <br />
+              Estas tablas de cerámica permiten cocinar directamente sobre ellas
+              (ideal para pizzetas, hojaldres o mariscos) y llevarlas directo a
+              la mesa conservando la temperatura.
             </div>
           </div>
           <div className={styles.main_block}>
-            <div className={styles.main_sub_title_linea }>Línea</div>
+            <div className={styles.main_sub_title_linea}>Línea</div>
             <div className={styles.main_sub_text}>
               <span className={styles.boldi}>Tradicional</span>
             </div>{" "}
@@ -99,7 +90,7 @@ export default function Appetizer() {
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Tamaños</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Medium</span>
               <span className={styles.boldi}>Large</span>
             </div>

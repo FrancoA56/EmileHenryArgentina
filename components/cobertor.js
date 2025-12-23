@@ -62,24 +62,29 @@ export default function Cobertor() {
             <div className={styles.main_sub_title}>Descripción</div>
             <div className={styles.main_sub_text}>
               El Charlotte Cobertor de Emile Henry es la solución perfecta para
-              proteger tus platos mientras cuidás el medio ambiente. Fabricado
-              en algodón 100% orgánico, este cobertor reutilizable reemplaza el
-              film plástico y el papel aluminio, ofreciendo una opción elegante
-              y responsable con el planeta. Material 100% orgánico: Algodón
-              natural libre de químicos y sostenible Versátil: Ajusta
-              perfectamente a moldes redondos y rectangulares Fácil cuidado:
-              Lavable a máquina o a mano, manteniendo su forma y calidad
-              Económico y ecológico: Reduce el uso de descartables en tu cocina
+              proteger tus platos mientras cuidás el medio ambiente. Este
+              cobertor reutilizable reemplaza el film plástico y el papel
+              aluminio, ofreciendo una opción elegante y responsable con el
+              planeta. <br />
+              Material 100% orgánico: Algodón natural libre de químicos y
+              sostenible <br />
+              Versátil: Ajusta perfectamente a moldes redondos y rectangulares{" "}
+              <br />
+              Fácil cuidado: Lavable a máquina o a mano, manteniendo su forma y
+              calidad <br />
+              Económico y ecológico: Reduce el uso de descartables en tu cocina{" "}
+              <br />
               Diseño transpirable: Permite que los alimentos respiren mientras
-              los protege • Small (22cm) • Medium (24cm) • Large (26cm) Hecho
-              con ética en Francia, este cobertor combina tradición culinaria
-              con conciencia ambiental. Una inversión inteligente para tu cocina
-              sustentable.
+              los protege
+              <br />
+              Hecho con ética en Francia, este cobertor combina tradición
+              culinaria con conciencia ambiental. Una inversión inteligente para
+              tu cocina sustentable.
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>{" "}
           </div>

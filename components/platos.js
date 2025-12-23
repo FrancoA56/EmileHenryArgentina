@@ -66,17 +66,19 @@ export default function Platos() {
             <div className={styles.main_sub_title}>Descripción</div>
             <div className={styles.main_sub_text}>
               Fabricado con cerámica HR®, destaca por su robustez, su capacidad
-              para conservar temperaturas y su estética sofisticada. Superficie
-              amplia para servir porciones generosas Cerámica HR®: distribución
-              térmica uniforme Apto para horno, microondas, freezer y
-              lavavajillas No se raya ni se desgasta con el uso diario Garantía
-              de 10 años Para quienes valoran tanto el sabor como la
-              presentación.
+              para conservar temperaturas y su estética sofisticada.
+              <br /> Superficie amplia para servir porciones generosas.
+              <br /> Cerámica HR®: distribución térmica uniforme.
+              <br />
+              Apto para horno, microondas, freezer y lavavajillas No se raya ni
+              se desgasta con el uso diario.
+              <br />
+              Para quienes valoran tanto el sabor como la presentación.
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>{" "}
           </div>
@@ -91,7 +93,7 @@ export default function Platos() {
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Tamaños</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Principal</span>
               <span className={styles.boldi}>Hondo</span>
               <span className={styles.boldi}>Postre</span>

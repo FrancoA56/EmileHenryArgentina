@@ -71,18 +71,19 @@ export default function Baguette() {
               y crocante, con interior aireado y suave. Gracias a su tapa
               abovedada, se crea un ambiente húmedo ideal durante el horneado,
               simulando un horno de panadero. La base cuenta con ranuras
-              individuales que moldean perfectamente hasta 3 baguettes. Cerámica
-              HR®: Cocción uniforme y sin esfuerzo Tapa domo: Genera vapor
-              natural para una corteza perfecta Hasta 3 baguettes: Ideal para
-              compartir o freezar Apto para horno, microondas, freezer y
-              lavavajillas Garantía de 10 años: Respaldo de calidad Emile Henry
-              Capacidad: Hasta 3 baguettes medianas. Fabricado artesanalmente en
-              Francia.
+              individuales que moldean perfectamente hasta 3 baguettes. <br />
+              Cerámica HR®: Cocción uniforme y sin esfuerzo. <br />
+              Tapa domo: Genera vapor natural para una corteza perfecta. <br />
+              Hasta 3 baguettes: Ideal para compartir o freezar.
+              <br /> Apto para horno, microondas, freezer y lavavajillas.
+              <br />
+              Capacidad: Hasta 3 baguettes medianas. <br />
+              Fabricado artesanalmente en Francia.
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>
           </div>

@@ -66,22 +66,25 @@ export default function OnduladoAlto() {
               El Molde Ondulado Alto de Emile Henry combina tradición pastelera
               y funcionalidad moderna. Su profundidad extra permite preparar
               quiches, tartas y flanes con más relleno y una cocción impecable
-              de borde a centro. La cerámica HR® garantiza un dorado uniforme y
-              evita que la masa se humedezca. Su acabado esmaltado y su diseño
-              atemporal lo convierten en una pieza de presentación que va del
-              horno a la mesa con elegancia. Perfecto para quienes aman cocinar
-              con estilo y buscan resultados de calidad profesional en casa.
+              de borde a centro.
+              <br /> La cerámica HR® garantiza un dorado uniforme y evita que la
+              masa se humedezca. Su acabado esmaltado y su diseño atemporal lo
+              convierten en una pieza de presentación que va del horno a la mesa
+              con elegancia. Perfecto para quienes aman cocinar con estilo y
+              buscan resultados de calidad profesional en casa.
+              <br />
               Cerámica HR®: Retiene y distribuye el calor de manera uniforme.
+              <br />
               Apto para horno (hasta 220°C), microondas, freezer y lavavajillas.
-              Libre de metales pesados: sin plomo, cadmio ni níquel. Diseño
-              profundo: ideal para preparaciones generosas. Garantía oficial de
-              10 años. Capacidad: Para 6 a 8 porciones abundantes. Fabricado
-              artesanalmente en Francia.
+              Libre de metales pesados: sin plomo, cadmio ni níquel. <br />
+              Diseño profundo: ideal para preparaciones generosas. <br />
+              Capacidad: Para 6 a 8 porciones abundantes. <br />
+              Fabricado artesanalmente en Francia.
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>
           </div>

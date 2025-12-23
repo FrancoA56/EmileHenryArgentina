@@ -17,7 +17,6 @@ export default function AcercaDePage() {
       <Nav />
       <div className={styles.page_container}>
         <div className={styles.hero_section}>
-          <div className={styles.hero_overlay}></div>
         </div>
 
         <div className={styles.content_wrapper}>

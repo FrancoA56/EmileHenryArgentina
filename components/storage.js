@@ -72,19 +72,22 @@ export default function Storage() {
               justa de aire. Su tapa de corcho natural sirve como frutera, es
               antibacterial y ayuda a evitar la condensación y el deterioro de
               la fruta. Además, le da un toque cálido y sofisticado a tu cocina
-              o comedor. Base de cerámica esmaltada: no mancha ni absorbe olores
-              Tapa multifunción de corcho: frutera y cobertura a la vez
-              Ventilación natural: 3 orificios que previenen humedad
+              o comedor. <br />
+              Base de cerámica esmaltada: no mancha ni absorbe olores <br />
+              Tapa multifunción de corcho: frutera y cobertura a la vez <br />
+              Ventilación natural: 3 orificios que previenen humedad <br />
               Conservación inteligente: recrea las condiciones de una bodega
-              Ideal para cebollas, papas, remolachas y frutas Fácil de limpiar:
-              cerámica apta lavavajillas, tapa con paño húmedo Garantía de 10
-              años Capacidad total: 9,5 litros Diseñado y fabricado en Francia
-              para quienes eligen funcionalidad sin renunciar a la belleza.
+              Ideal para cebollas, papas, remolachas y frutas <br />
+              Fácil de limpiar: cerámica apta lavavajillas, tapa con paño húmedo{" "}
+              <br />
+              Capacidad total: 9,5 litros <br />
+              Diseñado y fabricado en Francia para quienes eligen funcionalidad
+              sin renunciar a la belleza.
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>{" "}
           </div>

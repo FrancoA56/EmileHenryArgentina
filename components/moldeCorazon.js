@@ -68,20 +68,23 @@ export default function Corazon() {
               gracias a este molde de cerámica HR® que combina precisión
               francesa con un diseño lleno de amor. Ideal para sorprender en
               ocasiones especiales o simplemente para añadir un toque único a
-              tus creaciones dulces. Tecnología HR®: Distribución térmica
-              uniforme para una cocción perfecta Antiaderente natural:
-              Desmolde fácil sin necesidad de engrasar. Diseño con detalles
-              precisos: Forma de corazón definida y elegante Versatilidad:
-              Perfecto para tartas, brownies, flanes y más Material seguro:
-              100% libre de tóxicos y metales pesados Fácil limpieza: Apto
-              lavavajillas Garantía: 10 años Capacidad: 6-8 porciones
-              generosas. Fabricado en Francia con la calidad y artesanía que
+              tus creaciones dulces.
+              <br /> Tecnología HR®: Distribución térmica uniforme para una
+              cocción perfecta Antiaderente natural: Desmolde fácil sin
+              necesidad de engrasar.
+              <br /> Diseño con detalles precisos: Forma de corazón definida y
+              elegante.
+              <br /> Versatilidad: Perfecto para tartas, brownies, flanes y más.
+              <br /> Material seguro: 100% libre de tóxicos y metales pesados.
+              <br /> Fácil limpieza: Apto lavavajillas.
+              <br /> Capacidad: 6-8 porciones generosas.
+              <br /> Fabricado en Francia con la calidad y artesanía que
               caracteriza a Emile Henry.
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>
           </div>

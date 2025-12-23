@@ -67,16 +67,14 @@ export default function Ensaladera() {
             <div className={styles.main_sub_text}>
               Nuestras ensaladeras se distinguen por sus formas generosas y
               redondeadas. Fabricadas con cerámica HR® (Alta Resistencia), son
-              resistentes a los golpes y a los cambios de temperatura. Pueden
-              usarse en el horno, microondas, freezer y lavavajillas, y
-              mantienen la temperatura durante toda la comida. Todos los
-              productos Emile Henry están hechos en Francia y cuentan con una
-              garantía de 10 años.
+              resistentes a los golpes y a los cambios de temperatura. <br />
+              Pueden usarse en el horno, microondas, freezer y lavavajillas, y
+              mantienen la temperatura durante toda la comida.
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>{" "}
           </div>
@@ -93,7 +91,7 @@ export default function Ensaladera() {
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Tamaños</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Medium</span>
               <span className={styles.boldi}>Large</span>
             </div>

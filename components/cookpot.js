@@ -65,17 +65,16 @@ export default function Cookpot() {
             <div className={styles.main_sub_text}>
               Tradicionalmente, la fondue de queso siempre se ha preparado en
               una olla de cerámica, previamente frotada con ajo. Prepará tu
-              fondue en la cocina y luego llevála a la mesa sobre su base. La
-              cerámica difunde el calor suavemente, manteniendo la fondue
-              caliente durante toda la comida. Nuestro set de fondue incluye la
-              olla, el quemador, la base y 6 tenedores. Todos los productos
-              Emile Henry están fabricados en Francia y cuentan con una garantía
-              de 10 años.
+              fondue en la cocina y luego llevála a la mesa sobre su base.{" "}
+              <br /> La cerámica difunde el calor suavemente, manteniendo la
+              fondue caliente durante toda la comida. <br />
+              Nuestro set de fondue incluye la olla, el quemador, la base y 6
+              tenedores.
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Delight</span>
               <span className={styles.boldi}>Tradicional</span>
             </div>

@@ -65,24 +65,25 @@ export default function Corona() {
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Descripción</div>
             <div className={styles.main_sub_text}>
-              El Molde Mini Baguette de Emile Henry te permite hornear cinco
-              mini baguettes con corteza crujiente y miga aireada, directamente
-              en tu cocina. Su diseño en cerámica HR® asegura una cocción
-              uniforme y resultados dignos de una panadería artesanal. Cerámica
-              HR® de alta resistencia: Soporta temperaturas extremas y cambios
-              térmicos sin agrietarse. Diseño funcional: Cinco cavidades para
-              mini baguettes de 7 (17,8 cm) cada una. Tapa con orificios:
-              Permite la liberación de dióxido de carbono, creando una corteza
-              fina y crujiente. Versatilidad: Apto para horno (hasta 270°C),
-              microondas, freezer y lavavajillas. Fácil mantenimiento:
-              Superficie antiadherente que facilita la limpieza. Garantía de 10
-              años: Respaldo de calidad y durabilidad. Fabricado artesanalmente
-              en Francia.
+              El Molde Corona para Pan Emile Henry es ideal para preparar un aro
+              de pequeños panes frescos, suaves y esponjosos en casa. Gracias a
+              su diseño circular, las porciones de masa crecen y se hornean
+              juntas bajo la tapa, formando una corona perfecta con una textura
+              aireada y uniforme. <br />
+              La tapa crea el nivel justo de humedad durante la cocción,
+              favoreciendo un levado óptimo y un horneado parejo, mientras que
+              la base y la tapa encastran entre sí para un guardado práctico.
+              <br /> Con un elegante esmaltado negro, está fabricado en Francia
+              con cerámica libre de plomo, cadmio y níquel, y es apto para
+              horno, microondas, freezer y lavavajillas, soportando temperaturas
+              de -20 °C a 270 °C.
+              <br /> Ideal para compartir panes recién hechos en la mesa, con la
+              calidad y durabilidad que distinguen a Emile Henry.
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>
           </div>

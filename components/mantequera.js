@@ -68,16 +68,16 @@ export default function Mantequera() {
               La mantequera Emile Henry conserva tu manteca protegiéndola de la
               luz y el aire. Incluso fuera de la heladera, mantiene la manteca
               fresca por más tiempo gracias a la cerámica HR® (Alta
-              Resistencia), que permanece fría durante más tiempo. Al momento de
-              servirla en la mesa o usarla en una receta, la mantequera resulta
-              muy práctica: las ranuras en la base evitan que la manteca se
-              deslice al cortarla. Todos los productos Emile Henry están
-              fabricados en Francia y cuentan con una garantía de 10 años.
+              Resistencia), que permanece fría durante más tiempo.
+              <br />
+              Al momento de servirla en la mesa o usarla en una receta, la
+              mantequera resulta muy práctica ya que las ranuras en la base
+              evitan que la manteca se deslice al cortarla.
             </div>
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea }>
+            <div className={styles.main_sub_text_linea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>
           </div>
