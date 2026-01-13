@@ -71,7 +71,8 @@ export default function Cloche() {
               Es la herramienta definitiva para los amantes del pan de masa
               madre, panes integrales o recetas rústicas. Con solo harina, agua,
               levadura y este molde, obtenés resultados profesionales desde tu
-              horno convencional.
+              horno convencional.<br /> Fabricado en Francia con la calidad y artesanía que
+              caracteriza a Emile Henry.
             </div>
           </div>
           <div className={styles.main_block}>

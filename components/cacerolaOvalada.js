@@ -88,7 +88,7 @@ export default function CacerolaOvalada() {
               Fabricada en Francia, esta cacerola ovalada es la elección
               perfecta para quienes buscan resultados gourmet con la
               autenticidad de la cocción lenta. ¡Prepará platos llenos de sabor
-              y tradición! 🍲
+              y tradición! 
             </div>
           </div>
           <div className={styles.main_block}>

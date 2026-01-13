@@ -1,4 +1,3 @@
-"use client";
 import Footer from "@/components/footerProductos";
 import Nav from "@/components/navProductos";
 import Platos from "@/components/platos";
@@ -12,6 +11,15 @@ import ButterBell from "@/components/butterBell";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./vajilla.module.css";
+
+export const metadata = {
+  title: "Vajilla",
+  description:
+    "Conocé los productos de la categoria vajilla de la marca Emile Henry en Argentina.",
+  alternates: {
+    canonical: "https://www.emilehenry.com.ar/vajilla",
+  },
+};
 
 export default function Vajilla() {
   const plato = "/img/vajilla/plato.png";

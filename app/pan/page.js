@@ -1,4 +1,3 @@
-"use client";
 import Footer from "@/components/footerProductos";
 import Nav from "@/components/navProductos";
 import Baguette from "@/components/baguette";
@@ -12,14 +11,23 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./pan.module.css";
 
+export const metadata = {
+  title: "Moldes de Pan",
+  description:
+    "Conocé los productos de la categoria moldes de pan de la marca Emile Henry en Argentina.",
+  alternates: {
+    canonical: "https://www.emilehenry.com.ar/pan",
+  },
+};
+
 export default function Pan() {
   const productos = [
-     {
+    {
       imagen: "/img/pan/ciabatta.png",
       titulo: "Molde Ciabatta",
       link: "/pan/#ciabatta",
     },
-     {
+    {
       imagen: "/img/pan/hogaza.png",
       titulo: "Molde Hogaza",
       link: "/pan/#hogaza",
@@ -49,8 +57,6 @@ export default function Pan() {
       titulo: "Molde Mini Baguette",
       link: "/pan/#miniBaguette",
     },
-   
-   
   ];
 
   // separar los productos

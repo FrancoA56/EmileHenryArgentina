@@ -71,7 +71,8 @@ export default function Aceitera() {
               Podés verter con precisión la cantidad de aceite que desees, y su
               pico antigoteo se mantiene siempre limpio. <br />
               La aceitera conserva todo el sabor de los mejores aceites de oliva
-              al protegerlos de la luz.
+              al protegerlos de la luz.<br /> Fabricado en Francia con la calidad y artesanía que
+              caracteriza a Emile Henry.
               <br />
             </div>
           </div>

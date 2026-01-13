@@ -73,7 +73,7 @@ export default function Corona() {
               La tapa crea el nivel justo de humedad durante la cocción,
               favoreciendo un levado óptimo y un horneado parejo, mientras que
               la base y la tapa encastran entre sí para un guardado práctico.
-              <br /> Con un elegante esmaltado negro, está fabricado en Francia
+              <br /> Está fabricado en Francia
               con cerámica libre de plomo, cadmio y níquel, y es apto para
               horno, microondas, freezer y lavavajillas, soportando temperaturas
               de -20 °C a 270 °C.

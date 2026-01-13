@@ -119,6 +119,7 @@ export default function Nav() {
           <Link href="/#donde-comprar" onClick={() => setMenuOpen(false)}>
             DÓNDE COMPRAR
           </Link>
+          
           <Link href="/preguntasfrecuentes" onClick={() => setMenuOpen(false)}>
             PREGUNTAS FRECUENTES
           </Link>

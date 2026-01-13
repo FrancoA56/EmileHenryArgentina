@@ -75,11 +75,10 @@ export default function Tajine() {
               Ideal para cocciones lentas y saludables.
               <br /> Distribuye el calor de forma pareja y controlada. <br />{" "}
               Tapa cónica que concentra el vapor y potencia los sabores. <br />{" "}
-              Apto para hornallas a gas y horno Hecho a mano en Francia. <br />{" "}
-              Fácil de limpiar y resistente al desgaste. <br /> Rinde de 4 a 6
-              <br />
-              porciones Una pieza única que lleva tus platos caseros a otro
-              nivel.
+              Apto para hornallas a gas y horno.
+              <br /> Fácil de limpiar y resistente al desgaste. <br /> Rinde de
+              4 a 6 porciones. <br /> Hecho a mano en Francia. <br /> Una pieza
+              única que lleva tus platos caseros a otro nivel.
             </div>
           </div>
           <div className={styles.main_block}>

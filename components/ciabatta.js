@@ -73,7 +73,8 @@ export default function Ciabatta() {
               de cerámica abovedada crea el nivel justo de humedad para simular
               un horno de piedra profesional, permitiendo que la masa crezca sin
               secarse. Ideal para panes rústicos, sándwiches gourmet o
-              simplemente para disfrutar con aceite de oliva y sal marina.
+              simplemente para disfrutar con aceite de oliva y sal marina.<br /> Fabricado en Francia con la calidad y artesanía que
+              caracteriza a Emile Henry.
             </div>
           </div>
           <div className={styles.main_block}>

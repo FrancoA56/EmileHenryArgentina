@@ -65,7 +65,7 @@ export default function MoldeRectangular() {
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Descripción</div>
             <div className={styles.main_sub_text}>
-              El Molde Rectangular Estrecho para Tartas de Emile Henry le da una
+              El Molde Rectangular Tart de Emile Henry le da una
               nueva dimensión a tus recetas de tartas. Gracias a sus bordes
               altos, podés preparar no solo tartas largas y delgadas, sino
               también quiches y clafoutis deliciosos. <br />

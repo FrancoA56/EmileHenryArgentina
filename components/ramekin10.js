@@ -69,12 +69,13 @@ export default function Ramekin10() {
               como cremas, dips o flanes. Su cerámica HR® garantiza una cocción
               pareja y una presentación impecable directamente del horno a la
               mesa. <br />
-              Ideal para flanes, salsas y degustaciones Apto para horno,
+              Ideal para flanes, salsas y degustaciones. <br /> Apto para horno,
               microondas, lavavajillas y freezer.
               <br />
               Conserva temperatura y realza sabores.
               <br />
-              Cerámica esmaltada sin metales pesados.
+              Cerámica esmaltada sin metales pesados.<br /> Fabricado en Francia con la calidad y artesanía que
+              caracteriza a Emile Henry.
             </div>
           </div>
           <div className={styles.main_block}>

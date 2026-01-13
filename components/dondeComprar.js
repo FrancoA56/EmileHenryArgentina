@@ -1,39 +1,36 @@
 "use client";
 import Image from "next/image";
 import sprinklesMore from "../public/img/sprinkles-more.jpg";
-import denisRos from "../public/img/denis-ros-banner.png";
+import denisRos from "../public/img/Denis.png";
 import styles from "./dondeComprar.module.css";
 
 const images = [
-  { src: sprinklesMore, alt: "Sprinkles More" },
-  { src: denisRos, alt: "Denis Ros" },
+  { src: denisRos, alt: "Denis Ros", link: "https://www.denis-ros.com" },
+  { src: sprinklesMore, alt: "Sprinkles More", link: "https://www.instagram.com/sprinklesmore/?hl=es" },
 ];
 
 export default function DondeComprar() {
   return (
     <section className={styles.donde_comprar_main} id="donde-comprar">
-      <h2 className={styles.donde_comprar_title}>
-        DONDE COMPRAR MINORISTA
-      </h2>
+      <h2 className={styles.donde_comprar_title}>DONDE COMPRAR MINORISTA</h2>
 
       <div className={styles.grid}>
         {images.map((img, index) => (
           <div key={index} className={styles.card}>
-            <Image
-              src={img.src}
-              alt={img.alt}
-              className={styles.image}
-              priority
-            />
+            <a href={img.link}>
+              <Image
+                src={img.src}
+                alt={img.alt}
+                className={styles.image}
+                priority
+              />
+            </a>
           </div>
         ))}
       </div>
     </section>
   );
 }
-
-
-
 
 // "use client";
 // import { useEffect, useState } from "react";

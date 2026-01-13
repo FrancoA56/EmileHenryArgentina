@@ -70,8 +70,9 @@ export default function Corazon() {
               ocasiones especiales o simplemente para añadir un toque único a
               tus creaciones dulces.
               <br /> Tecnología HR®: Distribución térmica uniforme para una
-              cocción perfecta Antiaderente natural: Desmolde fácil sin
-              necesidad de engrasar.
+              cocción perfecta.
+              <br /> Antiaderente natural: Desmolde fácil sin necesidad de
+              engrasar.
               <br /> Diseño con detalles precisos: Forma de corazón definida y
               elegante.
               <br /> Versatilidad: Perfecto para tartas, brownies, flanes y más.

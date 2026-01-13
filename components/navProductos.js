@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import logoEmile from "../public/img/emilelogoblanco.png";
 import styles from "./navProductos.module.css";
 import { HiBars4 } from "react-icons/hi2";
@@ -9,6 +10,7 @@ import { RxCross2 } from "react-icons/rx";
 
 export default function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   return (
     <div className={styles.hero}>
@@ -25,8 +27,13 @@ export default function Nav() {
             {/* LINKS DESKTOP */}
             <div className={styles.nav_links}>
               <Link href="/#donde-comprar">DÓNDE COMPRAR</Link>
-              <Link href="/preguntasfrecuentes">PREGUNTAS FRECUENTES</Link>
-              <Link href="/acercade">SOBRE NOSOTROS</Link>
+              {pathname !== "/preguntasfrecuentes" && (
+                <Link href="/preguntasfrecuentes">PREGUNTAS FRECUENTES</Link>
+              )}
+              {pathname !== "/acercade" && (
+                <Link href="/acercade">SOBRE NOSOTROS</Link>
+              )}
+
               <Link href="/productos">PRODUCTOS</Link>
             </div>
 
@@ -39,7 +46,6 @@ export default function Nav() {
             </div>
           </div>
         </div>
-
       </div>
 
       {/* MENÚ DESLIZABLE MÓVIL */}
@@ -54,12 +60,17 @@ export default function Nav() {
         <Link href="/#donde-comprar" onClick={() => setMenuOpen(false)}>
           DÓNDE COMPRAR
         </Link>
-        <Link href="/preguntasfrecuentes" onClick={() => setMenuOpen(false)}>
-          PREGUNTAS FRECUENTES
-        </Link>
-        <Link href="/acercade" onClick={() => setMenuOpen(false)}>
-          ACERCA DE
-        </Link>
+        {pathname !== "/preguntasfrecuentes" && (
+          <Link href="/preguntasfrecuentes" onClick={() => setMenuOpen(false)}>
+            PREGUNTAS FRECUENTES
+          </Link>
+        )}
+        {pathname !== "/acercade" && (
+          <Link href="/acercade" onClick={() => setMenuOpen(false)}>
+            ACERCA DE
+          </Link>
+        )}
+
         <Link href="/productos" onClick={() => setMenuOpen(false)}>
           PRODUCTOS
         </Link>

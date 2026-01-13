@@ -1,4 +1,3 @@
-"use client";
 import Footer from "@/components/footerProductos";
 import Nav from "@/components/navProductos";
 import Ramekin8 from "@/components/ramekin8";
@@ -9,12 +8,20 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./ramekin.module.css";
 
+export const metadata = {
+  title: "Ramekin",
+  description:
+    "Conocé los productos de la categoria ramekin de la marca Emile Henry en Argentina.",
+  alternates: {
+    canonical: "https://www.emilehenry.com.ar/ramekin",
+  },
+};
+
 export default function Ramekin() {
   const ramekin8 = "/img/ramekin/ramekin8.png";
   const ramekin9 = "/img/ramekin/ramekin9.png";
   const ramekin10 = "/img/ramekin/ramekin10.png";
   const ramekinCreme = "/img/ramekin/creme.png";
-
 
   const productos = [
     {

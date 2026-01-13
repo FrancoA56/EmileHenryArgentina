@@ -75,8 +75,9 @@ export default function Vinagrera() {
               marinada o simplemente hacer una vinagreta. <br />
               Su forma redondeada hace que la Vinagrera sea fácil de manipular y
               combine perfectamente con la Aceitera, formando un dúo atractivo
-              sin riesgo de confundirlas. Gracias a su amplia gama de colores,
-              se adapta a cualquier estilo de decoración.
+              sin riesgo de confundirlas. <br />
+              Gracias a su amplia gama de colores, se adapta a cualquier estilo
+              de decoración.
             </div>
           </div>
           <div className={styles.main_block}>

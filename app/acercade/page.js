@@ -9,6 +9,9 @@ export const metadata = {
   title: "Acerca de Emile Henry | Historia y Tradición",
   description:
     "Conoce la historia de Emile Henry, más de 170 años de tradición cerámica francesa",
+  alternates: {
+    canonical: "https://www.emilehenry.com.ar/acercade",
+  },
 };
 
 export default function AcercaDePage() {
@@ -16,8 +19,7 @@ export default function AcercaDePage() {
     <>
       <Nav />
       <div className={styles.page_container}>
-        <div className={styles.hero_section}>
-        </div>
+        <div className={styles.hero_section}></div>
 
         <div className={styles.content_wrapper}>
           <div className={styles.hero_content}>

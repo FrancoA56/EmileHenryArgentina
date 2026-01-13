@@ -72,7 +72,8 @@ export default function Ramekin8() {
               Ideal para flanes, salsas y degustaciones.
               <br /> Apto para horno, microondas, lavavajillas y freezer. <br />
               Conserva temperatura y realza sabores. <br />
-              Cerámica esmaltada sin metales pesados.
+              Cerámica esmaltada sin metales pesados.<br /> Fabricado en Francia con la calidad y artesanía que
+              caracteriza a Emile Henry.
             </div>
           </div>
           <div className={styles.main_block}>

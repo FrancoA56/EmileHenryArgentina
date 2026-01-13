@@ -70,8 +70,8 @@ export default function Platos() {
               <br /> Superficie amplia para servir porciones generosas.
               <br /> Cerámica HR®: distribución térmica uniforme.
               <br />
-              Apto para horno, microondas, freezer y lavavajillas No se raya ni
-              se desgasta con el uso diario.
+              Apto para horno, microondas, freezer y lavavajillas. <br />
+              No se raya ni se desgasta con el uso diario.
               <br />
               Para quienes valoran tanto el sabor como la presentación.
             </div>

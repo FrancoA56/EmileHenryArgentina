@@ -65,18 +65,18 @@ export default function Tartera() {
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Descripción</div>
             <div className={styles.main_sub_text}>
-              Eficiente desde la cocción hasta la presentación, nuestro nuevo
-              Molde para Tarta distribuye el calor de manera uniforme y suave,
+              Eficiente desde la cocción hasta la presentación, nuestro
+              Molde Circular Tart distribuye el calor de manera uniforme y suave,
               lo que evita que la masa se seque. Con solo untar ligeramente
               manteca en el molde antes de colocar la masa, se garantiza que la
               tarta se desmolde fácilmente. Además, espolvorear un poco de
               azúcar sobre la manteca da como resultado una costra ligeramente
               caramelizada. <br />
               ¿Necesitás recalentar una porción de quiche al día siguiente?
-              Nuestro nuevo Molde para Tarta es apto para microondas. 
+              Nuestro Molde Circular Tart es apto para microondas. 
               <br />
               Su esmalte muy resistente, liso y brillante está preparado para el
-              uso diario: se puede cortar directamente en el molde, lavar
+              uso diario: se puede cortar directamente en el molde y lavar
               repetidamente en el lavavajillas.
               <br /> Aun así, cada tarta o quiche servida en este molde hará una
               entrada espectacular en la mesa, gracias a su diseño y colores

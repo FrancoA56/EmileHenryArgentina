@@ -75,9 +75,9 @@ export default function Hogaza() {
               y fermentar la masa, convirtiéndolo en un todo-en-uno para
               panaderos caseros. <br />
               Doble funcionalidad: Bowl y horno en un solo producto. <br />
-              Cerámica refractaria: Resultados artesanales y uniformes. Mantiene
-              el nivel de humedad ideal para una cocción perfecta. <br /> Apto
-              para horno, freezer y lavavajillas.
+              Cerámica refractaria: Resultados artesanales y uniformes. <br />
+              Mantiene el nivel de humedad ideal para una cocción perfecta.{" "}
+              <br /> Apto para horno, freezer y lavavajillas.
               <br /> Hecho en Francia con el saber hacer y la excelencia de
               Emile Henry.
             </div>

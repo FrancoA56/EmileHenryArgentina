@@ -66,9 +66,9 @@ export default function Porta() {
               Nuestro porta utensilios es práctico y elegante. Su base inclinada
               permite colocar los utensilios pequeños al frente y los más
               grandes detrás, para encontrar rápidamente el que necesitás.
-              Fabricado con cerámica HR (Alta Resistencia), es pesado y estable,
-              incluso cuando está solo a la mitad de su capacidad. Aporta un
-              toque elegante y moderno a tu cocina.
+              <br /> Fabricado con cerámica HR (Alta Resistencia), es pesado y
+              estable, incluso cuando está solo a la mitad de su capacidad.
+              Aporta un toque elegante y moderno a tu cocina.
             </div>
           </div>
           <div className={styles.main_block}>

@@ -1,11 +1,13 @@
 .donde_comprar_main {
-  padding: 4rem 1rem;
+  padding: 1rem 1rem 4rem 1rem;
+  text-align: center;
 }
 
 .donde_comprar_title {
-  text-align: center;
-  font-size: 2rem;
-  margin-bottom: 2.5rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 2rem;
 }
 
 /* GRID 2 COLUMNAS */
@@ -13,7 +15,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -26,7 +28,7 @@
 
 /* IMAGEN */
 .image {
-  width: 100%;
+  width: 70%;
   height: auto;
   border-radius: 14px;
   transition: transform 0.4s ease;
@@ -39,12 +41,14 @@
 
 /* MOBILE */
 @media (max-width: 768px) {
+  .donde_comprar_title {
+    font-size: 1.5rem;
+  }
   .grid {
     grid-template-columns: 1fr;
+    gap: 2rem;
   }
 }
-
-
 
 /* .donde_comprar_main {
   background-color: white;

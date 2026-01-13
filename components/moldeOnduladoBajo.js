@@ -70,7 +70,8 @@ export default function OnduladoBajo() {
               siga el borde ondulado para lograr un efecto sorprendente.
               <br /> La cerámica HR (Alta Resistencia) permite que tu tarta se
               cocine de manera uniforme, con una base perfectamente dorada y
-              crujiente.
+              crujiente.<br /> Fabricado en Francia con la calidad y artesanía que
+              caracteriza a Emile Henry.
             </div>
           </div>
           <div className={styles.main_block}>

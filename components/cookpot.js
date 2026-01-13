@@ -69,7 +69,8 @@ export default function Cookpot() {
               <br /> La cerámica difunde el calor suavemente, manteniendo la
               fondue caliente durante toda la comida. <br />
               Nuestro set de fondue incluye la olla, el quemador, la base y 6
-              tenedores.
+              tenedores.<br /> Fabricado en Francia con la calidad y artesanía que
+              caracteriza a Emile Henry.
             </div>
           </div>
           <div className={styles.main_block}>

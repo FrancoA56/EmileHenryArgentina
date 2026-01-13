@@ -1,4 +1,3 @@
-"use client";
 import Footer from "@/components/footerProductos";
 import Nav from "@/components/navProductos";
 import Tajines from "@/components/tajine";
@@ -10,6 +9,15 @@ import Cookpot from "@/components/cookpot";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./cacerolas.module.css";
+
+export const metadata = {
+  title: "Cacerolas",
+  description:
+    "Conocé los productos de la categoria cacerolas de la marca Emile Henry en Argentina.",
+  alternates: {
+    canonical: "https://www.emilehenry.com.ar/cacerolas",
+  },
+};
 
 export default function Cacerolas() {
   const tajine = "/img/cacerolas/tajine.png";
@@ -50,8 +58,7 @@ export default function Cacerolas() {
       imagen: cookpot,
       titulo: "Cookpot",
       link: "/cacerolas/#cookpot",
-    }
-
+    },
   ];
 
   return (

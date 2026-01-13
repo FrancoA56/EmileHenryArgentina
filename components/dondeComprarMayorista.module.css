@@ -1,6 +1,6 @@
 .donde_comprar_main {
   background-color: white;
-  padding: 20px 150px;
+  padding: 1rem 8rem 4rem 8rem;
   text-align: center;
 }
 
@@ -47,6 +47,14 @@
   width: 50%;
 }
 
+.desktop {
+  display: block;
+}
+
+.mobile {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .donde_comprar_main {
     padding: 10px 20px;
@@ -57,7 +65,19 @@
     margin-bottom: 1.5rem;
   }
 
+  .bannerBottom {
+    flex-direction: column;
+  }
+
   .bannerBottom a {
     width: 100%;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
   }
 }

@@ -22,9 +22,9 @@
   display: flex;
   color: #000000;
   flex-direction: row;
-  justify-content: end;
-  align-items: end;
-  text-align: end;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: flex-end;
   gap: 5px;
   text-decoration: none;
 }
@@ -357,9 +357,9 @@
 
 .lightbox_image_container {
   position: relative;
-  width: 80%;
-  height: 80%;
-  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+  max-width: 800px;
   max-height: 800px;
   cursor: default;
 }
@@ -382,10 +382,12 @@
 
 .lightbox_arrow_left {
   left: 40px;
+  color: #a41317;
 }
 
 .lightbox_arrow_right {
   right: 40px;
+  color: #a41317;
 }
 
 .fondo-rojo {

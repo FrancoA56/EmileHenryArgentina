@@ -73,7 +73,7 @@ export default function Cocotte() {
               perfecta. <br />
               Antiadherente natural: Desmolde fácil sin necesidad de engrasar.{" "}
               <br />
-              Diseño con detalles precisos: Forma de corazón definida y elegante{" "}
+              Diseño con detalles precisos: Forma de corazón definida y elegante.{" "}
               <br />
               Versatilidad: Perfecto para tartas, brownies, flanes y más.
               <br />

@@ -76,8 +76,9 @@ export default function MoldeSouffle() {
               exterior. <br />
               Además de ser práctico, es fácil de limpiar, ya sea a mano o en el
               lavavajillas. Dulce o salado, caliente o frío, animate a variar
-              las recetas y explorar el universo de los soufflés. Hecho en
-              Francia, este producto cuenta con una garantía de 10 años.
+              las recetas y explorar el universo de los soufflés.
+              <br /> Fabricado en Francia con la calidad y artesanía que
+              caracteriza a Emile Henry.
             </div>
           </div>
           <div className={styles.main_block}>

@@ -73,8 +73,8 @@ export default function Salt() {
               Cerámica HR® que regula la humedad interior.
               <br />
               Tapa de corcho con cierre preciso para mayor protección.
-              <br /> Libre de plomo, cadmio y níquel <br />
-              Apto para lavavajillas
+              <br /> Libre de plomo, cadmio y níquel. 
+              Apto para lavavajillas.
               <br /> Diseño minimalista y elegante, ideal para dejar a la vista,
               este pequeño contenedor es el toque final para una cocina
               organizada, funcional y sofisticada. <br />

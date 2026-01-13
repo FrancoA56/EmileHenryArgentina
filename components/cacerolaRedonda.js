@@ -66,17 +66,16 @@ export default function CacerolaRedonda() {
               disponible en tres tamaños para adaptarse a todas tus necesidades
               culinarias. Fabricada con la exclusiva cerámica Flame®, ofrece una
               cocción lenta y uniforme que realza los sabores naturales de tus
-              ingredientes. Tecnología Flame Ceramic®: Distribución perfecta del
+              ingredientes.  <br />Tecnología Flame Ceramic®: Distribución perfecta del
               calor para intensificar los sabores.
               <br /> Cocción saludable: Material 100% libre de plomo, cadmio y
-              níquel Tapa inteligente: Sistema de condensación que conserva
+              níquel.  <br /> Tapa inteligente: Sistema de condensación que conserva
               jugos y aromas. <br /> Multiversátil: Compatible con todas las
               cocinas de gas y horno (250°C). <br /> Fácil cuidado: Apta
               lavavajillas y resistente a manchas.
-              <br /> Modelos disponibles: • 2.5L (ideal para 2-4 prociones) • 4L
-              (ideal para 4-6 porciones) • 5.3L (ideal para 6-8 porciones)
-              <br /> Fabricación francesa con tradición artesanal desde 1850. La
-              elección profesional para quienes buscan excelencia en cada
+              <br /> Fabricación francesa con tradición artesanal desde 1850.{" "}
+              <br />
+              La elección profesional para quienes buscan excelencia en cada
               preparación.
             </div>
           </div>
@@ -91,6 +90,14 @@ export default function CacerolaRedonda() {
             <div className={styles.variaciones_color}>
               <div className={styles.colorado} title="Colorado"></div>
               <div className={styles.negro} title="Negro"></div>
+            </div>
+          </div>
+          <div className={styles.main_block}>
+            <div className={styles.main_sub_title}>Tamaños</div>
+            <div className={styles.main_sub_text_linea}>
+              <span className={styles.boldi}> 2.5L (2-4 porciones)</span>
+              <span className={styles.boldi}> 4L (4-6 porciones)</span>
+              <span className={styles.boldi}>5.3L (6-8 porciones)</span>
             </div>
           </div>
         </div>

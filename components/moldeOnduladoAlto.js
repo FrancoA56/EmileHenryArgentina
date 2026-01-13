@@ -76,10 +76,10 @@ export default function OnduladoAlto() {
               Cerámica HR®: Retiene y distribuye el calor de manera uniforme.
               <br />
               Apto para horno (hasta 220°C), microondas, freezer y lavavajillas.
-              Libre de metales pesados: sin plomo, cadmio ni níquel. <br />
+              <br />Libre de metales pesados: sin plomo, cadmio ni níquel. <br />
               Diseño profundo: ideal para preparaciones generosas. <br />
-              Capacidad: Para 6 a 8 porciones abundantes. <br />
-              Fabricado artesanalmente en Francia.
+              Capacidad: Para 6 a 8 porciones abundantes. <br /> Fabricado en Francia con la calidad y artesanía que
+              caracteriza a Emile Henry.
             </div>
           </div>
           <div className={styles.main_block}>

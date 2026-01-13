@@ -1,4 +1,3 @@
-"use client";
 import Footer from "@/components/footerProductos";
 import Nav from "@/components/navProductos";
 import Bowl from "@/components/bowl";
@@ -12,6 +11,15 @@ import Storage from "@/components/storage";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./complementos.module.css";
+
+export const metadata = {
+  title: "Complementos",
+  description:
+    "Conocé los productos de la categoria complementos de la marca Emile Henry en Argentina.",
+  alternates: {
+    canonical: "https://www.emilehenry.com.ar/complementos",
+  },
+};
 
 export default function Complementos() {
   const bowl = "/img/complementos/bowl.png";
@@ -29,7 +37,7 @@ export default function Complementos() {
       titulo: "Bowl Preparacion",
       link: "/complementos/#bowl",
     },
-        {
+    {
       imagen: cheeseBox,
       titulo: "Cheese Box",
       link: "/complementos/#cheeseBox",
@@ -63,7 +71,7 @@ export default function Complementos() {
       imagen: storage,
       titulo: "Storage",
       link: "/complementos/#storage",
-    }
+    },
   ];
 
   return (

@@ -8,6 +8,9 @@ export const metadata = {
   title: "Preguntas Frecuentes | Emile Henry Argentina",
   description:
     "Encuentra respuestas a las preguntas más comunes sobre nuestros productos",
+  alternates: {
+    canonical: "https://www.emilehenry.com.ar/preguntasfrecuentes",
+  },
 };
 
 export default function PreguntasFrecuentesPage() {

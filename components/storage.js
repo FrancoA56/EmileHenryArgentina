@@ -73,14 +73,14 @@ export default function Storage() {
               antibacterial y ayuda a evitar la condensación y el deterioro de
               la fruta. Además, le da un toque cálido y sofisticado a tu cocina
               o comedor. <br />
-              Base de cerámica esmaltada: no mancha ni absorbe olores <br />
-              Tapa multifunción de corcho: frutera y cobertura a la vez <br />
-              Ventilación natural: 3 orificios que previenen humedad <br />
+              Base de cerámica esmaltada: no mancha ni absorbe olores. <br />
+              Tapa multifunción de corcho: frutera y cobertura a la vez. <br />
+              Ventilación natural: 3 orificios que previenen humedad. <br />
               Conservación inteligente: recrea las condiciones de una bodega
-              Ideal para cebollas, papas, remolachas y frutas <br />
-              Fácil de limpiar: cerámica apta lavavajillas, tapa con paño húmedo{" "}
+              Ideal para cebollas, papas, remolachas y frutas. <br />
+              Fácil de limpiar: cerámica apta lavavajillas, tapa con paño húmedo.{" "}
               <br />
-              Capacidad total: 9,5 litros <br />
+              Capacidad total: 9,5 litros. <br />
               Diseñado y fabricado en Francia para quienes eligen funcionalidad
               sin renunciar a la belleza.
             </div>

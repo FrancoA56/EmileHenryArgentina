@@ -64,26 +64,25 @@ export default function CheeseBox() {
             <div className={styles.main_sub_title}>Descripción</div>
             <div className={styles.main_sub_text}>
               Ideal para conservar en ambientes frescos, la Cheese Box de
-              cerámica es práctica para guardar, proteger y servir todo tipo de
-              quesos. Mantiene el contenido protegido en la heladera o en una
-              cava, y su tapa se convierte en una elegante bandeja para servir
-              al darle la vuelta. <br />
-              Con una capacidad de 3,5 L, la Cheese Box puede contener hasta 10
-              piezas. Fue diseñada para un almacenamiento óptimo, tanto dentro
-              de la caja como en el refrigerador. Su forma angosta y profunda
-              ocupa poco espacio en los estantes, y su tapa plana permite
-              colocar otros recipientes encima. <br />
-              Las asas laterales facilitan el manejo tanto en la heladera como
-              en la mesa. Pensada para llevar el queso directamente de la
-              heladera a la mesa, solo hay que dar vuelta la tapa, acomodar los
-              quesos enteros o en rodajas y servir. <br />
-              También resulta muy práctica para comidas tipo buffet o picadas,
-              ya que su bandeja es elegante y de tamaño perfecto. Sus líneas
-              suaves y su esmaltado fino la convierten en una pieza atractiva de
-              vajilla. <br />
-              Una vez finalizado el uso, simplemente envolvé los restos de
-              queso, colocalos nuevamente en la caja, limpiá la tapa, cerrá y
-              guardá.
+              cerámica es una solución práctica y elegante para guardar,
+              proteger y servir todo tipo de quesos. Mantiene el contenido
+              resguardado en la heladera o en una cava, y su tapa reversible
+              funciona como una refinada bandeja de presentación. <br />
+              Con una capacidad de 3,5 litros, puede contener hasta 10 piezas
+              pequeñas. Fue diseñada para un almacenamiento eficiente tanto
+              dentro del refrigerador como en la propia caja: su formato angosto
+              y profundo optimiza el espacio en los estantes, mientras que la
+              tapa plana permite apilar otros recipientes encima. Las asas
+              laterales facilitan su manipulación, ya sea en la heladera o en la
+              mesa. Pensada para pasar directamente del frío a a la mesa, basta
+              con invertir la tapa, disponer los quesos enteros o en rodajas y
+              presentar. <br />
+              Resulta especialmente práctica para buffets y picadas, gracias a
+              una bandeja de tamaño ideal y una estética cuidada. Sus líneas
+              suaves y el esmaltado fino la convierten en una pieza atractiva de
+              vajilla. Al finalizar, solo es necesario envolver los restos de
+              queso, colocarlos nuevamente en la caja, limpiar la tapa, cerrar y
+              guardar.
             </div>
           </div>
           <div className={styles.main_block}>

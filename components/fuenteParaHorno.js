@@ -72,6 +72,8 @@ export default function Fuentes() {
               Distribución uniforme del calor: Para cocciones perfectas. <br />
               Fácil limpieza: Apta lavavajillas. <br />
               Material seguro: 100% libre de plomo, cadmio y níquel.
+              <br /> Fabricado en Francia con la calidad y artesanía que
+              caracteriza a Emile Henry.
             </div>
           </div>
           <div className={styles.main_block}>

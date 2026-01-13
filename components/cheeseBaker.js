@@ -72,16 +72,16 @@ export default function CheeseBaker() {
               reuniones en experiencias gourmet. <br />
               Cerámica de alta resistencia: Distribuye el calor uniformemente
               para una fusión perfecta Diseño pensado para el queso, es la forma
-              óptima para mantener la temperatura ideal <br />
-              Multiusos: Apto para horno convencional, microondas y lavavajillas{" "}
+              óptima para mantener la temperatura ideal. <br />
+              Multiusos: Apto para horno convencional, microondas y lavavajillas.{" "}
               <br />
               Material seguro: 100% libre de plomo, cadmio y níquel. <br />
               Estilo atemporal: Acabado esmaltado en variados colores para
-              combinar con tu vajilla <br />
-              Capacidad: 0.8 litros (ideal para 4-6 personas) <br />
-              Perfecto para: • Fondues de queso tradicionales • Dips gourmet
-              (queso azul, cheddar fundido, etc.) • Raclette estilo francés •
-              Creaciones con chocolate fundido Fabricado en Francia con garantía
+              combinar con tu vajilla. <br />
+              Capacidad: 0.8 litros. <br />
+              Perfecto para: <br />• Fondues de queso tradicionales <br />• Dips gourmet
+              (queso azul, cheddar fundido, etc.) <br />• Raclette estilo francés <br />•
+              Creaciones con chocolate fundido. <br /> Fabricado en Francia con garantía
               de 10 años.
             </div>
           </div>

@@ -68,7 +68,8 @@ export default function Appetizer() {
               disfrutan recibir en casa y servir con estilo. <br />
               Estas tablas de cerámica permiten cocinar directamente sobre ellas
               (ideal para pizzetas, hojaldres o mariscos) y llevarlas directo a
-              la mesa conservando la temperatura.
+              la mesa conservando la temperatura.<br /> Fabricado en Francia con la calidad y artesanía que
+              caracteriza a Emile Henry.
             </div>
           </div>
           <div className={styles.main_block}>

@@ -1,4 +1,3 @@
-"use client";
 import Footer from "@/components/footerProductos";
 import Nav from "@/components/navProductos";
 import FuenteHorno from "@/components/fuenteParaHorno";
@@ -12,6 +11,15 @@ import MoldeSouffle from "@/components/moldeSouffle";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./fuente.module.css";
+
+export const metadata = {
+  title: "Fuentes Para Horno",
+  description:
+    "Conocé los productos de la categoria fuentes para horno de la marca Emile Henry en Argentina.",
+  alternates: {
+    canonical: "https://www.emilehenry.com.ar/fuente",
+  },
+};
 
 export default function FuentesParaHorno() {
   const moldeCorazon = "/img/fuentes/moldeCorazonpng.png";
@@ -29,7 +37,7 @@ export default function FuentesParaHorno() {
       titulo: "Fuente para Horno",
       link: "/fuente/#fuenteHorno",
     },
-        {
+    {
       imagen: moldeClafoutis,
       titulo: "Molde Clafoutis",
       link: "/fuente/#moldeClafoutis",

@@ -6,10 +6,7 @@ import Link from "next/link";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 const imagenesFuentes = [
-  "/img/miniBaguette/1.jpg",
   "/img/miniBaguette/2.webp",
-  "/img/miniBaguette/3.jpg",
-  "/img/miniBaguette/4.jpg",
   "/img/miniBaguette/5.webp",
   "/img/miniBaguette/6.webp",
   "/img/miniBaguette/7.webp",
@@ -69,6 +66,9 @@ export default function MiniBaguette() {
               en tu cocina.
               <br /> Su diseño en cerámica HR® asegura una cocción uniforme y
               resultados dignos de una panadería artesanal.
+              <br /> Tapa domo: Genera vapor natural para una corteza perfecta.
+              <br /> Apto para horno, microondas, freezer y lavavajillas. <br />
+              Fabricado artesanalmente en Francia.
             </div>
           </div>
           <div className={styles.main_block}>
