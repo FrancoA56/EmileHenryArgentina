@@ -39,7 +39,7 @@ export default function AcercaDePage() {
                 los sabores y logrando una cocción uniforme y natural.
                 Fabricamos cada producto en Francia, con dedicación y respeto
                 por la tradición, para que puedas llevar del horno a la mesa
-                mucho más que comida: experiencias para compartir. excelencia.
+                mucho más que comida: experiencias para compartir.
               </div>
             </div>
           </section>
@@ -92,7 +92,7 @@ export default function AcercaDePage() {
                 <div className={styles.timeline_content}>
                   <h3 className={styles.timeline_heading}>Presente y Futuro</h3>
                   <p className={styles.timeline_text}>
-                    Continuamos siendo una empresa familiar que mantiene viva la
+                    Emile Henry continua siendo una empresa familiar que mantiene viva la
                     tradición artesanal mientras incorporamos las últimas
                     innovaciones para crear productos perfectos para la cocina
                     moderna.

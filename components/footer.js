@@ -24,7 +24,7 @@ export default function Footer() {
         <div className={styles.footer_col_links}>
           <Link href="#donde-comprar">DÓNDE COMPRAR</Link>
           <Link href="/preguntasfrecuentes">PREGUNTAS FRECUENTES</Link>
-          <Link href="/acercade">ACERCA DE</Link>
+          <Link href="/acercade">SOBRE NOSOTROS</Link>
           <Link href="/productos">PRODUCTOS</Link>
         </div>
 
