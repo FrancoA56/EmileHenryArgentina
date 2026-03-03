@@ -61,6 +61,7 @@ export default function Nav() {
                   <Link href="/preguntasfrecuentes">PREGUNTAS FRECUENTES</Link>
                   <Link href="/acercade">SOBRE NOSOTROS</Link>
                   <Link href="/productos">PRODUCTOS</Link>
+                  <Link href="/new">NEW</Link>
                 </div>
                 {/* ICONO HAMBURGUESA */}
                 <div
@@ -72,27 +73,28 @@ export default function Nav() {
               </div>
             </div>
           ) : (
-              <div className={styles.nav_container}>
-                <div className={styles.logo}>
-                  <Link href="/">
-                    <Image src={logoEmile} alt="EmileHenryAR" />
-                  </Link>
-                </div>
-                <div className={styles.nav_links}>
-                  {/* <Link href="/productos">PRODUCTOS</Link> */}
-                  <Link href="#donde-comprar">DÓNDE COMPRAR</Link>
-                  <Link href="/preguntasfrecuentes">PREGUNTAS FRECUENTES</Link>
-                  <Link href="/acercade">ACERCA DE</Link>
-                  <Link href="/productos">PRODUCTOS</Link>
-                </div>
-                {/* ICONO HAMBURGUESA */}
-                <div
-                  className={styles.hamburger}
-                  onClick={() => setMenuOpen(!menuOpen)}
-                >
-                  {menuOpen ? <></> : <HiBars4 />}
-                </div>
+            <div className={styles.nav_container}>
+              <div className={styles.logo}>
+                <Link href="/">
+                  <Image src={logoEmile} alt="EmileHenryAR" />
+                </Link>
               </div>
+              <div className={styles.nav_links}>
+                {/* <Link href="/productos">PRODUCTOS</Link> */}
+                <Link href="#donde-comprar">DÓNDE COMPRAR</Link>
+                <Link href="/preguntasfrecuentes">PREGUNTAS FRECUENTES</Link>
+                <Link href="/acercade">ACERCA DE</Link>
+                <Link href="/productos">PRODUCTOS</Link>
+                <Link href="/new">NEW</Link>
+              </div>
+              {/* ICONO HAMBURGUESA */}
+              <div
+                className={styles.hamburger}
+                onClick={() => setMenuOpen(!menuOpen)}
+              >
+                {menuOpen ? <></> : <HiBars4 />}
+              </div>
+            </div>
           )}
           <div className={styles.hover_bar} />
         </div>
@@ -119,7 +121,7 @@ export default function Nav() {
           <Link href="/#donde-comprar" onClick={() => setMenuOpen(false)}>
             DÓNDE COMPRAR
           </Link>
-          
+
           <Link href="/preguntasfrecuentes" onClick={() => setMenuOpen(false)}>
             PREGUNTAS FRECUENTES
           </Link>
@@ -128,6 +130,9 @@ export default function Nav() {
           </Link>
           <Link href="/productos" onClick={() => setMenuOpen(false)}>
             PRODUCTOS
+          </Link>
+          <Link href="/new" onClick={() => setMenuOpen(false)}>
+            NEW
           </Link>
         </div>
       </div>

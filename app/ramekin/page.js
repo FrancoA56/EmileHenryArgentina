@@ -36,7 +36,7 @@ export default function Ramekin() {
     },
     {
       imagen: ramekin10,
-      titulo: "Molde Ciabatta",
+      titulo: "Ramekin N°10",
       link: "/ramekin/#ramekin10",
     },
     {

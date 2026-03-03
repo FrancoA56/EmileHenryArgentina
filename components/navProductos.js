@@ -35,6 +35,7 @@ export default function Nav() {
               )}
 
               <Link href="/productos">PRODUCTOS</Link>
+              <Link href="/new">NEW</Link>
             </div>
 
             {/* ICONO HAMBURGUESA */}
@@ -74,6 +75,7 @@ export default function Nav() {
         <Link href="/productos" onClick={() => setMenuOpen(false)}>
           PRODUCTOS
         </Link>
+        <Link href="/new">NEW</Link>
       </div>
     </div>
   );

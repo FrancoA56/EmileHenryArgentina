@@ -26,6 +26,7 @@ export default function Footer() {
           <Link href="/preguntasfrecuentes">PREGUNTAS FRECUENTES</Link>
           <Link href="/acercade">SOBRE NOSOTROS</Link>
           <Link href="/productos">PRODUCTOS</Link>
+          <Link href="/new">NEW</Link>
         </div>
 
         {/* Columna 3: Redes logo y descripcion*/}
@@ -49,20 +50,17 @@ export default function Footer() {
         {/* Columna 3: Redes solo logo*/}
 
         <div className={styles.footer_row_col}>
-            <a
-              href="https://instagram.com/emilehenryarg"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.footer_red}
-            >
-              <IoLogoInstagram className={styles.icon} />
-            </a>
-            <a
-              href="mailto:info@emilehenry.com.ar"
-              className={styles.footer_red}
-            >
-              <HiOutlineEnvelope className={styles.icon} />
-            </a>
+          <a
+            href="https://instagram.com/emilehenryarg"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.footer_red}
+          >
+            <IoLogoInstagram className={styles.icon} />
+          </a>
+          <a href="mailto:info@emilehenry.com.ar" className={styles.footer_red}>
+            <HiOutlineEnvelope className={styles.icon} />
+          </a>
         </div>
       </div>
 

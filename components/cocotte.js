@@ -86,7 +86,7 @@ export default function Cocotte() {
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea}>
+            <div className={styles.main_sub_text_línea}>
               <span className={styles.boldi}>Petit</span>
               <span className={styles.boldi}>Delight</span>
             </div>

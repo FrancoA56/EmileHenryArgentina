@@ -25,24 +25,22 @@ export default function Footer() {
           <Link href="/preguntasfrecuentes">PREGUNTAS FRECUENTES</Link>
           <Link href="/acercade">ACERCA DE</Link>
           <Link href="/productos#inicio">PRODUCTOS</Link>
+          <Link href="/madeleine">NEW</Link>
         </div>
 
         {/* Columna 3: Redes */}
-         <div className={styles.footer_row_col}>
-            <a
-              href="https://instagram.com/emilehenryarg"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.footer_red}
-            >
-              <IoLogoInstagram className={styles.icon} />
-            </a>
-            <a
-              href="mailto:info@emilehenry.com.ar"
-              className={styles.footer_red}
-            >
-              <HiOutlineEnvelope className={styles.icon} />
-            </a>
+        <div className={styles.footer_row_col}>
+          <a
+            href="https://instagram.com/emilehenryarg"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.footer_red}
+          >
+            <IoLogoInstagram className={styles.icon} />
+          </a>
+          <a href="mailto:info@emilehenry.com.ar" className={styles.footer_red}>
+            <HiOutlineEnvelope className={styles.icon} />
+          </a>
         </div>
       </div>
 

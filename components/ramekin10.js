@@ -80,7 +80,7 @@ export default function Ramekin10() {
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea}>
+            <div className={styles.main_sub_text_línea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>
           </div>

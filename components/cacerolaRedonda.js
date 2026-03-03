@@ -81,7 +81,7 @@ export default function CacerolaRedonda() {
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea}>
+            <div className={styles.main_sub_text_línea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>
           </div>
@@ -94,7 +94,7 @@ export default function CacerolaRedonda() {
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Tamaños</div>
-            <div className={styles.main_sub_text_linea}>
+            <div className={styles.main_sub_text_línea}>
               <span className={styles.boldi}> 2.5L (2-4 porciones)</span>
               <span className={styles.boldi}> 4L (4-6 porciones)</span>
               <span className={styles.boldi}>5.3L (6-8 porciones)</span>

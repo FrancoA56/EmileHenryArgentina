@@ -67,7 +67,7 @@
   text-align: justify;
 }
 
-.main_sub_text_linea {
+.main_sub_text_línea {
   font-size: 1rem;
   line-height: 22px;
   display: flex;
@@ -99,7 +99,7 @@
   width: 20px;
   height: 20px;
   border-radius: 200px;
-  background: linear-gradient(135deg, black 49.8%, white 50.2%);
+  background: línear-gradient(135deg, black 49.8%, white 50.2%);
   margin-top: 8px;
   border: 1px solid #000000;
 }
@@ -108,7 +108,7 @@
   width: 20px;
   height: 20px;
   border-radius: 200px;
-  background: linear-gradient(135deg, black 49.8%, white 50.2%);
+  background: línear-gradient(135deg, black 49.8%, white 50.2%);
   margin: 8px 0 8px 10px;
   border: 1px solid #000000;
 }
@@ -133,6 +133,15 @@
   border: 1px solid #000000;
   border-radius: 200px;
   background: #eee1cc;
+  margin-top: 8px;
+}
+
+.roseCandy {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000000;
+  border-radius: 200px;
+  background: #e56b72;
   margin-top: 8px;
 }
 

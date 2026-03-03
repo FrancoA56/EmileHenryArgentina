@@ -78,7 +78,7 @@ export default function Platos() {
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea}>
+            <div className={styles.main_sub_text_línea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>{" "}
           </div>
@@ -93,7 +93,7 @@ export default function Platos() {
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Tamaños</div>
-            <div className={styles.main_sub_text_linea}>
+            <div className={styles.main_sub_text_línea}>
               <span className={styles.boldi}>Principal</span>
               <span className={styles.boldi}>Hondo</span>
               <span className={styles.boldi}>Postre</span>

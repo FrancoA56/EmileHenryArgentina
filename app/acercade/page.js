@@ -4,6 +4,7 @@ import Footer from "@/components/footerProductos";
 import pizza from "../../public/img/pizza.jpg";
 import granhorno from "../../public/img/granHorno.jpeg";
 import Image from "next/image";
+import Link from "next/link";
 
 export const metadata = {
   title: "Acerca de Emile Henry | Historia y Tradición",
@@ -122,9 +123,9 @@ export default function AcercaDePage() {
           <p className={styles.cta_text}>
             Explora nuestra colección de productos de cerámica artesanal
           </p>
-          <a href="/productos" className={styles.cta_button}>
+          <Link href="/productos" className={styles.cta_button}>
             Ver Productos
-          </a>
+          </Link>
         </div>
       </section>
       <Footer />

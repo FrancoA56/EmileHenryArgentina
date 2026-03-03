@@ -78,7 +78,7 @@ export default function Fuentes() {
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Línea</div>
-            <div className={styles.main_sub_text_linea}>
+            <div className={styles.main_sub_text_línea}>
               <span className={styles.boldi}>Tradicional</span>
             </div>{" "}
           </div>
@@ -102,7 +102,7 @@ export default function Fuentes() {
           </div>
           <div className={styles.main_block}>
             <div className={styles.main_sub_title}>Tamaños</div>
-            <div className={styles.main_sub_text_linea}>
+            <div className={styles.main_sub_text_línea}>
               <span className={styles.boldi}>Individual</span>
               <span className={styles.boldi}>Small</span>
               <span className={styles.boldi}>Medium</span>
