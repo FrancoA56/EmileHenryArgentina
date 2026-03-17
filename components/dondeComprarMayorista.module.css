@@ -1,83 +1,133 @@
 .donde_comprar_main {
-  background-color: white;
-  padding: 1rem 8rem 4rem 8rem;
+  padding: 1rem 1rem 4rem 1rem;
   text-align: center;
 }
 
-.donde_comprar_title {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #333;
-  margin-bottom: 2rem;
-}
-
-.bannerContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow: hidden;
+.banner {
+  position: relative;
+  width: 100%;
+  height: 380px;
   border-radius: 12px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
 }
 
-/* Parte superior del banner */
-.bannerTop {
-  display: block;
-  width: 100%;
+.banner_img {
+  object-fit: cover;
+}
+
+.hero_text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  font-weight: 700;
+  text-align: left;
+  margin: 10px 0 30px 0;
+  align-items: center;
+}
+
+.logo {
+  width: 300px;
   height: auto;
-  margin-bottom: -1px; /* quita línea blanca entre imágenes */
+  padding-left: 0px;
 }
 
-/* Contenedor de la parte inferior */
-.bannerBottom {
+.mundo {
+  margin-top: 2px;
+  font-size: 1.6rem;
+}
+
+.border {
+  margin: 0 6% 0 6%;
+  padding-top: 10px;
+}
+
+/* sombreado negro izquierda → derecha */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.75) 0%,
+    rgba(0, 0, 0, 0.55) 30%,
+    rgba(0, 0, 0, 0.25) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  z-index: 1;
+}
+
+.banner_content {
+  position: absolute;
+  left: 6%;
+  top: 45%;
+  transform: translateY(-50%);
+  z-index: 2;
+  color: white;
+  text-align: left;
+  max-width: 420px;
+}
+
+.banner_content h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+/* iconos */
+.icons {
   display: flex;
-  width: 100%;
-  margin-top: -1px; /* también elimina el espacio */
+  gap: 1.5rem;
+  font-size: 1.8rem;
 }
 
-/* Imágenes inferiores (WhatsApp / Mail) */
-.bannerBottomImg {
-  display: block;
-  width: 100%;
-  height: auto;
-  margin: 0;
+.icons a {
+  color: white;
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
 }
 
-.bannerBottom a {
-  width: 50%;
-}
-
-.desktop {
-  display: block;
-}
-
-.mobile {
-  display: none;
+.icons a:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
 }
 
 @media (max-width: 768px) {
-  .donde_comprar_main {
-    padding: 10px 20px;
+  .banner {
+    height: 300px;
   }
 
-  .donde_comprar_title {
+  .banner_content h2 {
     font-size: 1.5rem;
-    margin-bottom: 1.5rem;
   }
 
-  .bannerBottom {
-    flex-direction: column;
+  .icons {
+    font-size: 1.5rem;
   }
 
-  .bannerBottom a {
-    width: 100%;
+  .hero_text {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px 0 20px 0;
   }
 
-  .desktop {
-    display: none;
+  .logo {
+    width: 200px;
   }
 
-  .mobile {
-    display: block;
+  .banner_content h3 {
+    font-size: 1rem;
+    line-height: 1;
+    margin-bottom: 2rem;
   }
+
+  .mundo {
+    margin-top: 2px;
+    font-size: 1.3rem;
+  }
+
+  .banner_content {
+  left: 6%;
+  top: 55%;
+}
 }

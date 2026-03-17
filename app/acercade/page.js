@@ -1,6 +1,4 @@
 import styles from "./acercade.module.css";
-import Nav from "@/components/navProductos";
-import Footer from "@/components/footerProductos";
 import pizza from "../../public/img/pizza.jpg";
 import granhorno from "../../public/img/granHorno.jpeg";
 import Image from "next/image";
@@ -18,7 +16,6 @@ export const metadata = {
 export default function AcercaDePage() {
   return (
     <>
-      <Nav />
       <div className={styles.page_container}>
         <div className={styles.hero_section}></div>
 
@@ -128,7 +125,6 @@ export default function AcercaDePage() {
           </Link>
         </div>
       </section>
-      <Footer />
     </>
   );
 }

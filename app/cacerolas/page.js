@@ -1,5 +1,3 @@
-import Footer from "@/components/footerProductos";
-import Nav from "@/components/navProductos";
 import Tajines from "@/components/tajine";
 import CacerolaRedonda from "@/components/cacerolaRedonda";
 import CacerolaOvalada from "@/components/cacerolaOvalada";
@@ -63,7 +61,6 @@ export default function Cacerolas() {
 
   return (
     <>
-      <Nav />
       <section>
         <div className={styles.image_container}>
           <Image
@@ -99,7 +96,6 @@ export default function Cacerolas() {
       <Cocotte />
       <CheeseBaker />
       <Cookpot />
-      <Footer />
     </>
   );
 }

@@ -1,5 +1,3 @@
-import Footer from "@/components/footerProductos";
-import Nav from "@/components/navProductos";
 import FuenteHorno from "@/components/fuenteParaHorno";
 import MoldeClafoutis from "@/components/moldeClafoutis";
 import MoldeCorazon from "@/components/moldeCorazon";
@@ -77,7 +75,6 @@ export default function FuentesParaHorno() {
 
   return (
     <>
-      <Nav />
       <section>
         <div className={styles.image_container}>
           <Image
@@ -115,7 +112,6 @@ export default function FuentesParaHorno() {
       <MoldeOnduladoBajo />
       <MoldeOnduladoAlto />
       <MoldeSouffle />
-      <Footer />
     </>
   );
 }

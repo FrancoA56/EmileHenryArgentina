@@ -1,5 +1,7 @@
 import { Roboto, Montserrat } from "next/font/google";
 import "./globals.css";
+import Footer from "@/components/footer";
+import NavbarSwitcher from "../components/navBarSwitcher";
 
 // Roboto como fuente principal
 const roboto = Roboto({
@@ -54,7 +56,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body className={`${roboto.variable} ${montserrat.variable}`}>
+        <NavbarSwitcher />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -1,5 +1,3 @@
-import Footer from "@/components/footerProductos";
-import Nav from "@/components/navProductos";
 import Platos from "@/components/platos";
 import Ensaladeras from "@/components/ensaladeras";
 import Jarras from "@/components/jarras";
@@ -77,7 +75,6 @@ export default function Vajilla() {
 
   return (
     <>
-      <Nav />
       <section>
         <div className={styles.image_container}>
           <Image
@@ -115,7 +112,6 @@ export default function Vajilla() {
       <Mantequera />
       <Appetizer />
       <ButterBell />
-      <Footer />
     </>
   );
 }

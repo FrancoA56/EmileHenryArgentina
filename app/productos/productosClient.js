@@ -1,6 +1,4 @@
 "use client";
-import Footer from "@/components/footerProductos";
-import Nav from "@/components/navProductos";
 import style from "./page.module.css";
 import Image from "next/image";
 import Link from "next/link";
@@ -149,7 +147,6 @@ export default function Productos() {
 
   return (
     <>
-      <Nav />
       <BannerMadeleine />
       <section className={style.main}>
         <div className={`${style.item} ${style.item1}`}>
@@ -237,7 +234,6 @@ export default function Productos() {
           </Link>
         </div>
       </section>
-      <Footer />
     </>
   );
 }

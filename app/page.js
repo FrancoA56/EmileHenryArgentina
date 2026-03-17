@@ -1,7 +1,5 @@
-import Nav from "@/components/nav";
 import DondeComprar from "@/components/dondeComprar";
 import DondeComprarMayorista from "@/components/dondeComprarMayorista";
-import Footer from "@/components/footer";
 
 export const metadata = {
   title: "Inicio",
@@ -13,10 +11,8 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-      <Nav />
       <DondeComprar id="donde-comprar" />
       <DondeComprarMayorista id="donde-comprar-Mayorista" />
-      <Footer />
     </>
   );
 }

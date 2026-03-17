@@ -1,5 +1,3 @@
-import Footer from "@/components/footerProductos";
-import Nav from "@/components/navProductos";
 import Baguette from "@/components/baguette";
 import MiniBaguette from "@/components/miniBaguette";
 import Ciabatta from "@/components/ciabatta";
@@ -65,7 +63,6 @@ export default function Pan() {
 
   return (
     <>
-      <Nav />
       <section>
         <div className={styles.image_container}>
           <Image
@@ -131,7 +128,6 @@ export default function Pan() {
       <Focaccia />
       <Baguette />
       <MiniBaguette />
-      <Footer />
     </>
   );
 }

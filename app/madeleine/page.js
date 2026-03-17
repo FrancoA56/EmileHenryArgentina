@@ -1,5 +1,3 @@
-import Footer from "@/components/footerProductos";
-import Nav from "@/components/navProductos";
 import Platter from "@/components/platterMadeleine";
 import Redondo from "@/components/moldeMadeleine";
 import Loaf from "@/components/loafMadeleine";
@@ -48,7 +46,6 @@ export default function Madeleine() {
 
   return (
     <>
-      <Nav />
       <section>
         <div className={styles.image_container}>
           <Image
@@ -82,7 +79,6 @@ export default function Madeleine() {
       <Corazon />
       <Platter />
       <Redondo />
-      <Footer />
     </>
   );
 }

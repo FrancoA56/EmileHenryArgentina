@@ -1,5 +1,3 @@
-import Footer from "@/components/footerProductos";
-import Nav from "@/components/navProductos";
 import PotBbq from "@/components/potBbq";
 import CheeseBaker from "@/components/cheeseBakerBbq";
 import Grill from "@/components/dishGrillBbq";
@@ -41,7 +39,6 @@ export default function Bbq() {
 
   return (
     <>
-      <Nav />
       <section>
         <div className={styles.image_container}>
           <Image
@@ -74,7 +71,6 @@ export default function Bbq() {
       <Grill />
       <PotBbq />
       <CheeseBaker />
-      <Footer />
     </>
   );
 }

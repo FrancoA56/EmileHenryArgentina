@@ -1,5 +1,3 @@
-import Footer from "@/components/footerProductos";
-import Nav from "@/components/navProductos";
 import Ramekin8 from "@/components/ramekin8";
 import Ramekin9 from "@/components/ramekin9";
 import Ramekin10 from "@/components/ramekin10";
@@ -48,7 +46,6 @@ export default function Ramekin() {
 
   return (
     <>
-      <Nav />
       <section>
         <div className={styles.image_container}>
           <Image
@@ -82,7 +79,6 @@ export default function Ramekin() {
       <Ramekin9 />
       <Ramekin10 />
       <RamekinCreme />
-      <Footer />
     </>
   );
 }

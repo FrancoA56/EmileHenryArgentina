@@ -1,5 +1,4 @@
-import Nav from "@/components/navProductos";
-import Footer from "@/components/footer";
+
 import Link from "next/link";
 
 export default function NotFound() {
@@ -15,7 +14,6 @@ export default function NotFound() {
 
   return (
     <>
-      <Nav />
 
       <main
         style={{
@@ -81,7 +79,6 @@ export default function NotFound() {
         </div>
       </main>
 
-      <Footer />
     </>
   );
 }

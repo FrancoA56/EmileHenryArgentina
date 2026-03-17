@@ -4,14 +4,10 @@ import styles from "./page.module.css";
 import bannerMadeleine from "@/public/img/platterMadeleine/1.webp";
 import bannerBbq from "@/public/img/dishGrillBBQ/1.webp";
 import Link from "next/link";
-import Footer from "@/components/footerProductos";
-import Nav from "@/components/navProductos";
 
 export default function NewPage() {
   return (
     <>
-      <Nav />
-
       {/* ===== HERO SUPERIOR ===== */}
       <section className={styles.hero}>
         <h1>New In</h1>
@@ -74,8 +70,6 @@ export default function NewPage() {
           </div>
         </section>
       </div>
-
-      <Footer />
     </>
   );
 }

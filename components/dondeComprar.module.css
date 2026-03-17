@@ -3,96 +3,113 @@
   text-align: center;
 }
 
-.donde_comprar_title {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #333;
-  margin-bottom: 4rem;
+.history_title {
+  font-size: 2.2rem;
+  color: #81171e;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 30px;
+  font-weight: 700;
 }
 
-/* GRID 2 COLUMNAS */
+.hero_text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  font-weight: 700;
+  text-align: left;
+  margin: 10px 0 30px 0;
+  align-items: center;
+}
+
+.border {
+  margin: 0 6% 0 6%;
+  padding: 10px 0 20px 0;
+}
+
 .grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
   gap: 2rem;
-  max-width: 1400px;
   margin: 0 auto;
+  max-width: 8000px;
 }
 
-/* CARD */
-.card {
+/* CARD BANNER */
+
+.bannerCard {
+  position: relative;
+  height: 240px;
+  border-radius: 14px;
   overflow: hidden;
-  border-radius: 14px;
-  cursor: pointer;
+  display: block;
+  flex: 1;
 }
 
-/* IMAGEN */
-.image {
-  width: 70%;
-  height: auto;
-  border-radius: 14px;
+.bannerImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   transition: transform 0.4s ease;
 }
 
-/* ZOOM HOVER */
-.card:hover .image {
-  transform: scale(1.08);
+.bannerCard:hover .bannerImage {
+  transform: scale(1.05);
 }
 
-/* MOBILE */
-@media (max-width: 768px) {
-  .donde_comprar_title {
-    font-size: 1.5rem;
-  }
-  .grid {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-}
+/* overlay izquierda → derecha */
 
-/* .donde_comprar_main {
-  background-color: white;
-  padding: 20px 40px;
-  text-align: center;
-  position: relative;
-}
-
-.donde_comprar_title {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #333;
-  margin-bottom: 2rem;
-}
-
-.carousel {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 250px;
-  overflow: hidden;
-  perspective: 1000px;
-}
-
-.carousel_slide {
+.overlay {
   position: absolute;
-  transition: all 0.8s ease-in-out;
-  width: 40%;
-  max-width: 500px;
-  aspect-ratio: 14/4;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.45) 40%,
+    rgba(0, 0, 0, 0.15) 70%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  z-index: 1;
 }
 
-@media (max-width: 600px) {
-  .carousel {
-    height: 400px;
+.logoContainer {
+  position: absolute;
+  z-index: 2;
+  left: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.logo {
+  width: 220px;
+  height: auto;
+}
+
+.bannerCard:hover .bannerImage {
+  transform: scale(1.05);
+  transition: transform 0.4s ease;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    flex-direction: column;
   }
 
-  .donde_comprar_title {
-    font-size: 1.5rem;
-    margin-bottom: 1.5rem;
+  .bannerCard {
+    height: 200px;
   }
 
-  .carousel_slide {
-    width: 90%;
+  .logo {
+    width: 140px;
   }
-} */
+
+  .history_title {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+
+  .hero_text {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px 0 20px 0;
+  }
+}

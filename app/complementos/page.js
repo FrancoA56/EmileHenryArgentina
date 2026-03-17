@@ -1,5 +1,3 @@
-import Footer from "@/components/footerProductos";
-import Nav from "@/components/navProductos";
 import Bowl from "@/components/bowl";
 import CheeseBox from "@/components/cheeseBox";
 import Cobertor from "@/components/cobertor";
@@ -76,7 +74,6 @@ export default function Complementos() {
 
   return (
     <>
-      <Nav />
       <section>
         <div className={styles.image_container}>
           <Image
@@ -114,7 +111,6 @@ export default function Complementos() {
       <Porta />
       <Salero />
       <Storage />
-      <Footer />
     </>
   );
 }

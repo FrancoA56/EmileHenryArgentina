@@ -1,6 +1,4 @@
 import styles from "./preguntas.module.css";
-import Nav from "@/components/navProductos";
-import Footer from "@/components/footerProductos";
 import { HiOutlineEnvelope } from "react-icons/hi2";
 import Link from "next/link";
 
@@ -16,8 +14,6 @@ export const metadata = {
 export default function PreguntasFrecuentesPage() {
   return (
     <>
-      <Nav />
-
       <div className={styles.page_container}>
         <div className={styles.content_wrapper}>
           <div className={styles.header_section}>
@@ -155,8 +151,6 @@ export default function PreguntasFrecuentesPage() {
           </div>
         </div>
       </div>
-
-      <Footer />
     </>
   );
 }
